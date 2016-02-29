@@ -6,7 +6,10 @@
 
 body {
     overflow-x: hidden;
-}
+    font-family: "Dosis",Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    }
 
 p {
     font-size: 20px;
@@ -33,15 +36,15 @@ h2,
 h3,
 h5,
 h6 {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 200;
-    letter-spacing: .05em;
+    font-family: "Dosis",Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;;
 }
 
 h4 {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 500;
-    letter-spacing: .05em;
+    font-family: "Dosis",Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 hr.star-light,
@@ -106,9 +109,9 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Dosis",Helvetica, Arial, sans-serif;
     font-size: 1.5em;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 header .intro-text .skills {
@@ -129,6 +132,7 @@ header .intro-text .skills {
     header .intro-text .skills {
         font-size: 1.5em;
     }
+
 }
 
 @media(min-width:768px) {
@@ -144,24 +148,28 @@ header .intro-text .skills {
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+        
     }
 
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
+        
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+        border-radius: 5px;
     }
 }
 
 .navbar {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 100;
+    font-family: "Dosis",Helvetica, Arial, sans-serif;
+    font-weight: 300;
 }
 
 .navbar a:focus {
     outline: 0;
+    border-radius: 5px;
 }
 
 .navbar .navbar-nav {
@@ -170,11 +178,14 @@ header .intro-text .skills {
 
 .navbar .navbar-nav li a:focus {
     outline: 0;
+    border-radius: 5px;
+
 }
 
 .navbar-default,
 .navbar-inverse {
     border: 0;
+    
 }
 
 section {
@@ -213,6 +224,7 @@ section.success a.active {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    border-radius: 5px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -220,6 +232,7 @@ section.success a.active {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    border-radius: 5px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -231,6 +244,7 @@ section.success a.active {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
+    border-radius: 5px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
@@ -246,6 +260,7 @@ section.success a.active {
     text-align: center;
     font-size: 20px;
     color: #fff;
+    border-radius: 5px;
 
 }
 
@@ -407,7 +422,7 @@ footer .footer-below {
     padding: 100px 0;
     min-height: 100%;
     border: 0;
-    border-radius: 0;
+    border-radius: 0px;
     text-align: left;
     background-clip: border-box;
     -webkit-box-shadow: none;
@@ -465,4 +480,71 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+.description-box {
+	max-width: 600px;
+	border-radius: 5px;
+	background-color: #fafafa;
+}
+.description {
+	padding: 40px;
+	margin: 0;
+	text-align: left;
+}
+
+.about-box {
+	max-width: 850px;
+	margin: 0 auto;
+	height: 350px;
+	
+}
+
+.about-image {
+	float: left;
+	padding: 30px 35px 50px 0px;
+	position: relative;
+}
+
+.about-text {
+	padding: 10px;
+	text-align: left;
+	position: relative;
+}
+
+.email-box {
+	border-radius: 5px;
+	background-color: #18bc9c;
+	width: 300px;
+	height: 50px;
+}
+
+.email-text {
+	color: #fff;
+	padding: 15px;
+}
+
+@media(max-width:700px) {
+.about-image {
+	float: none;
+	}
+.about-box {
+	height: 650px;
+}
+
+.about-text {
+	padding: 25px;
+}
+} 
+
+@media(max-width:460px) {
+.about-box {
+	height: 800px;
+}
+}
+
+@media (max-width:768px) {
+.logo {
+	padding: 150px 0px 0px 0px;
+}
 }
