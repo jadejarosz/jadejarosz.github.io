@@ -6,9 +6,9 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Dosis",Helvetica, Arial, sans-serif;
+    font-family: "tenso",Helvetica, Arial, sans-serif;
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: .5px;
     }
 
 p {
@@ -25,7 +25,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #efefef;
 }
 
 
@@ -36,14 +36,15 @@ h2,
 h3,
 h5,
 h6 {
-    font-family: "Dosis",Helvetica, Arial, sans-serif;
+    font-family: "tenso",Helvetica, Arial, sans-serif;
     font-weight: 400;
-    letter-spacing: 1px;;
+    letter-spacing: 1px;
+    color: #000;
 }
 
 h4 {
-    font-family: "Dosis",Helvetica, Arial, sans-serif;
-    font-weight: 600;
+    font-family: "tenso",Helvetica, Arial, sans-serif;
+    font-weight: 700;
     letter-spacing: 1px;
 }
 
@@ -90,6 +91,12 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+mark.grey {
+    font-weight: 400;
+    font-size: 1em;
+    background: none;
+}
+
 header {
     text-align: center;
     color: #2b3e4f;
@@ -109,9 +116,9 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: "Dosis",Helvetica, Arial, sans-serif;
+    font-family: "tenso",Helvetica, Arial, sans-serif;
     font-size: 1.5em;
-    font-weight: 300;
+    font-weight: 700;
 }
 
 header .intro-text .skills {
@@ -137,14 +144,15 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 20px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
+        font-size: 1.3em;
+        font-weight: 700;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -152,24 +160,23 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
+        padding: 7px 0;
         
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        font-size: 1.3em;
         border-radius: 5px;
     }
 }
 
 .navbar {
-    font-family: "Dosis",Helvetica, Arial, sans-serif;
-    font-weight: 300;
+    font-family: "tenso",Helvetica, Arial, sans-serif;
+    font-weight: 400;
 }
 
 .navbar a:focus {
     outline: 0;
-    border-radius: 5px;
 }
 
 .navbar .navbar-nav {
@@ -178,18 +185,17 @@ header .intro-text .skills {
 
 .navbar .navbar-nav li a:focus {
     outline: 0;
-    border-radius: 5px;
 
 }
 
 .navbar-default,
 .navbar-inverse {
-    border: 0;
+    border-bottom: 1px solid #e0e0e0;
     
 }
 
 section {
-    padding: 100px 0;
+    padding: 90px 0;
 }
 
 section h2 {
@@ -240,11 +246,11 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(251,176,64,.9);
+    background: rgba(255,255,255,.8);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    border-radius: 5px;
+
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
@@ -259,7 +265,7 @@ section.success a.active {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: #000;
     border-radius: 5px;
 
 }
@@ -286,20 +292,22 @@ section.success a.active {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #000;
     font-size: 20px;
-    color: #fff;
-    background: 0 0;
+    color: #000;
+    background: #fff;
     transition: all .3s ease-in-out;
+    border-radius: 5px;
+    font-family: "tenso",Helvetica, Arial, sans-serif
 }
 
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
-    color: #18bc9c;
-    background: #fff;
+    border: solid 2px #000;
+    color: #000;
+    background: #efefef;
 }
 
 .floating-label-form-group {
@@ -359,7 +367,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
-    color: #fff;
+    color: #000;
 }
 
 footer h3 {
@@ -368,7 +376,6 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #2c3e50;
 }
 
 footer .footer-col {
@@ -377,14 +384,14 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140;
+    background-color: #efefef;
 }
 
 .btn-social {
     display: inline-block;
     width: 50px;
     height: 50px;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     border-radius: 100%;
     text-align: center;
     font-size: 20px;
@@ -483,15 +490,15 @@ footer .footer-below {
 }
 
 .description-box {
-	max-width: 600px;
-	border-radius: 5px;
-	background-color: #fafafa;
+	max-width: 700px;
+	
 }
 .description {
-	padding: 40px;
+	padding: 40px 100px 40px 100px;
 	margin: 0;
 	text-align: left;
 }
+
 
 .about-box {
 	max-width: 850px;
@@ -502,7 +509,7 @@ footer .footer-below {
 
 .about-image {
 	float: left;
-	padding: 30px 35px 50px 0px;
+	padding: 30px 35px 70px 0px;
 	position: relative;
 }
 
@@ -514,7 +521,7 @@ footer .footer-below {
 
 .email-box {
 	border-radius: 5px;
-	background-color: #18bc9c;
+	background-color: #000;
 	width: 300px;
 	height: 50px;
 }
@@ -547,4 +554,19 @@ footer .footer-below {
 .logo {
 	padding: 150px 0px 0px 0px;
 }
+}
+
+.splash {
+    position: relative;
+    top: 450px;
+    margin: 0 auto;
+    display: table;
+}
+
+.splash-text {
+    position: relative;
+    top: 380px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.75em;
 }
