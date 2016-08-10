@@ -1,0 +1,63 @@
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In  -->
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="204px" height="409.2px" viewBox="0 0 204 409.2" enable-background="new 0 0 204 409.2"
+	 xml:space="preserve">
+<defs>
+</defs>
+<g>
+	<g>
+		<path fill="#F9E7AE" d="M167.8,101.6L167.8,101.6h-28.9h-21.2v0c-10.3,0.7-18.5,9.3-18.5,19.8v19.8v83.4
+			c0,10.5,8.2,19.1,18.5,19.8v0h21.2v-19.8v-83.4h9.1v83.4h39.7V121.5C187.6,110.5,178.7,101.6,167.8,101.6z"/>
+		<path fill="#F9E7AE" d="M69.2,101.7L69.2,101.7l-21.2,0H19.8l0,0c-11,0-19.8,8.9-19.8,19.8v103.3h19.8h19.8v-83.4H48v83.4v19.8
+			h21.2v0c10.3-0.7,18.5-9.3,18.5-19.8v-83.4v-19.8C87.7,111,79.5,102.4,69.2,101.7z"/>
+	</g>
+	<g>
+		<g>
+			<path fill="#242C33" d="M201.6,232.9c3.2,0,3.2-5,0-5C198.4,227.9,198.4,232.9,201.6,232.9L201.6,232.9z"/>
+		</g>
+	</g>
+	<circle fill="#B88DC0" cx="61.6" cy="56.1" r="12.3"/>
+	<circle fill="#B88DC0" cx="127.1" cy="56.1" r="12.3"/>
+	<g>
+		<path fill="#65317A" d="M131.3,55.9c0-20.6-16.7-37.3-37.3-37.3c-20.6,0-37.3,16.7-37.3,37.3c0,0.2,0,0.4,0,0.6h74.6
+			C131.3,56.2,131.3,56.1,131.3,55.9z"/>
+	</g>
+	<circle fill="#24AE5F" cx="67.8" cy="389.4" r="19.8"/>
+	<circle fill="#24AE5F" cx="119" cy="389.4" r="19.8"/>
+	<circle fill="#F9E7AE" cx="167.8" cy="224.7" r="19.8"/>
+	<circle fill="#F9E7AE" cx="19.8" cy="224.7" r="19.8"/>
+	<rect x="49.3" y="121.5" fill="#242C33" width="89.5" height="136.4"/>
+	<rect x="49.3" y="101.6" fill="#A59995" width="89.5" height="156.2"/>
+	<rect x="48" y="233" fill="#A59995" width="39.7" height="156.4"/>
+	<rect x="99.2" y="233" fill="#A59995" width="39.7" height="156.4"/>
+	<g>
+		<path fill="#FAF6ED" d="M99.2,230.4"/>
+		<g>
+			<path fill="#242C33" d="M99.2,232.9c3.2,0,3.2-5,0-5C96,227.9,96,232.9,99.2,232.9L99.2,232.9z"/>
+		</g>
+	</g>
+	<rect x="48" y="101.6" fill="#24AE5F" width="90.8" height="131.3"/>
+	<line fill="none" stroke="#B88DC0" stroke-width="2" stroke-miterlimit="10" x1="130.5" y1="66.8" x2="130.5" y2="252.5"/>
+	<rect x="138.9" y="141.3" fill="#938582" width="0.6" height="83.4"/>
+	<g>
+		<defs>
+			<circle id="SVGID_1_" cx="94.5" cy="56.1" r="32.8"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<circle clip-path="url(#SVGID_2_)" fill="#F9E7AE" cx="94.5" cy="56.1" r="32.8"/>
+	</g>
+	<circle fill="#242C33" cx="105.4" cy="51.4" r="4.9"/>
+	<circle fill="#242C33" cx="82.7" cy="51.4" r="4.9"/>
+	
+		<rect x="59.7" y="5.9" transform="matrix(0.7071 0.7071 -0.7071 0.7071 36.0298 -46.4183)" fill="#F1D985" width="28.7" height="28.7"/>
+	
+		<rect x="80.3" y="5.9" transform="matrix(0.7071 0.7071 -0.7071 0.7071 42.0499 -60.966)" fill="#F1D985" width="28.7" height="28.7"/>
+	
+		<rect x="100.6" y="5.9" transform="matrix(0.7071 0.7071 -0.7071 0.7071 47.9935 -75.3011)" fill="#F1D985" width="28.7" height="28.7"/>
+	<path fill="none" stroke="#242C33" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M102.9,66.8c0,4.6-3.7,8.3-8.3,8.3s-8.3-3.7-8.3-8.3"/>
+</g>
+</svg>
