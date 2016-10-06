@@ -8,7 +8,7 @@
         vid='media/',
         js='js/',
         fonts = {
-        },
+            'BEBAS___': '<link rel=\"stylesheet\"href=\"mystyle.css\"type=\"text/css\" media=\"screen\"title=\"\"charset=\"utf-8\"/>'        },
         opts = {
             'gAudioPreloadPreference': 'auto',
             'gVideoPreloadPreference': 'auto'
@@ -1512,34 +1512,34 @@
                     },
                     data: [
                         [
-                            "eid2173",
+                            "eid1868",
                             "top",
-                            240000,
+                            125000,
                             0,
-                            "easeInOutElastic",
-                            "${SadCirc}",
-                            '24px',
-                            '24px'
+                            "easeOutElastic",
+                            "${peace}",
+                            '-245px',
+                            '-245px'
                         ],
                         [
-                            "eid2174",
+                            "eid1869",
                             "top",
-                            394665,
+                            131000,
                             0,
-                            "easeInOutElastic",
-                            "${SadCirc}",
-                            '24px',
-                            '273px'
+                            "easeOutElastic",
+                            "${peace}",
+                            '-245px',
+                            '233px'
                         ],
                         [
-                            "eid2175",
+                            "eid1870",
                             "top",
-                            412165,
-                            0,
-                            "easeInOutElastic",
-                            "${SadCirc}",
-                            '273px',
-                            '1060px'
+                            139000,
+                            3000,
+                            "easeOutElastic",
+                            "${peace}",
+                            '233px',
+                            '549px'
                         ],
                         [
                             "eid2250",
@@ -1902,14 +1902,44 @@
                             '912px'
                         ],
                         [
-                            "eid1556",
+                            "eid2000",
                             "top",
-                            72380,
+                            240000,
                             0,
                             "easeInOutElastic",
-                            "${bigpath}",
-                            '338px',
-                            '338px'
+                            "${BlueButton}",
+                            '92px',
+                            '92px'
+                        ],
+                        [
+                            "eid2001",
+                            "top",
+                            277628,
+                            2372,
+                            "easeInOutElastic",
+                            "${BlueButton}",
+                            '398px',
+                            '466px'
+                        ],
+                        [
+                            "eid2002",
+                            "top",
+                            315000,
+                            3000,
+                            "easeInOutElastic",
+                            "${BlueButton}",
+                            '466px',
+                            '463px'
+                        ],
+                        [
+                            "eid2003",
+                            "top",
+                            390835,
+                            0,
+                            "easeInOutElastic",
+                            "${BlueButton}",
+                            '463px',
+                            '466px'
                         ],
                         [
                             "eid1388",
@@ -1942,14 +1972,14 @@
                             '0.2'
                         ],
                         [
-                            "eid2059",
-                            "top",
-                            242432,
-                            0,
-                            "easeOutElastic",
-                            "${PsychAnim2Forward}",
-                            '384px',
-                            '384px'
+                            "eid1292",
+                            "scaleX",
+                            88750,
+                            1000,
+                            "easeOutQuint",
+                            "${Purple}",
+                            '0',
+                            '1'
                         ],
                         [
                             "eid1801",
@@ -2062,84 +2092,24 @@
                             '398px'
                         ],
                         [
-                            "eid1904",
-                            "left",
-                            125000,
-                            0,
-                            "easeOutElastic",
-                            "${RoundRectCopy5}",
-                            '-390px',
-                            '-390px'
-                        ],
-                        [
-                            "eid1905",
-                            "left",
-                            141000,
-                            0,
-                            "easeOutElastic",
-                            "${RoundRectCopy5}",
-                            '-390px',
-                            '499px'
-                        ],
-                        [
-                            "eid1906",
-                            "left",
-                            142000,
+                            "eid1522",
+                            "top",
+                            77500,
                             1000,
-                            "easeOutElastic",
-                            "${RoundRectCopy5}",
-                            '499px',
-                            '711px'
-                        ],
-                        [
-                            "eid2459",
-                            "left",
-                            200000,
-                            0,
                             "linear",
-                            "${RoundRectCopy5}",
-                            '711px',
-                            '-805px'
+                            "${smallpath2Copy5}",
+                            '320px',
+                            '221px'
                         ],
                         [
-                            "eid2098",
+                            "eid1508",
                             "top",
-                            240000,
-                            0,
-                            "easeInOutElastic",
-                            "${girl3}",
-                            '342px',
-                            '342px'
-                        ],
-                        [
-                            "eid2099",
-                            "top",
-                            274500,
-                            3128,
-                            "easeInOutElastic",
-                            "${girl3}",
-                            '342px',
-                            '245px'
-                        ],
-                        [
-                            "eid2100",
-                            "top",
-                            318000,
-                            2000,
-                            "easeInOutElastic",
-                            "${girl3}",
-                            '245px',
-                            '249px'
-                        ],
-                        [
-                            "eid2101",
-                            "top",
-                            390835,
-                            3830,
-                            "easeInOutElastic",
-                            "${girl3}",
-                            '245px',
-                            '252px'
+                            80500,
+                            750,
+                            "linear",
+                            "${smallpath2Copy2}",
+                            '498px',
+                            '475px'
                         ],
                         [
                             "eid2039",
@@ -2172,14 +2142,14 @@
                             '-1154px'
                         ],
                         [
-                            "eid463",
-                            "scaleY",
-                            0,
-                            1500,
-                            "easeInQuad",
-                            "${inCirc1}",
-                            '0',
-                            '1'
+                            "eid1562",
+                            "left",
+                            79500,
+                            750,
+                            "linear",
+                            "${Ellipse3}",
+                            '935px',
+                            '939px'
                         ],
                         [
                             "eid2380",
@@ -2232,24 +2202,34 @@
                             '111px'
                         ],
                         [
-                            "eid472",
-                            "opacity",
+                            "eid2188",
+                            "background-color",
+                            394665,
                             0,
-                            1500,
-                            "easeInQuad",
-                            "${inCirc1}",
-                            '0',
-                            '1'
+                            "easeInOutElastic",
+                            "${SadCircCopy}",
+                            'rgba(92,180,229,1.00)',
+                            'rgba(92,180,229,1.00)'
                         ],
                         [
-                            "eid2161",
-                            "scaleY",
-                            321000,
-                            1000,
-                            "easeInOutElastic",
-                            "${MadCircleCopy}",
-                            '2',
-                            '2.5'
+                            "eid1441",
+                            "left",
+                            37250,
+                            0,
+                            "swing",
+                            "${SoundCopy}",
+                            '247px',
+                            '247px'
+                        ],
+                        [
+                            "eid1442",
+                            "left",
+                            39750,
+                            0,
+                            "swing",
+                            "${SoundCopy}",
+                            '247px',
+                            '-844px'
                         ],
                         [
                             "eid1355",
@@ -2272,14 +2252,34 @@
                             '4'
                         ],
                         [
-                            "eid1755",
-                            "top",
-                            125000,
-                            0,
-                            "easeOutCubic",
-                            "${CultAnim5Back}",
-                            '413px',
-                            '413px'
+                            "eid1720",
+                            "rotateZ",
+                            80250,
+                            14250,
+                            "easeOutQuint",
+                            "${Ellipse4}",
+                            '871deg',
+                            '720deg'
+                        ],
+                        [
+                            "eid1631",
+                            "rotateZ",
+                            94500,
+                            1094,
+                            "easeOutQuint",
+                            "${Ellipse4}",
+                            '720deg',
+                            '1440deg'
+                        ],
+                        [
+                            "eid1632",
+                            "rotateZ",
+                            96000,
+                            115,
+                            "easeOutQuint",
+                            "${Ellipse4}",
+                            '1440deg',
+                            '720deg'
                         ],
                         [
                             "eid1338",
@@ -2342,24 +2342,24 @@
                             '-1284px'
                         ],
                         [
-                            "eid1542",
-                            "left",
-                            69750,
-                            0,
-                            "easeInQuad",
-                            "${smallpath2Copy9}",
-                            '1588px',
-                            '1588px'
+                            "eid2178",
+                            "scaleX",
+                            394665,
+                            600,
+                            "easeInOutElastic",
+                            "${SadCirc}",
+                            '1',
+                            '0'
                         ],
                         [
-                            "eid1543",
-                            "left",
-                            74750,
-                            1000,
-                            "linear",
-                            "${smallpath2Copy9}",
-                            '515px',
-                            '492px'
+                            "eid2179",
+                            "scaleX",
+                            395265,
+                            400,
+                            "easeInOutElastic",
+                            "${SadCirc}",
+                            '0',
+                            '2'
                         ],
                         [
                             "eid1514",
@@ -2392,14 +2392,14 @@
                             '1'
                         ],
                         [
-                            "eid1354",
-                            "top",
-                            36000,
-                            500,
-                            "swing",
-                            "${Anim1IntroText}",
-                            '297px',
-                            '298px'
+                            "eid457",
+                            "scaleY",
+                            0,
+                            1500,
+                            "easeInQuad",
+                            "${outCirc2}",
+                            '0',
+                            '1'
                         ],
                         [
                             "eid1620",
@@ -2412,24 +2412,14 @@
                             '809px'
                         ],
                         [
-                            "eid2081",
-                            "top",
-                            398915,
-                            0,
-                            "easeInOutElastic",
-                            "${SadHeader}",
-                            '63px',
-                            '63px'
-                        ],
-                        [
-                            "eid2082",
-                            "top",
-                            412165,
-                            0,
-                            "easeInOutElastic",
-                            "${SadHeader}",
-                            '63px',
-                            '-435px'
+                            "eid1390",
+                            "rotateZ",
+                            47158,
+                            2592,
+                            "easeOutQuart",
+                            "${Anim2path1}",
+                            '181deg',
+                            '180deg'
                         ],
                         [
                             "eid1456",
@@ -2532,24 +2522,14 @@
                             '-36px'
                         ],
                         [
-                            "eid2118",
-                            "scaleY",
-                            392665,
-                            2000,
-                            "easeInOutElastic",
-                            "${Girl2}",
-                            '1',
-                            '1.25'
-                        ],
-                        [
-                            "eid2119",
-                            "scaleY",
-                            425915,
+                            "eid1526",
+                            "rotateZ",
+                            77500,
                             0,
-                            "easeInOutElastic",
-                            "${Girl2}",
-                            '1.25',
-                            '1'
+                            "linear",
+                            "${smallpath2Copy5}",
+                            '-85deg',
+                            '-85deg'
                         ],
                         [
                             "eid2497",
@@ -2592,24 +2572,34 @@
                             '157px'
                         ],
                         [
-                            "eid1594",
+                            "eid2340",
                             "top",
-                            32000,
+                            240000,
                             0,
-                            "easeInQuad",
-                            "${Ellipse3Copy6}",
-                            '251px',
-                            '251px'
+                            "easeInOutElastic",
+                            "${guy22}",
+                            '102px',
+                            '102px'
                         ],
                         [
-                            "eid1595",
+                            "eid2341",
                             "top",
-                            73750,
+                            249500,
                             0,
-                            "easeInQuad",
-                            "${Ellipse3Copy6}",
-                            '251px',
-                            '288px'
+                            "easeInOutElastic",
+                            "${guy22}",
+                            '102px',
+                            '137px'
+                        ],
+                        [
+                            "eid2342",
+                            "top",
+                            253169,
+                            0,
+                            "easeInOutElastic",
+                            "${guy22}",
+                            '137px',
+                            '152px'
                         ],
                         [
                             "eid1547",
@@ -2782,24 +2772,64 @@
                             '1088px'
                         ],
                         [
-                            "eid1435",
-                            "left",
-                            37250,
+                            "eid1687",
+                            "top",
                             0,
-                            "swing",
-                            "${Sound}",
-                            '246px',
-                            '246px'
+                            0,
+                            "easeOutCubic",
+                            "${Brain2}",
+                            '-477px',
+                            '-477px'
                         ],
                         [
-                            "eid1436",
-                            "left",
-                            39750,
+                            "eid1603",
+                            "top",
+                            32000,
                             0,
-                            "swing",
-                            "${Sound}",
-                            '246px',
-                            '-845px'
+                            "linear",
+                            "${Brain2}",
+                            '-477px',
+                            '-492px'
+                        ],
+                        [
+                            "eid1604",
+                            "top",
+                            82339,
+                            661,
+                            "easeOutQuint",
+                            "${Brain2}",
+                            '-81px',
+                            '5px'
+                        ],
+                        [
+                            "eid1605",
+                            "top",
+                            86597,
+                            653,
+                            "easeInCubic",
+                            "${Brain2}",
+                            '5px',
+                            '413px'
+                        ],
+                        [
+                            "eid1606",
+                            "top",
+                            87250,
+                            750,
+                            "easeInCubic",
+                            "${Brain2}",
+                            '413px',
+                            '189px'
+                        ],
+                        [
+                            "eid1607",
+                            "top",
+                            88000,
+                            1000,
+                            "easeInCubic",
+                            "${Brain2}",
+                            '189px',
+                            '121px'
                         ],
                         [
                             "eid1610",
@@ -2882,14 +2912,14 @@
                             '1'
                         ],
                         [
-                            "eid2200",
-                            "background-color",
-                            394665,
-                            0,
-                            "easeInOutElastic",
-                            "${SadCircCopy2}",
-                            'rgba(92,180,229,1.00)',
-                            'rgba(92,180,229,1.00)'
+                            "eid1372",
+                            "scaleY",
+                            35250,
+                            750,
+                            "swing",
+                            "${Anim1Circle2}",
+                            '1',
+                            '0.74'
                         ],
                         [
                             "eid2157",
@@ -2982,14 +3012,24 @@
                             '521px'
                         ],
                         [
-                            "eid1422",
-                            "top",
-                            44000,
-                            1000,
+                            "eid1600",
+                            "left",
+                            32000,
+                            0,
                             "linear",
-                            "${Anim2path1Copy3}",
-                            '168px',
-                            '-90px'
+                            "${earinfo}",
+                            '1256px',
+                            '1256px'
+                        ],
+                        [
+                            "eid1601",
+                            "left",
+                            68250,
+                            750,
+                            "easeInQuad",
+                            "${earinfo}",
+                            '1088px',
+                            '0px'
                         ],
                         [
                             "eid1901",
@@ -3282,34 +3322,14 @@
                             '1'
                         ],
                         [
-                            "eid1813",
-                            "left",
-                            125000,
-                            0,
-                            "easeOutElastic",
-                            "${dotOneCopy}",
-                            '-1337px',
-                            '-1337px'
-                        ],
-                        [
-                            "eid1814",
-                            "left",
-                            139000,
-                            0,
-                            "easeOutElastic",
-                            "${dotOneCopy}",
-                            '-1337px',
-                            '459px'
-                        ],
-                        [
-                            "eid2456",
-                            "left",
-                            200000,
-                            0,
-                            "linear",
-                            "${dotOneCopy}",
-                            '459px',
-                            '-804px'
+                            "eid1359",
+                            "opacity",
+                            35250,
+                            750,
+                            "easeInCubic",
+                            "${Anim1IntroText}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid1276",
@@ -3572,22 +3592,12 @@
                             '0.699999988079071'
                         ],
                         [
-                            "eid2394",
-                            "scaleX",
-                            240000,
-                            2000,
-                            "linear",
-                            "${PsychAnim1Circle4}",
-                            '4',
-                            '1'
-                        ],
-                        [
-                            "eid2395",
+                            "eid2415",
                             "scaleX",
                             242432,
                             1568,
                             "linear",
-                            "${PsychAnim1Circle4}",
+                            "${PsychAnim1Circle2}",
                             '1',
                             '0'
                         ],
@@ -3802,14 +3812,14 @@
                             '1082px'
                         ],
                         [
-                            "eid1812",
-                            "scaleY",
-                            142000,
-                            1000,
+                            "eid1872",
+                            "height",
+                            139000,
+                            3000,
                             "easeOutElastic",
-                            "${dotOneCopy}",
-                            '0',
-                            '1'
+                            "${peace}",
+                            '435px',
+                            '123px'
                         ],
                         [
                             "eid2094",
@@ -3832,14 +3842,54 @@
                             '278px'
                         ],
                         [
-                            "eid2260",
-                            "opacity",
-                            429665,
+                            "eid2310",
+                            "left",
+                            240000,
                             0,
                             "easeInOutElastic",
-                            "${HappyCircCopy2}",
-                            '0.699999988079071',
-                            '0.699999988079071'
+                            "${BlueBar}",
+                            '2305px',
+                            '2305px'
+                        ],
+                        [
+                            "eid2311",
+                            "left",
+                            249500,
+                            166,
+                            "linear",
+                            "${BlueBar}",
+                            '1085px',
+                            '1093px'
+                        ],
+                        [
+                            "eid2312",
+                            "left",
+                            249666,
+                            334,
+                            "linear",
+                            "${BlueBar}",
+                            '1093px',
+                            '1088px'
+                        ],
+                        [
+                            "eid2313",
+                            "left",
+                            250000,
+                            750,
+                            "linear",
+                            "${BlueBar}",
+                            '1088px',
+                            '380px'
+                        ],
+                        [
+                            "eid2314",
+                            "left",
+                            253750,
+                            2250,
+                            "easeInOutElastic",
+                            "${BlueBar}",
+                            '380px',
+                            '1123px'
                         ],
                         [
                             "eid2212",
@@ -4312,54 +4362,24 @@
                             '-38px'
                         ],
                         [
-                            "eid2102",
+                            "eid2333",
                             "left",
-                            240000,
-                            0,
+                            246000,
+                            750,
                             "easeInOutElastic",
-                            "${girl3}",
-                            '-1380px',
-                            '-1380px'
+                            "${Anim2TextCopy}",
+                            '1081px',
+                            '478px'
                         ],
                         [
-                            "eid2103",
+                            "eid2334",
                             "left",
-                            274500,
-                            3128,
+                            249500,
+                            1500,
                             "easeInOutElastic",
-                            "${girl3}",
-                            '-1380px',
-                            '728px'
-                        ],
-                        [
-                            "eid2104",
-                            "left",
-                            318000,
-                            2000,
-                            "easeInOutElastic",
-                            "${girl3}",
-                            '728px',
-                            '623px'
-                        ],
-                        [
-                            "eid2105",
-                            "left",
-                            390835,
-                            3830,
-                            "easeInOutElastic",
-                            "${girl3}",
-                            '728px',
-                            '1077px'
-                        ],
-                        [
-                            "eid2106",
-                            "left",
-                            425915,
-                            1750,
-                            "easeInOutElastic",
-                            "${girl3}",
-                            '728px',
-                            '1381px'
+                            "${Anim2TextCopy}",
+                            '478px',
+                            '2055px'
                         ],
                         [
                             "eid1500",
@@ -4382,44 +4402,14 @@
                             '809px'
                         ],
                         [
-                            "eid1916",
-                            "left",
-                            125000,
-                            0,
-                            "easeOutElastic",
-                            "${RoundRectCopy7}",
-                            '-390px',
-                            '-390px'
-                        ],
-                        [
-                            "eid1917",
-                            "left",
-                            140750,
-                            0,
-                            "easeOutElastic",
-                            "${RoundRectCopy7}",
-                            '-390px',
-                            '499px'
-                        ],
-                        [
-                            "eid1918",
-                            "left",
-                            141000,
-                            1000,
-                            "easeOutElastic",
-                            "${RoundRectCopy7}",
-                            '499px',
-                            '567px'
-                        ],
-                        [
-                            "eid2461",
-                            "left",
-                            200000,
-                            0,
-                            "linear",
-                            "${RoundRectCopy7}",
-                            '567px',
-                            '-949px'
+                            "eid1371",
+                            "top",
+                            33000,
+                            750,
+                            "swing",
+                            "${Anim1Circle2}",
+                            '0px',
+                            '2px'
                         ],
                         [
                             "eid1335",
@@ -4492,14 +4482,24 @@
                             '593px'
                         ],
                         [
-                            "eid1518",
-                            "rotateZ",
-                            78500,
+                            "eid1414",
+                            "left",
+                            37500,
                             0,
-                            "linear",
-                            "${smallpath2Copy4}",
-                            '-53deg',
-                            '-53deg'
+                            "easeInOutElastic",
+                            "${Anim2path1Copy2}",
+                            '1106px',
+                            '1106px'
+                        ],
+                        [
+                            "eid1415",
+                            "left",
+                            42457,
+                            1543,
+                            "easeInOutElastic",
+                            "${Anim2path1Copy2}",
+                            '742px',
+                            '637px'
                         ],
                         [
                             "eid1517",
@@ -4722,24 +4722,14 @@
                             '2083px'
                         ],
                         [
-                            "eid1998",
-                            "scaleX",
-                            392665,
-                            2000,
-                            "easeInOutElastic",
-                            "${BlueButton}",
-                            '1',
-                            '1.25'
-                        ],
-                        [
-                            "eid1999",
-                            "scaleX",
-                            425915,
+                            "eid2264",
+                            "background-color",
+                            429665,
                             0,
                             "easeInOutElastic",
-                            "${BlueButton}",
-                            '1.25',
-                            '1'
+                            "${HappyCircCopy2}",
+                            'rgba(245,228,169,1.00)',
+                            'rgba(245,228,169,1.00)'
                         ],
                         [
                             "eid473",
@@ -5932,14 +5922,24 @@
                             '1.2'
                         ],
                         [
-                            "eid2092",
-                            "scaleY",
-                            432665,
-                            1000,
-                            "easeInOutElastic",
-                            "${HappyCircleGraphic}",
+                            "eid1361",
+                            "scaleX",
+                            33000,
+                            646,
+                            "easeOutBounce",
+                            "${Anim1Circle4}",
                             '0',
                             '1'
+                        ],
+                        [
+                            "eid1362",
+                            "scaleX",
+                            35250,
+                            750,
+                            "easeOutBounce",
+                            "${Anim1Circle4}",
+                            '1',
+                            '0.33'
                         ],
                         [
                             "eid443",
@@ -5962,34 +5962,44 @@
                             '724deg'
                         ],
                         [
-                            "eid1672",
+                            "eid2327",
                             "left",
-                            32000,
-                            1000,
-                            "linear",
-                            "${IntroTransition}",
-                            '-414px',
-                            '-307px'
+                            240000,
+                            0,
+                            "easeInOutElastic",
+                            "${guy32}",
+                            '1508px',
+                            '1508px'
                         ],
                         [
-                            "eid1673",
+                            "eid2328",
                             "left",
-                            33000,
-                            1000,
-                            "easeInBounce",
-                            "${IntroTransition}",
-                            '-307px',
-                            '-554px'
+                            253750,
+                            0,
+                            "easeInOutElastic",
+                            "${guy32}",
+                            '1508px',
+                            '135px'
                         ],
                         [
-                            "eid1468",
-                            "scaleY",
-                            66000,
-                            3000,
-                            "easeInQuad",
-                            "${Anim3}",
-                            '1',
-                            '4'
+                            "eid2329",
+                            "left",
+                            266000,
+                            8500,
+                            "easeInOutElastic",
+                            "${guy32}",
+                            '135px',
+                            '2441px'
+                        ],
+                        [
+                            "eid1251",
+                            "top",
+                            104000,
+                            0,
+                            "easeInOutBounce",
+                            "${pulse2}",
+                            '0px',
+                            '0px'
                         ],
                         [
                             "eid1797",
@@ -6022,44 +6032,34 @@
                             '202px'
                         ],
                         [
-                            "eid2184",
-                            "top",
-                            240000,
+                            "eid1749",
+                            "left",
+                            125000,
                             0,
-                            "easeInOutElastic",
-                            "${SadCircCopy}",
-                            '24px',
-                            '24px'
+                            "linear",
+                            "${Anim5Text}",
+                            '1098px',
+                            '1098px'
                         ],
                         [
-                            "eid2185",
-                            "top",
-                            394665,
-                            0,
-                            "easeInOutElastic",
-                            "${SadCircCopy}",
-                            '24px',
-                            '273px'
+                            "eid1750",
+                            "left",
+                            145750,
+                            1750,
+                            "easeOutCubic",
+                            "${Anim5Text}",
+                            '1098px',
+                            '442px'
                         ],
                         [
-                            "eid2186",
-                            "top",
-                            396332,
-                            667,
-                            "easeInOutElastic",
-                            "${SadCircCopy}",
-                            '273px',
-                            '257px'
-                        ],
-                        [
-                            "eid2187",
-                            "top",
-                            412165,
+                            "eid2471",
+                            "left",
+                            200000,
                             0,
-                            "easeInOutElastic",
-                            "${SadCircCopy}",
-                            '257px',
-                            '1044px'
+                            "linear",
+                            "${Anim5Text}",
+                            '442px',
+                            '-1082px'
                         ],
                         [
                             "eid1807",
@@ -6152,14 +6152,44 @@
                             '191px'
                         ],
                         [
-                            "eid2183",
-                            "background-color",
-                            394665,
+                            "eid1889",
+                            "left",
+                            125000,
                             0,
-                            "easeInOutElastic",
-                            "${SadCirc}",
-                            'rgba(92,180,229,1.00)',
-                            'rgba(92,180,229,1.00)'
+                            "easeOutElastic",
+                            "${RoundRectCopy2}",
+                            '-273px',
+                            '-273px'
+                        ],
+                        [
+                            "eid1890",
+                            "left",
+                            139750,
+                            0,
+                            "easeOutElastic",
+                            "${RoundRectCopy2}",
+                            '-273px',
+                            '499px'
+                        ],
+                        [
+                            "eid1891",
+                            "left",
+                            141000,
+                            1000,
+                            "easeOutElastic",
+                            "${RoundRectCopy2}",
+                            '499px',
+                            '431px'
+                        ],
+                        [
+                            "eid2465",
+                            "left",
+                            200000,
+                            0,
+                            "linear",
+                            "${RoundRectCopy2}",
+                            '431px',
+                            '-1085px'
                         ],
                         [
                             "eid1808",
@@ -6192,34 +6222,24 @@
                             '-540px'
                         ],
                         [
-                            "eid2152",
+                            "eid1474",
                             "left",
-                            240000,
+                            32000,
                             0,
-                            "easeInOutElastic",
-                            "${MadCircle}",
-                            '645px',
-                            '645px'
+                            "easeOutElastic",
+                            "${ybomText}",
+                            '-437px',
+                            '-437px'
                         ],
                         [
-                            "eid2153",
+                            "eid1475",
                             "left",
-                            320000,
-                            0,
-                            "easeInOutElastic",
-                            "${MadCircle}",
-                            '645px',
-                            '639px'
-                        ],
-                        [
-                            "eid2154",
-                            "left",
-                            332127,
-                            0,
-                            "easeInOutElastic",
-                            "${MadCircle}",
-                            '639px',
-                            '743px'
+                            55500,
+                            1500,
+                            "easeInElastic",
+                            "${ybomText}",
+                            '-437px',
+                            '37px'
                         ],
                         [
                             "eid2138",
@@ -6332,14 +6352,14 @@
                             '-1260px'
                         ],
                         [
-                            "eid1575",
+                            "eid1593",
                             "scaleX",
-                            78500,
-                            500,
-                            "linear",
-                            "${Ellipse3Copy2}",
+                            74500,
+                            250,
+                            "easeInOutBounce",
+                            "${Ellipse3Copy5}",
                             '0',
-                            '2.93'
+                            '1'
                         ],
                         [
                             "eid1409",
@@ -6652,34 +6672,24 @@
                             '1080px'
                         ],
                         [
-                            "eid2322",
-                            "top",
-                            240000,
+                            "eid1424",
+                            "left",
+                            37500,
                             0,
                             "easeInOutElastic",
-                            "${Anim2Circle}",
-                            '941px',
-                            '941px'
+                            "${Anim2path1Copy3}",
+                            '1100px',
+                            '1100px'
                         ],
                         [
-                            "eid2323",
-                            "top",
-                            246750,
-                            750,
-                            "easeInOutElastic",
-                            "${Anim2Circle}",
-                            '941px',
-                            '524px'
-                        ],
-                        [
-                            "eid2324",
-                            "top",
-                            266000,
-                            8500,
-                            "easeInOutElastic",
-                            "${Anim2Circle}",
-                            '524px',
-                            '924px'
+                            "eid1425",
+                            "left",
+                            44000,
+                            1000,
+                            "linear",
+                            "${Anim2path1Copy3}",
+                            '229px',
+                            '485px'
                         ],
                         [
                             "eid1790",
@@ -6802,14 +6812,14 @@
                             '17px'
                         ],
                         [
-                            "eid1559",
-                            "width",
-                            70000,
-                            2000,
-                            "linear",
-                            "${bigpath}",
-                            '69px',
-                            '337px'
+                            "eid468",
+                            "opacity",
+                            0,
+                            1500,
+                            "easeInQuad",
+                            "${inCirc3}",
+                            '0',
+                            '1'
                         ],
                         [
                             "eid2232",
@@ -6902,34 +6912,34 @@
                             '208px'
                         ],
                         [
-                            "eid2280",
+                            "eid2359",
                             "top",
                             240000,
                             0,
                             "easeInOutElastic",
-                            "${Anim6TextCopy}",
-                            '67px',
-                            '67px'
+                            "${EllipseCopy4}",
+                            '431px',
+                            '431px'
                         ],
                         [
-                            "eid2281",
+                            "eid2360",
                             "top",
-                            274500,
-                            0,
+                            244750,
+                            582,
                             "easeInOutElastic",
-                            "${Anim6TextCopy}",
-                            '67px',
-                            '67px'
+                            "${EllipseCopy4}",
+                            '431px',
+                            '172px'
                         ],
                         [
-                            "eid2282",
+                            "eid2361",
                             "top",
-                            315000,
-                            3000,
+                            268318,
+                            6182,
                             "easeInOutElastic",
-                            "${Anim6TextCopy}",
-                            '67px',
-                            '63px'
+                            "${EllipseCopy4}",
+                            '172px',
+                            '-373px'
                         ],
                         [
                             "eid1555",
@@ -7102,14 +7112,34 @@
                             '263px'
                         ],
                         [
-                            "eid2077",
-                            "scaleX",
-                            323000,
-                            2000,
-                            "easeInOutElastic",
-                            "${MadCircleGraphic}",
+                            "eid1628",
+                            "scaleY",
+                            88000,
+                            500,
+                            "easeInCubic",
+                            "${Ellipse4}",
                             '0',
-                            '1'
+                            '1.2'
+                        ],
+                        [
+                            "eid1629",
+                            "scaleY",
+                            88500,
+                            250,
+                            "easeInCubic",
+                            "${Ellipse4}",
+                            '1.2',
+                            '0.88'
+                        ],
+                        [
+                            "eid1630",
+                            "scaleY",
+                            94500,
+                            1094,
+                            "easeOutQuint",
+                            "${Ellipse4}",
+                            '0.88',
+                            '2'
                         ],
                         [
                             "eid1920",
@@ -7222,24 +7252,24 @@
                             '243px'
                         ],
                         [
-                            "eid1585",
-                            "left",
-                            32000,
+                            "eid1776",
+                            "top",
+                            125000,
                             0,
-                            "easeInQuad",
-                            "${Ellipse3Copy4}",
-                            '1251px',
-                            '1251px'
+                            "easeOutQuart",
+                            "${CultAnim2Forward}",
+                            '413px',
+                            '413px'
                         ],
                         [
-                            "eid1586",
-                            "left",
-                            77000,
+                            "eid1777",
+                            "top",
+                            129521,
                             0,
-                            "easeInOutBounce",
-                            "${Ellipse3Copy4}",
-                            '1251px',
-                            '621px'
+                            "easeOutQuart",
+                            "${CultAnim2Forward}",
+                            '413px',
+                            '413px'
                         ],
                         [
                             "eid2271",
@@ -7332,34 +7362,14 @@
                             '413px'
                         ],
                         [
-                            "eid1635",
-                            "left",
-                            88000,
-                            1000,
-                            "easeOutQuint",
-                            "${Ellipse4}",
-                            '180px',
-                            '83px'
-                        ],
-                        [
-                            "eid1636",
-                            "left",
-                            94500,
-                            1094,
-                            "easeOutQuint",
-                            "${Ellipse4}",
-                            '83px',
-                            '585px'
-                        ],
-                        [
-                            "eid1637",
-                            "left",
-                            95594,
+                            "eid461",
+                            "scaleY",
                             0,
-                            "easeOutQuint",
-                            "${Ellipse4}",
-                            '585px',
-                            '585px'
+                            1500,
+                            "easeInQuad",
+                            "${cultButton}",
+                            '0',
+                            '1'
                         ],
                         [
                             "eid1461",
@@ -7392,14 +7402,24 @@
                             '-31deg'
                         ],
                         [
-                            "eid1590",
-                            "scaleY",
-                            74500,
-                            250,
-                            "easeInOutBounce",
-                            "${Ellipse3Copy5}",
-                            '0',
-                            '1'
+                            "eid2315",
+                            "top",
+                            240000,
+                            0,
+                            "easeInOutElastic",
+                            "${BlueBar}",
+                            '389px',
+                            '389px'
+                        ],
+                        [
+                            "eid2316",
+                            "top",
+                            249500,
+                            0,
+                            "easeInOutElastic",
+                            "${BlueBar}",
+                            '389px',
+                            '31px'
                         ],
                         [
                             "eid1450",
@@ -7472,14 +7492,24 @@
                             '1025px'
                         ],
                         [
-                            "eid1602",
+                            "eid1582",
                             "top",
                             32000,
                             0,
-                            "linear",
-                            "${earinfo}",
-                            '-2px',
-                            '-2px'
+                            "easeInQuad",
+                            "${Ellipse3Copy4}",
+                            '152px',
+                            '152px'
+                        ],
+                        [
+                            "eid1583",
+                            "top",
+                            77000,
+                            0,
+                            "easeInOutBounce",
+                            "${Ellipse3Copy4}",
+                            '152px',
+                            '331px'
                         ],
                         [
                             "eid1640",
@@ -7522,84 +7552,44 @@
                             '-1744px'
                         ],
                         [
-                            "eid2483",
-                            "top",
-                            125000,
+                            "eid1537",
+                            "left",
+                            69750,
                             0,
-                            "easeOutBounce",
-                            "${CultexitButton}",
-                            '49px',
-                            '49px'
+                            "easeInQuad",
+                            "${smallpath2Copy8}",
+                            '1544px',
+                            '1544px'
                         ],
                         [
-                            "eid2476",
-                            "top",
-                            200000,
-                            0,
+                            "eid1538",
+                            "left",
+                            73750,
+                            1000,
                             "linear",
-                            "${CultexitButton}",
-                            '49px',
-                            '3405px'
+                            "${smallpath2Copy8}",
+                            '471px',
+                            '471px'
                         ],
                         [
-                            "eid1984",
+                            "eid1438",
                             "top",
-                            240000,
+                            37250,
                             0,
-                            "easeInOutElastic",
-                            "${RedButton}",
-                            '92px',
-                            '92px'
+                            "swing",
+                            "${SoundCopy}",
+                            '-259px',
+                            '-259px'
                         ],
                         [
-                            "eid1985",
+                            "eid1439",
                             "top",
-                            277628,
-                            2372,
-                            "easeInOutElastic",
-                            "${RedButton}",
-                            '398px',
-                            '466px'
-                        ],
-                        [
-                            "eid1986",
-                            "top",
-                            315000,
-                            3000,
-                            "easeInOutElastic",
-                            "${RedButton}",
-                            '466px',
-                            '463px'
-                        ],
-                        [
-                            "eid1987",
-                            "top",
-                            390835,
+                            39750,
                             0,
-                            "easeInOutElastic",
-                            "${RedButton}",
-                            '463px',
-                            '466px'
-                        ],
-                        [
-                            "eid1988",
-                            "top",
-                            425915,
-                            0,
-                            "easeInOutElastic",
-                            "${RedButton}",
-                            '466px',
-                            '466px'
-                        ],
-                        [
-                            "eid1989",
-                            "top",
-                            427665,
-                            2000,
-                            "easeInOutElastic",
-                            "${RedButton}",
-                            '466px',
-                            '458px'
+                            "swing",
+                            "${SoundCopy}",
+                            '-259px',
+                            '344px'
                         ],
                         [
                             "eid1751",
@@ -7622,84 +7612,74 @@
                             '38px'
                         ],
                         [
-                            "eid2109",
-                            "scaleX",
-                            318000,
-                            2000,
-                            "easeInOutElastic",
-                            "${girl3}",
-                            '1',
-                            '1.25'
-                        ],
-                        [
-                            "eid2110",
-                            "scaleX",
-                            390835,
+                            "eid2166",
+                            "left",
+                            240000,
                             0,
                             "easeInOutElastic",
-                            "${girl3}",
-                            '1.25',
-                            '1'
+                            "${MadCircleCopy2}",
+                            '624px',
+                            '624px'
                         ],
                         [
-                            "eid1798",
+                            "eid2167",
                             "left",
-                            160731,
-                            24269,
-                            "linear",
-                            "${worldCopy}",
-                            '1098px',
-                            '-930px'
+                            322000,
+                            0,
+                            "easeInOutElastic",
+                            "${MadCircleCopy2}",
+                            '624px',
+                            '639px'
                         ],
                         [
-                            "eid2421",
+                            "eid2168",
+                            "left",
+                            332127,
+                            0,
+                            "easeInOutElastic",
+                            "${MadCircleCopy2}",
+                            '639px',
+                            '743px'
+                        ],
+                        [
+                            "eid1882",
+                            "left",
+                            125000,
+                            0,
+                            "easeOutElastic",
+                            "${RoundRectCopy}",
+                            '-343px',
+                            '-343px'
+                        ],
+                        [
+                            "eid1883",
+                            "left",
+                            139750,
+                            0,
+                            "easeOutElastic",
+                            "${RoundRectCopy}",
+                            '-343px',
+                            '499px'
+                        ],
+                        [
+                            "eid1884",
+                            "left",
+                            143000,
+                            1000,
+                            "easeOutElastic",
+                            "${RoundRectCopy}",
+                            '499px',
+                            '359px'
+                        ],
+                        [
+                            "eid2468",
                             "left",
                             200000,
                             0,
                             "linear",
-                            "${worldCopy}",
-                            '-930px',
-                            '-1488px'
-                        ],
-                        [
-                            "eid1578",
-                            "scaleY",
-                            75750,
-                            250,
-                            "easeInOutBounce",
-                            "${Ellipse3Copy3}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid1544",
-                            "width",
-                            74750,
-                            1000,
-                            "linear",
-                            "${smallpath2Copy9}",
-                            '19px',
-                            '92px'
-                        ],
-                        [
-                            "eid1579",
-                            "left",
-                            32000,
-                            0,
-                            "easeInQuad",
-                            "${Ellipse3Copy3}",
-                            '1168px',
-                            '1168px'
-                        ],
-                        [
-                            "eid1580",
-                            "left",
-                            75750,
-                            0,
-                            "easeInOutBounce",
-                            "${Ellipse3Copy3}",
-                            '1168px',
-                            '539px'
+                            "${RoundRectCopy}",
+                            '359px',
+                            '-1157px'
                         ],
                         [
                             "eid2113",
@@ -7752,44 +7732,84 @@
                             '1077px'
                         ],
                         [
-                            "eid462",
+                            "eid1544",
+                            "width",
+                            74750,
+                            1000,
+                            "linear",
+                            "${smallpath2Copy9}",
+                            '19px',
+                            '92px'
+                        ],
+                        [
+                            "eid1455",
                             "scaleX",
-                            0,
-                            1500,
-                            "easeInQuad",
-                            "${inCirc1}",
+                            39750,
+                            2250,
+                            "easeInOutElastic",
+                            "${SoundCopy3}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid1261",
-                            "top",
-                            32000,
-                            0,
-                            "easeOutQuint",
-                            "${green}",
-                            '191px',
-                            '191px'
+                            "eid1954",
+                            "scaleY",
+                            125000,
+                            1000,
+                            "easeOutQuart",
+                            "${CultAnim1Circle1}",
+                            '3',
+                            '0.94'
                         ],
                         [
-                            "eid1744",
-                            "top",
-                            88750,
-                            0,
-                            "easeOutQuint",
-                            "${green}",
-                            '190px',
-                            '200px'
+                            "eid1955",
+                            "scaleY",
+                            126250,
+                            500,
+                            "linear",
+                            "${CultAnim1Circle1}",
+                            '0.94',
+                            '4'
                         ],
                         [
-                            "eid1263",
+                            "eid2090",
                             "top",
-                            94250,
+                            240000,
                             0,
-                            "easeOutQuint",
-                            "${green}",
-                            '200px',
-                            '190px'
+                            "easeInOutElastic",
+                            "${HappyCircleGraphic}",
+                            '-630px',
+                            '-630px'
+                        ],
+                        [
+                            "eid2091",
+                            "top",
+                            432665,
+                            0,
+                            "easeInOutElastic",
+                            "${HappyCircleGraphic}",
+                            '-630px',
+                            '84px'
+                        ],
+                        [
+                            "eid2049",
+                            "top",
+                            249500,
+                            0,
+                            "easeInOutElastic",
+                            "${PsychAnim3Forward}",
+                            '384px',
+                            '384px'
+                        ],
+                        [
+                            "eid2050",
+                            "top",
+                            253500,
+                            0,
+                            "easeInOutElastic",
+                            "${PsychAnim3Forward}",
+                            '384px',
+                            '384px'
                         ],
                         [
                             "eid1668",
@@ -7802,24 +7822,14 @@
                             '1241px'
                         ],
                         [
-                            "eid1432",
-                            "top",
-                            37250,
-                            0,
-                            "swing",
-                            "${Sound}",
-                            '-258px',
-                            '-258px'
-                        ],
-                        [
-                            "eid1433",
-                            "top",
-                            39750,
-                            0,
-                            "swing",
-                            "${Sound}",
-                            '-258px',
-                            '345px'
+                            "eid2248",
+                            "scaleX",
+                            429665,
+                            1000,
+                            "easeInOutElastic",
+                            "${HappyCircCopy}",
+                            '1',
+                            '2.02'
                         ],
                         [
                             "eid1564",
@@ -7862,24 +7872,14 @@
                             '140px'
                         ],
                         [
-                            "eid2308",
-                            "left",
-                            250750,
-                            750,
-                            "easeInOutElastic",
-                            "${Anim3Text}",
-                            '1098px',
-                            '501px'
-                        ],
-                        [
-                            "eid2309",
-                            "left",
-                            253750,
-                            2250,
-                            "easeInOutElastic",
-                            "${Anim3Text}",
-                            '501px',
-                            '1244px'
+                            "eid1825",
+                            "scaleX",
+                            141000,
+                            1000,
+                            "easeOutElastic",
+                            "${dotOneCopy3}",
+                            '0',
+                            '1'
                         ],
                         [
                             "eid1423",
@@ -7892,44 +7892,24 @@
                             '516px'
                         ],
                         [
-                            "eid1830",
-                            "scaleX",
-                            141000,
-                            1000,
-                            "easeOutElastic",
-                            "${dotOneCopy4}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid2220",
+                            "eid2065",
                             "top",
                             240000,
                             0,
-                            "easeInOutElastic",
-                            "${sadBox}",
-                            '707px',
-                            '707px'
+                            "easeOutElastic",
+                            "${PsychAnim1Forward}",
+                            '384px',
+                            '384px'
                         ],
                         [
-                            "eid2221",
-                            "top",
-                            400665,
-                            1000,
-                            "easeInOutElastic",
-                            "${sadBox}",
-                            '264px',
-                            '528px'
-                        ],
-                        [
-                            "eid2222",
-                            "top",
-                            412165,
-                            0,
-                            "easeInOutElastic",
-                            "${sadBox}",
-                            '528px',
-                            '1315px'
+                            "eid1849",
+                            "height",
+                            132500,
+                            3500,
+                            "easeOutElastic",
+                            "${guy1}",
+                            '691px',
+                            '410px'
                         ],
                         [
                             "eid1674",
@@ -7942,184 +7922,234 @@
                             '1593px'
                         ],
                         [
-                            "eid2248",
+                            "eid1437",
                             "scaleX",
+                            39750,
+                            2250,
+                            "easeInOutElastic",
+                            "${Sound}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid1832",
+                            "left",
+                            131000,
+                            2000,
+                            "easeOutElastic",
+                            "${CultAnim3Text}",
+                            '1443px',
+                            '537px'
+                        ],
+                        [
+                            "eid1833",
+                            "left",
+                            139000,
+                            1000,
+                            "easeOutElastic",
+                            "${CultAnim3Text}",
+                            '537px',
+                            '1254px'
+                        ],
+                        [
+                            "eid1572",
+                            "scaleY",
+                            78500,
+                            500,
+                            "linear",
+                            "${Ellipse3Copy2}",
+                            '0',
+                            '2.93'
+                        ],
+                        [
+                            "eid1998",
+                            "scaleX",
+                            392665,
+                            2000,
+                            "easeInOutElastic",
+                            "${BlueButton}",
+                            '1',
+                            '1.25'
+                        ],
+                        [
+                            "eid1999",
+                            "scaleX",
+                            425915,
+                            0,
+                            "easeInOutElastic",
+                            "${BlueButton}",
+                            '1.25',
+                            '1'
+                        ],
+                        [
+                            "eid1291",
+                            "scaleY",
+                            88750,
+                            1000,
+                            "easeOutQuint",
+                            "${Purple}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid2243",
+                            "top",
+                            240000,
+                            0,
+                            "easeInOutElastic",
+                            "${HappyCircCopy}",
+                            '24px',
+                            '24px'
+                        ],
+                        [
+                            "eid2244",
+                            "top",
                             429665,
+                            0,
+                            "easeInOutElastic",
+                            "${HappyCircCopy}",
+                            '24px',
+                            '274px'
+                        ],
+                        [
+                            "eid2245",
+                            "top",
+                            430665,
                             1000,
                             "easeInOutElastic",
                             "${HappyCircCopy}",
-                            '1',
-                            '2.02'
+                            '274px',
+                            '255px'
                         ],
                         [
-                            "eid1825",
-                            "scaleX",
-                            141000,
-                            1000,
-                            "easeOutElastic",
-                            "${dotOneCopy3}",
+                            "eid1479",
+                            "opacity",
+                            55500,
+                            3500,
+                            "easeOutExpo",
+                            "${brain}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid2488",
-                            "left",
+                            "eid1518",
+                            "rotateZ",
+                            78500,
                             0,
-                            0,
-                            "easeOutBounce",
-                            "${PsychAnim1Circle3}",
-                            '1694px',
-                            '1694px'
+                            "linear",
+                            "${smallpath2Copy4}",
+                            '-53deg',
+                            '-53deg'
                         ],
                         [
-                            "eid2413",
+                            "eid2040",
                             "left",
                             240000,
+                            0,
+                            "easeInOutElastic",
+                            "${PsychAnim4Forward}",
+                            '1171px',
+                            '1171px'
+                        ],
+                        [
+                            "eid2041",
+                            "left",
+                            253750,
+                            0,
+                            "easeInOutElastic",
+                            "${PsychAnim4Forward}",
+                            '1171px',
+                            '970px'
+                        ],
+                        [
+                            "eid2042",
+                            "left",
+                            265000,
+                            0,
+                            "easeInOutElastic",
+                            "${PsychAnim4Forward}",
+                            '970px',
+                            '1058px'
+                        ],
+                        [
+                            "eid1288",
+                            "top",
+                            32000,
+                            0,
+                            "easeOutQuint",
+                            "${Purple}",
+                            '346px',
+                            '346px'
+                        ],
+                        [
+                            "eid1742",
+                            "top",
+                            88750,
+                            0,
+                            "easeOutQuint",
+                            "${Purple}",
+                            '345px',
+                            '351px'
+                        ],
+                        [
+                            "eid1290",
+                            "top",
+                            94250,
+                            0,
+                            "easeOutQuint",
+                            "${Purple}",
+                            '351px',
+                            '345px'
+                        ],
+                        [
+                            "eid2102",
+                            "left",
+                            240000,
+                            0,
+                            "easeInOutElastic",
+                            "${girl3}",
+                            '-1380px',
+                            '-1380px'
+                        ],
+                        [
+                            "eid2103",
+                            "left",
+                            274500,
+                            3128,
+                            "easeInOutElastic",
+                            "${girl3}",
+                            '-1380px',
+                            '728px'
+                        ],
+                        [
+                            "eid2104",
+                            "left",
+                            318000,
                             2000,
-                            "linear",
-                            "${PsychAnim1Circle3}",
-                            '1199px',
-                            '406px'
+                            "easeInOutElastic",
+                            "${girl3}",
+                            '728px',
+                            '623px'
                         ],
                         [
-                            "eid2414",
+                            "eid2105",
                             "left",
-                            242432,
-                            1568,
-                            "linear",
-                            "${PsychAnim1Circle3}",
-                            '406px',
-                            '-275px'
-                        ],
-                        [
-                            "eid1806",
-                            "top",
-                            125000,
-                            0,
-                            "easeOutElastic",
-                            "${dotOne}",
-                            '261px',
-                            '261px'
-                        ],
-                        [
-                            "eid2451",
-                            "top",
-                            200000,
-                            0,
-                            "linear",
-                            "${dotOne}",
-                            '261px',
-                            '233px'
-                        ],
-                        [
-                            "eid2264",
-                            "background-color",
-                            429665,
-                            0,
+                            390835,
+                            3830,
                             "easeInOutElastic",
-                            "${HappyCircCopy2}",
-                            'rgba(245,228,169,1.00)',
-                            'rgba(245,228,169,1.00)'
+                            "${girl3}",
+                            '728px',
+                            '1077px'
                         ],
                         [
-                            "eid2258",
-                            "scaleY",
-                            429665,
-                            1000,
-                            "easeInOutElastic",
-                            "${HappyCircCopy2}",
-                            '1',
-                            '2.02'
-                        ],
-                        [
-                            "eid2399",
-                            "scaleY",
-                            241500,
-                            500,
-                            "easeOutQuad",
-                            "${PsychAnim1Circle6}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid1926",
-                            "scaleY",
-                            125000,
-                            1000,
-                            "easeOutQuart",
-                            "${CultureIntro}",
-                            '10.13',
-                            '1'
-                        ],
-                        [
-                            "eid1927",
-                            "scaleY",
-                            126250,
-                            500,
-                            "linear",
-                            "${CultureIntro}",
-                            '1',
-                            '0'
-                        ],
-                        [
-                            "eid1961",
-                            "top",
-                            0,
-                            0,
-                            "linear",
-                            "${CultureIntro}",
-                            '277px',
-                            '277px'
-                        ],
-                        [
-                            "eid1925",
-                            "top",
-                            125000,
-                            0,
-                            "linear",
-                            "${CultureIntro}",
-                            '277px',
-                            '347px'
-                        ],
-                        [
-                            "eid1959",
-                            "top",
-                            126000,
-                            0,
-                            "linear",
-                            "${CultureIntro}",
-                            '347px',
-                            '347px'
-                        ],
-                        [
-                            "eid1414",
+                            "eid2106",
                             "left",
-                            37500,
-                            0,
+                            425915,
+                            1750,
                             "easeInOutElastic",
-                            "${Anim2path1Copy2}",
-                            '1106px',
-                            '1106px'
-                        ],
-                        [
-                            "eid1415",
-                            "left",
-                            42457,
-                            1543,
-                            "easeInOutElastic",
-                            "${Anim2path1Copy2}",
-                            '742px',
-                            '637px'
-                        ],
-                        [
-                            "eid1371",
-                            "top",
-                            33000,
-                            750,
-                            "swing",
-                            "${Anim1Circle2}",
-                            '0px',
-                            '2px'
+                            "${girl3}",
+                            '728px',
+                            '1381px'
                         ],
                         [
                             "eid1387",
@@ -8152,64 +8182,64 @@
                             '274px'
                         ],
                         [
-                            "eid2333",
-                            "left",
-                            246000,
-                            750,
-                            "easeInOutElastic",
-                            "${Anim2TextCopy}",
-                            '1081px',
-                            '478px'
-                        ],
-                        [
-                            "eid2334",
-                            "left",
-                            249500,
-                            1500,
-                            "easeInOutElastic",
-                            "${Anim2TextCopy}",
-                            '478px',
-                            '2055px'
-                        ],
-                        [
-                            "eid1944",
-                            "rotateZ",
-                            125000,
+                            "eid1892",
+                            "height",
+                            141000,
                             1000,
-                            "easeOutQuart",
-                            "${CultAnim1Circle2}",
-                            '0deg',
-                            '720deg'
+                            "easeOutElastic",
+                            "${RoundRectCopy2}",
+                            '33px',
+                            '227px'
                         ],
                         [
-                            "eid1945",
-                            "rotateZ",
-                            126250,
-                            500,
-                            "linear",
-                            "${CultAnim1Circle2}",
-                            '720deg',
-                            '360deg'
-                        ],
-                        [
-                            "eid1948",
-                            "left",
+                            "eid1843",
+                            "top",
                             125000,
-                            1000,
-                            "easeOutQuart",
-                            "${CultAnim1Circle2}",
-                            '2194px',
-                            '287px'
-                        ],
-                        [
-                            "eid1949",
-                            "left",
-                            126821,
                             0,
+                            "easeOutElastic",
+                            "${guy1}",
+                            '1417px',
+                            '1417px'
+                        ],
+                        [
+                            "eid1844",
+                            "top",
+                            128000,
+                            1000,
+                            "easeOutElastic",
+                            "${guy1}",
+                            '1417px',
+                            '445px'
+                        ],
+                        [
+                            "eid1845",
+                            "top",
+                            132500,
+                            3500,
+                            "easeOutElastic",
+                            "${guy1}",
+                            '445px',
+                            '329px'
+                        ],
+                        [
+                            "eid1846",
+                            "top",
+                            139000,
+                            3000,
+                            "easeOutElastic",
+                            "${guy1}",
+                            '329px',
+                            '413px'
+                        ],
+                        [
+                            "eid2384",
+                            "rotateZ",
+                            240000,
+                            2000,
                             "linear",
-                            "${CultAnim1Circle2}",
-                            '287px',
-                            '820px'
+                            "${PsychAnim1Circle5}",
+                            '360deg',
+                            '0deg'
                         ],
                         [
                             "eid2011",
@@ -8232,84 +8262,104 @@
                             '1'
                         ],
                         [
-                            "eid1402",
-                            "left",
-                            32000,
-                            0,
-                            "easeInOutElastic",
-                            "${EllipseCopy}",
-                            '1109px',
-                            '1109px'
-                        ],
-                        [
-                            "eid1403",
-                            "left",
-                            45250,
-                            0,
-                            "easeInOutElastic",
-                            "${EllipseCopy}",
-                            '1109px',
-                            '479px'
-                        ],
-                        [
-                            "eid1404",
-                            "left",
-                            45432,
-                            1727,
-                            "linear",
-                            "${EllipseCopy}",
-                            '479px',
-                            '480px'
-                        ],
-                        [
-                            "eid1962",
-                            "left",
-                            0,
-                            0,
-                            "linear",
-                            "${CultAnim1Forward}",
-                            '1051px',
-                            '1051px'
-                        ],
-                        [
-                            "eid1781",
-                            "left",
+                            "eid1946",
+                            "scaleX",
                             125000,
-                            0,
-                            "linear",
-                            "${CultAnim1Forward}",
-                            '1051px',
-                            '964px'
+                            1000,
+                            "easeOutQuart",
+                            "${CultAnim1Circle2}",
+                            '4',
+                            '1'
                         ],
                         [
-                            "eid1782",
+                            "eid1947",
+                            "scaleX",
+                            126250,
+                            500,
+                            "linear",
+                            "${CultAnim1Circle2}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid1545",
+                            "top",
+                            64500,
+                            0,
+                            "linear",
+                            "${smallpath2Copy10}",
+                            '346px',
+                            '346px'
+                        ],
+                        [
+                            "eid1546",
+                            "top",
+                            72750,
+                            1000,
+                            "linear",
+                            "${smallpath2Copy10}",
+                            '346px',
+                            '292px'
+                        ],
+                        [
+                            "eid1990",
                             "left",
-                            126136,
-                            0,
-                            "linear",
-                            "${CultAnim1Forward}",
-                            '964px',
-                            '1189px'
-                        ],
-                        [
-                            "eid2406",
-                            "top",
                             240000,
-                            2000,
-                            "linear",
-                            "${PsychAnim1Circle3}",
-                            '180px',
-                            '272px'
+                            0,
+                            "easeInOutElastic",
+                            "${RedButton}",
+                            '-783px',
+                            '-783px'
                         ],
                         [
-                            "eid2407",
-                            "top",
-                            242432,
-                            1568,
-                            "linear",
-                            "${PsychAnim1Circle3}",
-                            '272px',
-                            '-135px'
+                            "eid1991",
+                            "left",
+                            277628,
+                            2372,
+                            "easeInOutElastic",
+                            "${RedButton}",
+                            '-167px',
+                            '166px'
+                        ],
+                        [
+                            "eid1992",
+                            "left",
+                            315000,
+                            3000,
+                            "easeInOutElastic",
+                            "${RedButton}",
+                            '166px',
+                            '-587px'
+                        ],
+                        [
+                            "eid1993",
+                            "left",
+                            390835,
+                            3830,
+                            "easeInOutElastic",
+                            "${RedButton}",
+                            '166px',
+                            '-237px'
+                        ],
+                        [
+                            "eid1994",
+                            "left",
+                            425915,
+                            0,
+                            "easeInOutElastic",
+                            "${RedButton}",
+                            '-237px',
+                            '166px'
+                        ],
+                        [
+                            "eid1995",
+                            "left",
+                            427665,
+                            2000,
+                            "easeInOutElastic",
+                            "${RedButton}",
+                            '166px',
+                            '288px'
                         ],
                         [
                             "eid1426",
@@ -8372,134 +8422,94 @@
                             '744px'
                         ],
                         [
-                            "eid2000",
+                            "eid1611",
+                            "height",
+                            86597,
+                            653,
+                            "easeInCubic",
+                            "${Brain2}",
+                            '461px',
+                            '338px'
+                        ],
+                        [
+                            "eid1612",
+                            "height",
+                            87250,
+                            750,
+                            "easeInCubic",
+                            "${Brain2}",
+                            '338px',
+                            '516px'
+                        ],
+                        [
+                            "eid1478",
                             "top",
-                            240000,
+                            32000,
                             0,
-                            "easeInOutElastic",
-                            "${BlueButton}",
-                            '92px',
-                            '92px'
+                            "easeInOutSine",
+                            "${brain}",
+                            '93px',
+                            '93px'
                         ],
                         [
-                            "eid2001",
-                            "top",
-                            277628,
-                            2372,
-                            "easeInOutElastic",
-                            "${BlueButton}",
-                            '398px',
-                            '466px'
-                        ],
-                        [
-                            "eid2002",
-                            "top",
-                            315000,
-                            3000,
-                            "easeInOutElastic",
-                            "${BlueButton}",
-                            '466px',
-                            '463px'
-                        ],
-                        [
-                            "eid2003",
-                            "top",
-                            390835,
-                            0,
-                            "easeInOutElastic",
-                            "${BlueButton}",
-                            '463px',
-                            '466px'
-                        ],
-                        [
-                            "eid1922",
-                            "opacity",
-                            131000,
-                            7000,
+                            "eid1812",
+                            "scaleY",
+                            142000,
+                            1000,
                             "easeOutElastic",
-                            "${bg2}",
+                            "${dotOneCopy}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid2310",
-                            "left",
+                            "eid1936",
+                            "rotateZ",
+                            126250,
+                            500,
+                            "linear",
+                            "${CultAnim1Circle3}",
+                            '0deg',
+                            '360deg'
+                        ],
+                        [
+                            "eid1418",
+                            "height",
+                            42457,
+                            0,
+                            "easeInOutElastic",
+                            "${EllipseCopy3}",
+                            '24px',
+                            '24px'
+                        ],
+                        [
+                            "eid2350",
+                            "top",
                             240000,
                             0,
+                            "easeOutQuad",
+                            "${guy2Copy}",
+                            '102px',
+                            '102px'
+                        ],
+                        [
+                            "eid2351",
+                            "top",
+                            244750,
+                            582,
                             "easeInOutElastic",
-                            "${BlueBar}",
-                            '2305px',
-                            '2305px'
+                            "${guy2Copy}",
+                            '102px',
+                            '137px'
                         ],
                         [
-                            "eid2311",
-                            "left",
-                            249500,
-                            166,
-                            "linear",
-                            "${BlueBar}",
-                            '1085px',
-                            '1093px'
-                        ],
-                        [
-                            "eid2312",
-                            "left",
-                            249666,
-                            334,
-                            "linear",
-                            "${BlueBar}",
-                            '1093px',
-                            '1088px'
-                        ],
-                        [
-                            "eid2313",
-                            "left",
-                            250000,
-                            750,
-                            "linear",
-                            "${BlueBar}",
-                            '1088px',
-                            '380px'
-                        ],
-                        [
-                            "eid2314",
-                            "left",
-                            253750,
-                            2250,
-                            "easeInOutElastic",
-                            "${BlueBar}",
-                            '380px',
-                            '1123px'
-                        ],
-                        [
-                            "eid1872",
-                            "height",
-                            139000,
-                            3000,
-                            "easeOutElastic",
-                            "${peace}",
-                            '435px',
-                            '123px'
-                        ],
-                        [
-                            "eid1512",
-                            "rotateZ",
-                            80500,
+                            "eid2352",
+                            "top",
+                            249085,
                             0,
-                            "linear",
-                            "${smallpath2Copy2}",
-                            '-60deg',
-                            '-60deg'
-                        ],
-                        [
-                            "eid2259",
-                            "scaleX",
-                            429665,
-                            1000,
                             "easeInOutElastic",
-                            "${HappyCircCopy2}",
-                            '1',
-                            '2.02'
+                            "${guy2Copy}",
+                            '137px',
+                            '137px'
                         ],
                         [
                             "eid2242",
@@ -8532,54 +8542,34 @@
                             '-330px'
                         ],
                         [
-                            "eid2251",
-                            "left",
-                            240000,
-                            0,
-                            "easeInOutElastic",
-                            "${HappyCircCopy}",
-                            '-556px',
-                            '-556px'
-                        ],
-                        [
-                            "eid2252",
-                            "left",
-                            429665,
+                            "eid1950",
+                            "scaleX",
+                            125000,
                             1000,
-                            "easeInOutElastic",
-                            "${HappyCircCopy}",
-                            '249px',
-                            '244px'
+                            "easeOutQuart",
+                            "${CultAnim1Circle1}",
+                            '3',
+                            '0.94'
                         ],
                         [
-                            "eid2253",
-                            "left",
-                            430665,
-                            1000,
-                            "easeInOutElastic",
-                            "${HappyCircCopy}",
-                            '244px',
-                            '231px'
+                            "eid1951",
+                            "scaleX",
+                            126250,
+                            500,
+                            "linear",
+                            "${CultAnim1Circle1}",
+                            '0.94',
+                            '4'
                         ],
                         [
-                            "eid2254",
-                            "left",
-                            435000,
-                            0,
-                            "easeInOutElastic",
-                            "${HappyCircCopy}",
-                            '231px',
-                            '-476px'
-                        ],
-                        [
-                            "eid1478",
+                            "eid1527",
                             "top",
-                            32000,
-                            0,
-                            "easeInOutSine",
-                            "${brain}",
-                            '93px',
-                            '93px'
+                            76750,
+                            750,
+                            "linear",
+                            "${smallpath2Copy6}",
+                            '343px',
+                            '331px'
                         ],
                         [
                             "eid2362",
@@ -8612,14 +8602,24 @@
                             '-37px'
                         ],
                         [
-                            "eid1907",
-                            "height",
-                            142000,
+                            "eid1942",
+                            "scaleY",
+                            125000,
                             1000,
-                            "easeOutElastic",
-                            "${RoundRectCopy5}",
-                            '33px',
-                            '246px'
+                            "easeOutQuart",
+                            "${CultAnim1Circle2}",
+                            '4',
+                            '1'
+                        ],
+                        [
+                            "eid1943",
+                            "scaleY",
+                            126250,
+                            500,
+                            "linear",
+                            "${CultAnim1Circle2}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid2353",
@@ -8652,44 +8652,34 @@
                             'rgba(24,35,42,1.00)'
                         ],
                         [
-                            "eid2415",
+                            "eid2411",
+                            "scaleX",
+                            240000,
+                            2000,
+                            "linear",
+                            "${PsychAnim1Circle3}",
+                            '4',
+                            '1'
+                        ],
+                        [
+                            "eid2412",
                             "scaleX",
                             242432,
                             1568,
                             "linear",
-                            "${PsychAnim1Circle2}",
+                            "${PsychAnim1Circle3}",
                             '1',
                             '0'
                         ],
                         [
-                            "eid2496",
-                            "left",
-                            0,
-                            0,
-                            "easeInOutElastic",
-                            "${PsychexitButton}",
-                            '1050px',
-                            '1050px'
-                        ],
-                        [
-                            "eid2495",
-                            "left",
-                            240000,
-                            1000,
-                            "easeInOutElastic",
-                            "${PsychexitButton}",
-                            '1050px',
-                            '32px'
-                        ],
-                        [
-                            "eid2498",
-                            "left",
-                            436000,
-                            0,
-                            "easeInOutElastic",
-                            "${PsychexitButton}",
-                            '32px',
-                            '32px'
+                            "eid1922",
+                            "opacity",
+                            131000,
+                            7000,
+                            "easeOutElastic",
+                            "${bg2}",
+                            '0',
+                            '1'
                         ],
                         [
                             "eid1979",
@@ -8702,23 +8692,73 @@
                             '25px'
                         ],
                         [
-                            "eid1291",
-                            "scaleY",
-                            88750,
-                            1000,
-                            "easeOutQuint",
-                            "${Purple}",
-                            '0',
-                            '1'
+                            "eid1977",
+                            "top",
+                            125000,
+                            0,
+                            "easeOutElastic",
+                            "${mountains}",
+                            '801px',
+                            '801px'
                         ],
                         [
-                            "eid1485",
-                            "scaleY",
-                            55500,
-                            1500,
+                            "eid1855",
+                            "top",
+                            126907,
+                            1093,
                             "easeOutElastic",
-                            "${anim3circle2}",
-                            '0',
+                            "${mountains}",
+                            '800px',
+                            '274px'
+                        ],
+                        [
+                            "eid1856",
+                            "top",
+                            128000,
+                            1000,
+                            "easeOutElastic",
+                            "${mountains}",
+                            '274px',
+                            '273px'
+                        ],
+                        [
+                            "eid1857",
+                            "top",
+                            129000,
+                            2000,
+                            "easeOutElastic",
+                            "${mountains}",
+                            '273px',
+                            '274px'
+                        ],
+                        [
+                            "eid1858",
+                            "top",
+                            131000,
+                            4000,
+                            "easeOutElastic",
+                            "${mountains}",
+                            '274px',
+                            '110px'
+                        ],
+                        [
+                            "eid2109",
+                            "scaleX",
+                            318000,
+                            2000,
+                            "easeInOutElastic",
+                            "${girl3}",
+                            '1',
+                            '1.25'
+                        ],
+                        [
+                            "eid2110",
+                            "scaleX",
+                            390835,
+                            0,
+                            "easeInOutElastic",
+                            "${girl3}",
+                            '1.25',
                             '1'
                         ],
                         [
@@ -8732,54 +8772,44 @@
                             '1'
                         ],
                         [
-                            "eid1877",
-                            "width",
-                            139000,
-                            3000,
-                            "easeOutElastic",
-                            "${peace}",
-                            '435px',
-                            '123px'
+                            "eid1584",
+                            "scaleY",
+                            77000,
+                            500,
+                            "easeInOutBounce",
+                            "${Ellipse3Copy4}",
+                            '0',
+                            '1.2'
                         ],
                         [
-                            "eid1526",
-                            "rotateZ",
-                            77500,
-                            0,
-                            "linear",
-                            "${smallpath2Copy5}",
-                            '-85deg',
-                            '-85deg'
-                        ],
-                        [
-                            "eid2069",
+                            "eid2085",
                             "top",
                             240000,
                             0,
                             "easeInOutElastic",
-                            "${MadText}",
-                            '-362px',
-                            '-362px'
+                            "${HappyText}",
+                            '-155px',
+                            '-155px'
                         ],
                         [
-                            "eid2070",
+                            "eid2086",
                             "top",
-                            325000,
+                            432665,
                             0,
                             "easeInOutElastic",
-                            "${MadText}",
-                            '-362px',
-                            '165px'
+                            "${HappyText}",
+                            '-155px',
+                            '74px'
                         ],
                         [
-                            "eid2071",
-                            "top",
-                            332127,
-                            0,
+                            "eid2199",
+                            "width",
+                            396332,
+                            667,
                             "easeInOutElastic",
-                            "${MadText}",
-                            '165px',
-                            '1148px'
+                            "${SadCircCopy}",
+                            '155px',
+                            '184px'
                         ],
                         [
                             "eid2393",
@@ -8792,34 +8822,34 @@
                             '0deg'
                         ],
                         [
-                            "eid1600",
-                            "left",
-                            32000,
+                            "eid2034",
+                            "scaleY",
+                            266000,
                             0,
-                            "linear",
-                            "${earinfo}",
-                            '1256px',
-                            '1256px'
-                        ],
-                        [
-                            "eid1601",
-                            "left",
-                            68250,
-                            750,
-                            "easeInQuad",
-                            "${earinfo}",
-                            '1088px',
-                            '0px'
-                        ],
-                        [
-                            "eid1479",
-                            "opacity",
-                            55500,
-                            3500,
-                            "easeOutExpo",
-                            "${brain}",
-                            '0',
+                            "easeInOutElastic",
+                            "${PsychAnim4Back}",
+                            '1',
                             '1'
+                        ],
+                        [
+                            "eid1926",
+                            "scaleY",
+                            125000,
+                            1000,
+                            "easeOutQuart",
+                            "${CultureIntro}",
+                            '10.13',
+                            '1'
+                        ],
+                        [
+                            "eid1927",
+                            "scaleY",
+                            126250,
+                            500,
+                            "linear",
+                            "${CultureIntro}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid1446",
@@ -8832,24 +8862,14 @@
                             '1.76'
                         ],
                         [
-                            "eid1239",
-                            "left",
-                            34000,
+                            "eid2227",
+                            "scaleX",
+                            400665,
                             1000,
-                            "easeOutElastic",
-                            "${exit_Button}",
-                            '1380px',
-                            '37px'
-                        ],
-                        [
-                            "eid1978",
-                            "left",
-                            123512,
-                            0,
-                            "linear",
-                            "${exit_Button}",
-                            '37px',
-                            '-379px'
+                            "easeInOutElastic",
+                            "${sadBox}",
+                            '0',
+                            '1'
                         ],
                         [
                             "eid2051",
@@ -8882,24 +8902,24 @@
                             '1111px'
                         ],
                         [
-                            "eid2391",
-                            "scaleY",
-                            240000,
-                            2000,
-                            "linear",
-                            "${PsychAnim1Circle4}",
-                            '4',
-                            '1'
+                            "eid1573",
+                            "left",
+                            32000,
+                            0,
+                            "easeInQuad",
+                            "${Ellipse3Copy2}",
+                            '1168px',
+                            '1168px'
                         ],
                         [
-                            "eid2392",
-                            "scaleY",
-                            242432,
-                            1568,
+                            "eid1574",
+                            "left",
+                            78500,
+                            0,
                             "linear",
-                            "${PsychAnim1Circle4}",
-                            '1',
-                            '0'
+                            "${Ellipse3Copy2}",
+                            '1168px',
+                            '900px'
                         ],
                         [
                             "eid1429",
@@ -8922,14 +8942,14 @@
                             '119px'
                         ],
                         [
-                            "eid2093",
-                            "rotateZ",
-                            433165,
-                            1000,
-                            "easeInOutElastic",
-                            "${HappyCircleGraphic}",
-                            '0deg',
-                            '360deg'
+                            "eid456",
+                            "scaleX",
+                            0,
+                            1500,
+                            "easeInQuad",
+                            "${outCirc2}",
+                            '0',
+                            '1'
                         ],
                         [
                             "eid2048",
@@ -8972,54 +8992,54 @@
                             '0'
                         ],
                         [
-                            "eid1963",
-                            "top",
+                            "eid1342",
+                            "opacity",
+                            53500,
                             0,
-                            0,
-                            "linear",
-                            "${CultAnim1Forward}",
-                            '456px',
-                            '456px'
+                            "swing",
+                            "${anim3forward}",
+                            '0',
+                            '0'
                         ],
                         [
-                            "eid1783",
-                            "top",
-                            125000,
+                            "eid1343",
+                            "opacity",
+                            55500,
                             0,
-                            "linear",
-                            "${CultAnim1Forward}",
-                            '456px',
-                            '413px'
-                        ],
-                        [
-                            "eid1784",
-                            "top",
-                            126136,
-                            0,
-                            "linear",
-                            "${CultAnim1Forward}",
-                            '413px',
-                            '413px'
-                        ],
-                        [
-                            "eid1264",
-                            "scaleY",
-                            91910,
-                            1042,
-                            "easeOutQuint",
-                            "${green}",
+                            "swing",
+                            "${anim3forward}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid1421",
-                            "width",
-                            42457,
+                            "eid1344",
+                            "opacity",
+                            65500,
+                            0,
+                            "swing",
+                            "${anim3forward}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid1614",
+                            "scaleX",
+                            94500,
+                            1500,
+                            "easeOutQuint",
+                            "${Brain2}",
+                            '0.88',
+                            '0'
+                        ],
+                        [
+                            "eid2043",
+                            "scaleX",
+                            253500,
                             0,
                             "easeInOutElastic",
-                            "${EllipseCopy3}",
-                            '24px',
-                            '24px'
+                            "${PsychAnim3Back}",
+                            '1',
+                            '1'
                         ],
                         [
                             "eid1419",
@@ -9042,64 +9062,74 @@
                             '229px'
                         ],
                         [
-                            "eid1359",
-                            "opacity",
-                            35250,
-                            750,
-                            "easeInCubic",
-                            "${Anim1IntroText}",
-                            '1',
-                            '0'
-                        ],
-                        [
-                            "eid2143",
-                            "scaleX",
-                            397665,
-                            1000,
-                            "easeInOutElastic",
-                            "${SadGraphic}",
-                            '0.09',
-                            '1'
-                        ],
-                        [
-                            "eid2337",
-                            "left",
-                            240000,
+                            "eid1428",
+                            "height",
+                            42457,
                             0,
                             "easeInOutElastic",
-                            "${yellow_bar}",
-                            '1096px',
-                            '1096px'
+                            "${Anim2path1Copy4}",
+                            '24px',
+                            '24px'
                         ],
                         [
-                            "eid2338",
+                            "eid1635",
                             "left",
-                            245332,
-                            668,
-                            "easeInOutElastic",
-                            "${yellow_bar}",
-                            '1083px',
-                            '357px'
+                            88000,
+                            1000,
+                            "easeOutQuint",
+                            "${Ellipse4}",
+                            '180px',
+                            '83px'
                         ],
                         [
-                            "eid2339",
+                            "eid1636",
                             "left",
-                            249500,
-                            1500,
-                            "easeInOutElastic",
-                            "${yellow_bar}",
-                            '357px',
-                            '1934px'
+                            94500,
+                            1094,
+                            "easeOutQuint",
+                            "${Ellipse4}",
+                            '83px',
+                            '585px'
                         ],
                         [
-                            "eid1245",
-                            "scaleY",
-                            99899,
-                            5101,
-                            "swing",
-                            "${Heart}",
-                            '1',
-                            '0.68'
+                            "eid1637",
+                            "left",
+                            95594,
+                            0,
+                            "easeOutQuint",
+                            "${Ellipse4}",
+                            '585px',
+                            '585px'
+                        ],
+                        [
+                            "eid1421",
+                            "width",
+                            42457,
+                            0,
+                            "easeInOutElastic",
+                            "${EllipseCopy3}",
+                            '24px',
+                            '24px'
+                        ],
+                        [
+                            "eid1970",
+                            "left",
+                            0,
+                            0,
+                            "easeInOutElastic",
+                            "${Anim6Text}",
+                            '140px',
+                            '140px'
+                        ],
+                        [
+                            "eid1972",
+                            "left",
+                            120000,
+                            0,
+                            "easeInOutElastic",
+                            "${Anim6Text}",
+                            '140px',
+                            '1061px'
                         ],
                         [
                             "eid1400",
@@ -9132,84 +9162,94 @@
                             'rgba(245,228,169,1.00)'
                         ],
                         [
-                            "eid466",
-                            "opacity",
-                            0,
-                            1500,
-                            "easeInQuad",
-                            "${outCirc1}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid2376",
+                            "eid1239",
                             "left",
-                            240000,
-                            2000,
-                            "linear",
-                            "${PsychAnim1Circle}",
-                            '1240px',
-                            '455px'
-                        ],
-                        [
-                            "eid2377",
-                            "left",
-                            242432,
-                            1568,
-                            "linear",
-                            "${PsychAnim1Circle}",
-                            '455px',
-                            '-226px'
-                        ],
-                        [
-                            "eid2249",
-                            "height",
-                            430665,
+                            34000,
                             1000,
-                            "easeInOutElastic",
-                            "${HappyCircCopy}",
-                            '156px',
-                            '194px'
+                            "easeOutElastic",
+                            "${exit_Button}",
+                            '1380px',
+                            '37px'
                         ],
                         [
-                            "eid1372",
-                            "scaleY",
-                            35250,
-                            750,
+                            "eid1978",
+                            "left",
+                            123512,
+                            0,
+                            "linear",
+                            "${exit_Button}",
+                            '37px',
+                            '-379px'
+                        ],
+                        [
+                            "eid1902",
+                            "top",
+                            141000,
+                            0,
+                            "easeOutElastic",
+                            "${RoundRectCopy5}",
+                            '601px',
+                            '601px'
+                        ],
+                        [
+                            "eid1903",
+                            "top",
+                            142000,
+                            1000,
+                            "easeOutElastic",
+                            "${RoundRectCopy5}",
+                            '601px',
+                            '281px'
+                        ],
+                        [
+                            "eid1550",
+                            "rotateZ",
+                            72750,
+                            0,
+                            "easeInQuad",
+                            "${smallpath2Copy10}",
+                            '33deg',
+                            '33deg'
+                        ],
+                        [
+                            "eid1444",
+                            "top",
+                            37250,
+                            0,
                             "swing",
-                            "${Anim1Circle2}",
-                            '1',
-                            '0.74'
+                            "${SoundCopy2}",
+                            '-262px',
+                            '-262px'
                         ],
                         [
-                            "eid1628",
-                            "scaleY",
-                            88000,
-                            500,
-                            "easeInCubic",
-                            "${Ellipse4}",
-                            '0',
-                            '1.2'
+                            "eid1445",
+                            "top",
+                            39750,
+                            0,
+                            "swing",
+                            "${SoundCopy2}",
+                            '-262px',
+                            '341px'
                         ],
                         [
-                            "eid1629",
-                            "scaleY",
-                            88500,
-                            250,
-                            "easeInCubic",
-                            "${Ellipse4}",
-                            '1.2',
-                            '0.88'
+                            "eid1233",
+                            "left",
+                            23000,
+                            0,
+                            "easeInBounce",
+                            "${inCirc2}",
+                            '380px',
+                            '380px'
                         ],
                         [
-                            "eid1630",
-                            "scaleY",
-                            94500,
-                            1094,
-                            "easeOutQuint",
-                            "${Ellipse4}",
-                            '0.88',
-                            '2'
+                            "eid1681",
+                            "left",
+                            31000,
+                            0,
+                            "easeInBounce",
+                            "${inCirc2}",
+                            '380px',
+                            '-1358px'
                         ],
                         [
                             "eid1349",
@@ -9252,94 +9292,84 @@
                             '1097px'
                         ],
                         [
-                            "eid1776",
-                            "top",
+                            "eid2169",
+                            "scaleY",
+                            322000,
+                            1000,
+                            "easeInOutElastic",
+                            "${MadCircleCopy2}",
+                            '1',
+                            '3'
+                        ],
+                        [
+                            "eid1813",
+                            "left",
                             125000,
                             0,
-                            "easeOutQuart",
-                            "${CultAnim2Forward}",
-                            '413px',
-                            '413px'
-                        ],
-                        [
-                            "eid1777",
-                            "top",
-                            129521,
-                            0,
-                            "easeOutQuart",
-                            "${CultAnim2Forward}",
-                            '413px',
-                            '413px'
-                        ],
-                        [
-                            "eid1849",
-                            "height",
-                            132500,
-                            3500,
                             "easeOutElastic",
-                            "${guy1}",
-                            '691px',
-                            '410px'
+                            "${dotOneCopy}",
+                            '-1337px',
+                            '-1337px'
                         ],
                         [
-                            "eid461",
-                            "scaleY",
+                            "eid1814",
+                            "left",
+                            139000,
                             0,
-                            1500,
-                            "easeInQuad",
-                            "${cultButton}",
-                            '0',
-                            '1'
+                            "easeOutElastic",
+                            "${dotOneCopy}",
+                            '-1337px',
+                            '459px'
                         ],
                         [
-                            "eid2294",
+                            "eid2456",
                             "left",
-                            240000,
+                            200000,
                             0,
-                            "easeInOutElastic",
-                            "${Anim4TextCopy2}",
-                            '1190px',
-                            '1190px'
+                            "linear",
+                            "${dotOneCopy}",
+                            '459px',
+                            '-804px'
                         ],
                         [
-                            "eid2295",
-                            "left",
-                            257250,
-                            1186,
-                            "easeInOutElastic",
-                            "${Anim4TextCopy2}",
-                            '1190px',
-                            '426px'
-                        ],
-                        [
-                            "eid2296",
-                            "left",
-                            266000,
-                            3000,
-                            "easeInOutElastic",
-                            "${Anim4TextCopy2}",
-                            '426px',
-                            '1590px'
-                        ],
-                        [
-                            "eid1441",
+                            "eid1435",
                             "left",
                             37250,
                             0,
                             "swing",
-                            "${SoundCopy}",
-                            '247px',
-                            '247px'
+                            "${Sound}",
+                            '246px',
+                            '246px'
                         ],
                         [
-                            "eid1442",
+                            "eid1436",
                             "left",
                             39750,
                             0,
                             "swing",
-                            "${SoundCopy}",
-                            '247px',
-                            '-844px'
+                            "${Sound}",
+                            '246px',
+                            '-845px'
+                        ],
+                        [
+                            "eid1530",
+                            "width",
+                            76750,
+                            750,
+                            "linear",
+                            "${smallpath2Copy6}",
+                            '19px',
+                            '82px'
+                        ],
+                        [
+                            "eid1484",
+                            "top",
+                            32000,
+                            0,
+                            "easeOutExpo",
+                            "${anim3circle2}",
+                            '10px',
+                            '10px'
                         ],
                         [
                             "eid1648",
@@ -9392,14 +9422,24 @@
                             '2'
                         ],
                         [
-                            "eid2402",
-                            "scaleX",
-                            241500,
-                            500,
-                            "easeOutQuad",
-                            "${PsychAnim1Circle6}",
-                            '0',
-                            '1'
+                            "eid1594",
+                            "top",
+                            32000,
+                            0,
+                            "easeInQuad",
+                            "${Ellipse3Copy6}",
+                            '251px',
+                            '251px'
+                        ],
+                        [
+                            "eid1595",
+                            "top",
+                            73750,
+                            0,
+                            "easeInQuad",
+                            "${Ellipse3Copy6}",
+                            '251px',
+                            '288px'
                         ],
                         [
                             "eid1293",
@@ -9412,44 +9452,34 @@
                             '1'
                         ],
                         [
-                            "eid2340",
-                            "top",
-                            240000,
-                            0,
-                            "easeInOutElastic",
-                            "${guy22}",
-                            '102px',
-                            '102px'
-                        ],
-                        [
-                            "eid2341",
-                            "top",
-                            249500,
-                            0,
-                            "easeInOutElastic",
-                            "${guy22}",
-                            '102px',
-                            '137px'
-                        ],
-                        [
-                            "eid2342",
-                            "top",
-                            253169,
-                            0,
-                            "easeInOutElastic",
-                            "${guy22}",
-                            '137px',
-                            '152px'
-                        ],
-                        [
-                            "eid1614",
-                            "scaleX",
-                            94500,
-                            1500,
-                            "easeOutQuint",
-                            "${Brain2}",
-                            '0.88',
+                            "eid2418",
+                            "scaleY",
+                            242432,
+                            1568,
+                            "linear",
+                            "${PsychAnim1Circle2}",
+                            '1',
                             '0'
+                        ],
+                        [
+                            "eid2118",
+                            "scaleY",
+                            392665,
+                            2000,
+                            "easeInOutElastic",
+                            "${Girl2}",
+                            '1',
+                            '1.25'
+                        ],
+                        [
+                            "eid2119",
+                            "scaleY",
+                            425915,
+                            0,
+                            "easeInOutElastic",
+                            "${Girl2}",
+                            '1.25',
+                            '1'
                         ],
                         [
                             "eid1840",
@@ -9482,84 +9512,94 @@
                             '125px'
                         ],
                         [
-                            "eid1488",
+                            "eid1873",
                             "scaleX",
-                            55500,
-                            1500,
+                            131000,
+                            7000,
                             "easeOutElastic",
-                            "${anim3circle2}",
+                            "${peace}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid1946",
-                            "scaleX",
-                            125000,
+                            "eid1854",
+                            "width",
+                            132500,
+                            3500,
+                            "easeOutElastic",
+                            "${guy1}",
+                            '332px',
+                            '197px'
+                        ],
+                        [
+                            "eid1827",
+                            "scaleY",
+                            141000,
                             1000,
-                            "easeOutQuart",
-                            "${CultAnim1Circle2}",
-                            '4',
+                            "easeOutElastic",
+                            "${dotOneCopy4}",
+                            '0',
                             '1'
                         ],
                         [
-                            "eid1947",
-                            "scaleX",
-                            126250,
-                            500,
-                            "linear",
-                            "${CultAnim1Circle2}",
-                            '1',
-                            '0'
+                            "eid1764",
+                            "top",
+                            125000,
+                            0,
+                            "easeOutElastic",
+                            "${CultAnim4Back}",
+                            '413px',
+                            '413px'
                         ],
                         [
-                            "eid2480",
+                            "eid1765",
                             "top",
-                            185000,
+                            145500,
                             0,
                             "linear",
-                            "${worldCopy}",
-                            '264px',
-                            '264px'
+                            "${CultAnim4Back}",
+                            '413px',
+                            '413px'
                         ],
                         [
-                            "eid2422",
-                            "top",
+                            "eid2276",
+                            "scaleY",
+                            327000,
+                            1000,
+                            "easeInOutElastic",
+                            "${AngryBox}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid1910",
+                            "left",
+                            125000,
+                            0,
+                            "easeOutElastic",
+                            "${RoundRectCopy6}",
+                            '-1074px',
+                            '-1074px'
+                        ],
+                        [
+                            "eid1911",
+                            "left",
+                            142000,
+                            1000,
+                            "easeOutElastic",
+                            "${RoundRectCopy6}",
+                            '499px',
+                            '440px'
+                        ],
+                        [
+                            "eid2466",
+                            "left",
                             200000,
                             0,
                             "linear",
-                            "${worldCopy}",
-                            '264px',
-                            '124px'
-                        ],
-                        [
-                            "eid470",
-                            "opacity",
-                            0,
-                            1500,
-                            "easeInQuad",
-                            "${psychButton}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid1593",
-                            "scaleX",
-                            74500,
-                            250,
-                            "easeInOutBounce",
-                            "${Ellipse3Copy5}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid456",
-                            "scaleX",
-                            0,
-                            1500,
-                            "easeInQuad",
-                            "${outCirc2}",
-                            '0',
-                            '1'
+                            "${RoundRectCopy6}",
+                            '440px',
+                            '-1076px'
                         ],
                         [
                             "eid1258",
@@ -9592,34 +9632,14 @@
                             '1900px'
                         ],
                         [
-                            "eid2359",
+                            "eid1315",
                             "top",
-                            240000,
+                            53500,
                             0,
-                            "easeInOutElastic",
-                            "${EllipseCopy4}",
-                            '431px',
-                            '431px'
-                        ],
-                        [
-                            "eid2360",
-                            "top",
-                            244750,
-                            582,
-                            "easeInOutElastic",
-                            "${EllipseCopy4}",
-                            '431px',
-                            '172px'
-                        ],
-                        [
-                            "eid2361",
-                            "top",
-                            268318,
-                            6182,
-                            "easeInOutElastic",
-                            "${EllipseCopy4}",
-                            '172px',
-                            '-373px'
+                            "swing",
+                            "${anim3back}",
+                            '400px',
+                            '400px'
                         ],
                         [
                             "eid1633",
@@ -9632,84 +9652,84 @@
                             '878px'
                         ],
                         [
-                            "eid2385",
-                            "scaleX",
-                            240000,
-                            2000,
-                            "linear",
-                            "${PsychAnim1Circle5}",
-                            '4',
-                            '1'
-                        ],
-                        [
-                            "eid2386",
-                            "scaleX",
-                            242432,
-                            1568,
-                            "linear",
-                            "${PsychAnim1Circle5}",
-                            '1',
-                            '0'
-                        ],
-                        [
-                            "eid1981",
+                            "eid1837",
                             "left",
                             125000,
-                            500,
-                            "easeOutBounce",
-                            "${CultexitButton}",
-                            '1133px',
-                            '37px'
-                        ],
-                        [
-                            "eid2477",
-                            "left",
-                            200000,
                             0,
-                            "linear",
-                            "${CultexitButton}",
-                            '1165px',
-                            '6843px'
+                            "easeOutQuart",
+                            "${CultAnim2Text}",
+                            '1080px',
+                            '1080px'
                         ],
                         [
-                            "eid1599",
-                            "scaleX",
-                            73750,
-                            750,
-                            "easeInOutBounce",
-                            "${Ellipse3Copy6}",
+                            "eid1838",
+                            "left",
+                            129000,
+                            500,
+                            "easeOutQuart",
+                            "${CultAnim2Text}",
+                            '1080px',
+                            '540px'
+                        ],
+                        [
+                            "eid1839",
+                            "left",
+                            131000,
+                            2000,
+                            "easeOutElastic",
+                            "${CultAnim2Text}",
+                            '540px',
+                            '1803px'
+                        ],
+                        [
+                            "eid465",
+                            "scaleY",
+                            0,
+                            1500,
+                            "easeInQuad",
+                            "${bioButton}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid1390",
+                            "eid2410",
                             "rotateZ",
-                            47158,
-                            2592,
-                            "easeOutQuart",
-                            "${Anim2path1}",
-                            '181deg',
-                            '180deg'
-                        ],
-                        [
-                            "eid1950",
-                            "scaleX",
-                            125000,
-                            1000,
-                            "easeOutQuart",
-                            "${CultAnim1Circle1}",
-                            '3',
-                            '0.94'
-                        ],
-                        [
-                            "eid1951",
-                            "scaleX",
-                            126250,
-                            500,
+                            240000,
+                            2000,
                             "linear",
-                            "${CultAnim1Circle1}",
-                            '0.94',
-                            '4'
+                            "${PsychAnim1Circle3}",
+                            '360deg',
+                            '0deg'
+                        ],
+                        [
+                            "eid1817",
+                            "scaleY",
+                            143000,
+                            1000,
+                            "easeOutElastic",
+                            "${dotOneCopy2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid1542",
+                            "left",
+                            69750,
+                            0,
+                            "easeInQuad",
+                            "${smallpath2Copy9}",
+                            '1588px',
+                            '1588px'
+                        ],
+                        [
+                            "eid1543",
+                            "left",
+                            74750,
+                            1000,
+                            "linear",
+                            "${smallpath2Copy9}",
+                            '515px',
+                            '492px'
                         ],
                         [
                             "eid1413",
@@ -9722,54 +9742,44 @@
                             '24px'
                         ],
                         [
-                            "eid2178",
-                            "scaleX",
-                            394665,
-                            600,
-                            "easeInOutElastic",
-                            "${SadCirc}",
-                            '1',
-                            '0'
-                        ],
-                        [
-                            "eid2179",
-                            "scaleX",
-                            395265,
-                            400,
-                            "easeInOutElastic",
-                            "${SadCirc}",
-                            '0',
-                            '2'
-                        ],
-                        [
-                            "eid1502",
-                            "width",
-                            81339,
-                            1000,
-                            "linear",
-                            "${smallpath2}",
-                            '19px',
-                            '553px'
-                        ],
-                        [
-                            "eid1424",
-                            "left",
-                            37500,
+                            "eid2246",
+                            "background-color",
+                            429665,
                             0,
                             "easeInOutElastic",
-                            "${Anim2path1Copy3}",
-                            '1100px',
-                            '1100px'
+                            "${HappyCircCopy}",
+                            'rgba(245,228,169,1.00)',
+                            'rgba(245,228,169,1.00)'
                         ],
                         [
-                            "eid1425",
-                            "left",
-                            44000,
-                            1000,
+                            "eid1512",
+                            "rotateZ",
+                            80500,
+                            0,
                             "linear",
-                            "${Anim2path1Copy3}",
-                            '229px',
-                            '485px'
+                            "${smallpath2Copy2}",
+                            '-60deg',
+                            '-60deg'
+                        ],
+                        [
+                            "eid1528",
+                            "left",
+                            32000,
+                            0,
+                            "linear",
+                            "${smallpath2Copy6}",
+                            '2368px',
+                            '2368px'
+                        ],
+                        [
+                            "eid1529",
+                            "left",
+                            76750,
+                            750,
+                            "linear",
+                            "${smallpath2Copy6}",
+                            '630px',
+                            '628px'
                         ],
                         [
                             "eid1270",
@@ -9802,43 +9812,23 @@
                             '113px'
                         ],
                         [
-                            "eid1720",
-                            "rotateZ",
-                            80250,
-                            14250,
-                            "easeOutQuint",
-                            "${Ellipse4}",
-                            '871deg',
-                            '720deg'
+                            "eid1521",
+                            "width",
+                            78500,
+                            1000,
+                            "linear",
+                            "${smallpath2Copy4}",
+                            '19px',
+                            '107px'
                         ],
                         [
-                            "eid1631",
-                            "rotateZ",
-                            94500,
-                            1094,
-                            "easeOutQuint",
-                            "${Ellipse4}",
-                            '720deg',
-                            '1440deg'
-                        ],
-                        [
-                            "eid1632",
-                            "rotateZ",
-                            96000,
-                            115,
-                            "easeOutQuint",
-                            "${Ellipse4}",
-                            '1440deg',
-                            '720deg'
-                        ],
-                        [
-                            "eid468",
-                            "opacity",
+                            "eid1785",
+                            "scaleX",
+                            126250,
                             0,
-                            1500,
-                            "easeInQuad",
-                            "${inCirc3}",
-                            '0',
+                            "easeOutQuart",
+                            "${CultAnim2Back}",
+                            '1',
                             '1'
                         ],
                         [
@@ -9882,22 +9872,22 @@
                             '1'
                         ],
                         [
-                            "eid1458",
-                            "left",
-                            41000,
-                            1000,
-                            "easeInOutElastic",
-                            "${Anim2Text}",
-                            '388px',
-                            '-791px'
+                            "eid1485",
+                            "scaleY",
+                            55500,
+                            1500,
+                            "easeOutElastic",
+                            "${anim3circle2}",
+                            '0',
+                            '1'
                         ],
                         [
-                            "eid457",
-                            "scaleY",
+                            "eid454",
+                            "scaleX",
                             0,
                             1500,
                             "easeInQuad",
-                            "${outCirc2}",
+                            "${inCirc3}",
                             '0',
                             '1'
                         ],
@@ -9912,34 +9902,14 @@
                             '1.25'
                         ],
                         [
-                            "eid1327",
-                            "left",
-                            33000,
-                            0,
-                            "swing",
-                            "${anim1forward}",
-                            '978px',
-                            '978px'
-                        ],
-                        [
-                            "eid1328",
-                            "left",
-                            36500,
-                            0,
-                            "swing",
-                            "${anim1forward}",
-                            '978px',
-                            '1055px'
-                        ],
-                        [
-                            "eid1329",
-                            "left",
-                            65500,
-                            0,
-                            "easeInOutSine",
-                            "${anim1forward}",
-                            '1055px',
-                            '804px'
+                            "eid1671",
+                            "opacity",
+                            32000,
+                            1000,
+                            "linear",
+                            "${IntroTransition}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid1408",
@@ -9952,104 +9922,34 @@
                             '24px'
                         ],
                         [
-                            "eid1492",
+                            "eid2161",
                             "scaleY",
-                            81339,
-                            870,
-                            "easeOutCubic",
-                            "${anim4}",
-                            '1',
-                            '1.45'
-                        ],
-                        [
-                            "eid1493",
-                            "scaleY",
-                            82209,
-                            130,
-                            "easeOutCubic",
-                            "${anim4}",
-                            '1.45',
-                            '1.12'
-                        ],
-                        [
-                            "eid2085",
-                            "top",
-                            240000,
-                            0,
+                            321000,
+                            1000,
                             "easeInOutElastic",
-                            "${HappyText}",
-                            '-155px',
-                            '-155px'
+                            "${MadCircleCopy}",
+                            '2',
+                            '2.5'
                         ],
                         [
-                            "eid2086",
-                            "top",
-                            432665,
-                            0,
-                            "easeInOutElastic",
-                            "${HappyText}",
-                            '-155px',
-                            '74px'
-                        ],
-                        [
-                            "eid1687",
-                            "top",
-                            0,
-                            0,
-                            "easeOutCubic",
-                            "${Brain2}",
-                            '-477px',
-                            '-477px'
-                        ],
-                        [
-                            "eid1603",
+                            "eid1314",
                             "top",
                             32000,
                             0,
                             "linear",
-                            "${Brain2}",
-                            '-477px',
-                            '-492px'
+                            "${anim4back}",
+                            '400px',
+                            '400px'
                         ],
                         [
-                            "eid1604",
-                            "top",
-                            82339,
-                            661,
-                            "easeOutQuint",
-                            "${Brain2}",
-                            '-81px',
-                            '5px'
-                        ],
-                        [
-                            "eid1605",
-                            "top",
-                            86597,
-                            653,
-                            "easeInCubic",
-                            "${Brain2}",
-                            '5px',
-                            '413px'
-                        ],
-                        [
-                            "eid1606",
-                            "top",
-                            87250,
-                            750,
-                            "easeInCubic",
-                            "${Brain2}",
-                            '413px',
-                            '189px'
-                        ],
-                        [
-                            "eid1607",
-                            "top",
-                            88000,
-                            1000,
-                            "easeInCubic",
-                            "${Brain2}",
-                            '189px',
-                            '121px'
+                            "eid2075",
+                            "scaleY",
+                            323000,
+                            2000,
+                            "easeInOutElastic",
+                            "${MadCircleGraphic}",
+                            '0',
+                            '1'
                         ],
                         [
                             "eid1234",
@@ -10172,34 +10072,44 @@
                             '-247px'
                         ],
                         [
-                            "eid2049",
-                            "top",
-                            249500,
-                            0,
-                            "easeInOutElastic",
-                            "${PsychAnim3Forward}",
-                            '384px',
-                            '384px'
+                            "eid1375",
+                            "scaleX",
+                            35250,
+                            750,
+                            "swing",
+                            "${Anim1Circle2}",
+                            '1',
+                            '0.74'
                         ],
                         [
-                            "eid2050",
+                            "eid2303",
                             "top",
-                            253500,
+                            240000,
                             0,
-                            "easeInOutElastic",
-                            "${PsychAnim3Forward}",
-                            '384px',
-                            '384px'
+                            "linear",
+                            "${SadMusic}",
+                            '941px',
+                            '941px'
                         ],
                         [
-                            "eid2188",
-                            "background-color",
-                            394665,
-                            0,
+                            "eid2304",
+                            "top",
+                            252250,
+                            750,
+                            "linear",
+                            "${SadMusic}",
+                            '941px',
+                            '654px'
+                        ],
+                        [
+                            "eid2305",
+                            "top",
+                            258436,
+                            1000,
                             "easeInOutElastic",
-                            "${SadCircCopy}",
-                            'rgba(92,180,229,1.00)',
-                            'rgba(92,180,229,1.00)'
+                            "${SadMusic}",
+                            '654px',
+                            '979px'
                         ],
                         [
                             "eid2203",
@@ -10222,34 +10132,54 @@
                             '2'
                         ],
                         [
-                            "eid1937",
-                            "scaleX",
-                            125000,
-                            1000,
-                            "easeOutQuart",
-                            "${CultAnim1Circle3}",
-                            '3',
+                            "eid463",
+                            "scaleY",
+                            0,
+                            1500,
+                            "easeInQuad",
+                            "${inCirc1}",
+                            '0',
                             '1'
                         ],
                         [
-                            "eid1938",
-                            "scaleX",
-                            126250,
-                            500,
-                            "linear",
-                            "${CultAnim1Circle3}",
-                            '1',
-                            '0'
+                            "eid2098",
+                            "top",
+                            240000,
+                            0,
+                            "easeInOutElastic",
+                            "${girl3}",
+                            '342px',
+                            '342px'
                         ],
                         [
-                            "eid1562",
-                            "left",
-                            79500,
-                            750,
-                            "linear",
-                            "${Ellipse3}",
-                            '935px',
-                            '939px'
+                            "eid2099",
+                            "top",
+                            274500,
+                            3128,
+                            "easeInOutElastic",
+                            "${girl3}",
+                            '342px',
+                            '245px'
+                        ],
+                        [
+                            "eid2100",
+                            "top",
+                            318000,
+                            2000,
+                            "easeInOutElastic",
+                            "${girl3}",
+                            '245px',
+                            '249px'
+                        ],
+                        [
+                            "eid2101",
+                            "top",
+                            390835,
+                            3830,
+                            "easeInOutElastic",
+                            "${girl3}",
+                            '245px',
+                            '252px'
                         ],
                         [
                             "eid1912",
@@ -10262,24 +10192,54 @@
                             '246px'
                         ],
                         [
-                            "eid1508",
-                            "top",
-                            80500,
-                            750,
+                            "eid2408",
+                            "scaleY",
+                            240000,
+                            2000,
                             "linear",
-                            "${smallpath2Copy2}",
-                            '498px',
-                            '475px'
+                            "${PsychAnim1Circle3}",
+                            '4',
+                            '1'
                         ],
                         [
-                            "eid1274",
-                            "scaleX",
-                            90638,
-                            1273,
-                            "easeOutQuint",
-                            "${yellow}",
-                            '0',
-                            '1'
+                            "eid2409",
+                            "scaleY",
+                            242432,
+                            1568,
+                            "linear",
+                            "${PsychAnim1Circle3}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid2319",
+                            "top",
+                            240000,
+                            0,
+                            "easeInOutElastic",
+                            "${HappyMusic}",
+                            '799px',
+                            '799px'
+                        ],
+                        [
+                            "eid2320",
+                            "top",
+                            247500,
+                            750,
+                            "easeInOutElastic",
+                            "${HappyMusic}",
+                            '799px',
+                            '653px'
+                        ],
+                        [
+                            "eid2321",
+                            "top",
+                            251500,
+                            750,
+                            "linear",
+                            "${HappyMusic}",
+                            '653px',
+                            '854px'
                         ],
                         [
                             "eid448",
@@ -10302,14 +10262,14 @@
                             '-720deg'
                         ],
                         [
-                            "eid1522",
-                            "top",
-                            77500,
-                            1000,
-                            "linear",
-                            "${smallpath2Copy5}",
-                            '320px',
-                            '221px'
+                            "eid1864",
+                            "scaleY",
+                            139000,
+                            3000,
+                            "easeOutElastic",
+                            "${guy2}",
+                            '1',
+                            '0.2'
                         ],
                         [
                             "eid1928",
@@ -10362,24 +10322,64 @@
                             '1'
                         ],
                         [
-                            "eid1484",
+                            "eid1341",
                             "top",
-                            32000,
+                            64500,
                             0,
-                            "easeOutExpo",
-                            "${anim3circle2}",
-                            '10px',
-                            '10px'
+                            "linear",
+                            "${anim3forward}",
+                            '400px',
+                            '400px'
                         ],
                         [
-                            "eid1292",
-                            "scaleX",
-                            88750,
-                            1000,
-                            "easeOutQuint",
-                            "${Purple}",
-                            '0',
-                            '1'
+                            "eid2213",
+                            "left",
+                            240000,
+                            0,
+                            "easeInOutElastic",
+                            "${SadCircCopy2}",
+                            '-556px',
+                            '-556px'
+                        ],
+                        [
+                            "eid2214",
+                            "left",
+                            394665,
+                            1667,
+                            "easeInOutElastic",
+                            "${SadCircCopy2}",
+                            '440px',
+                            '441px'
+                        ],
+                        [
+                            "eid2215",
+                            "left",
+                            396332,
+                            666,
+                            "easeInOutElastic",
+                            "${SadCircCopy2}",
+                            '441px',
+                            '426px'
+                        ],
+                        [
+                            "eid2216",
+                            "left",
+                            396998,
+                            667,
+                            "easeInOutElastic",
+                            "${SadCircCopy2}",
+                            '426px',
+                            '406px'
+                        ],
+                        [
+                            "eid2217",
+                            "left",
+                            412165,
+                            0,
+                            "easeInOutElastic",
+                            "${SadCircCopy2}",
+                            '406px',
+                            '687px'
                         ],
                         [
                             "eid1275",
@@ -10412,14 +10412,24 @@
                             '-87px'
                         ],
                         [
-                            "eid469",
-                            "opacity",
-                            0,
-                            1500,
-                            "easeInQuad",
-                            "${outCirc2}",
-                            '0',
+                            "eid1934",
+                            "scaleY",
+                            125000,
+                            1000,
+                            "easeOutQuart",
+                            "${CultAnim1Circle3}",
+                            '3',
                             '1'
+                        ],
+                        [
+                            "eid1935",
+                            "scaleY",
+                            126250,
+                            500,
+                            "linear",
+                            "${CultAnim1Circle3}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid1769",
@@ -10442,34 +10452,34 @@
                             '413px'
                         ],
                         [
-                            "eid1873",
+                            "eid1587",
                             "scaleX",
-                            131000,
-                            7000,
-                            "easeOutElastic",
-                            "${peace}",
+                            77000,
+                            500,
+                            "easeInOutBounce",
+                            "${Ellipse3Copy4}",
                             '0',
-                            '1'
+                            '1.2'
                         ],
                         [
-                            "eid442",
-                            "rotateZ",
+                            "eid1519",
+                            "left",
+                            32000,
                             0,
-                            1500,
-                            "easeInQuad",
-                            "${outCirc1}",
-                            '0deg',
-                            '360deg'
+                            "linear",
+                            "${smallpath2Copy4}",
+                            '2369px',
+                            '2369px'
                         ],
                         [
-                            "eid485",
-                            "rotateZ",
-                            1704,
-                            28296,
+                            "eid1520",
+                            "left",
+                            78500,
+                            1000,
                             "linear",
-                            "${outCirc1}",
-                            '360deg',
-                            '-1080deg'
+                            "${smallpath2Copy4}",
+                            '902px',
+                            '884px'
                         ],
                         [
                             "eid2087",
@@ -10502,34 +10512,34 @@
                             '2420px'
                         ],
                         [
-                            "eid1621",
-                            "top",
-                            88000,
-                            593,
+                            "eid2152",
+                            "left",
+                            240000,
+                            0,
                             "easeInOutElastic",
-                            "${Ellipse4}",
-                            '696px',
-                            '197px'
+                            "${MadCircle}",
+                            '645px',
+                            '645px'
                         ],
                         [
-                            "eid1722",
-                            "top",
-                            88593,
-                            407,
-                            "easeOutQuint",
-                            "${Ellipse4}",
-                            '197px',
-                            '66px'
+                            "eid2153",
+                            "left",
+                            320000,
+                            0,
+                            "easeInOutElastic",
+                            "${MadCircle}",
+                            '645px',
+                            '639px'
                         ],
                         [
-                            "eid1622",
-                            "top",
-                            94500,
-                            1094,
-                            "easeOutQuint",
-                            "${Ellipse4}",
-                            '66px',
-                            '-1403px'
+                            "eid2154",
+                            "left",
+                            332127,
+                            0,
+                            "easeInOutElastic",
+                            "${MadCircle}",
+                            '639px',
+                            '743px'
                         ],
                         [
                             "eid471",
@@ -10552,134 +10562,164 @@
                             '689px'
                         ],
                         [
-                            "eid2201",
-                            "height",
-                            396332,
-                            666,
+                            "eid2083",
+                            "left",
+                            398915,
+                            750,
                             "easeInOutElastic",
-                            "${SadCircCopy2}",
-                            '156px',
-                            '185px'
+                            "${SadHeader}",
+                            '1179px',
+                            '703px'
                         ],
                         [
-                            "eid2202",
-                            "height",
-                            396998,
-                            667,
+                            "eid2084",
+                            "left",
+                            412165,
+                            0,
                             "easeInOutElastic",
-                            "${SadCircCopy2}",
-                            '185px',
-                            '225px'
+                            "${SadHeader}",
+                            '703px',
+                            '1137px'
                         ],
                         [
-                            "eid1474",
-                            "left",
-                            32000,
-                            0,
-                            "easeOutElastic",
-                            "${ybomText}",
-                            '-437px',
-                            '-437px'
-                        ],
-                        [
-                            "eid1475",
-                            "left",
-                            55500,
-                            1500,
-                            "easeInElastic",
-                            "${ybomText}",
-                            '-437px',
-                            '37px'
-                        ],
-                        [
-                            "eid1785",
-                            "scaleX",
-                            126250,
-                            0,
-                            "easeOutQuart",
-                            "${CultAnim2Back}",
-                            '1',
-                            '1'
-                        ],
-                        [
-                            "eid454",
-                            "scaleX",
-                            0,
-                            1500,
-                            "easeInQuad",
-                            "${inCirc3}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid1889",
-                            "left",
+                            "eid1816",
+                            "top",
                             125000,
                             0,
                             "easeOutElastic",
-                            "${RoundRectCopy2}",
-                            '-273px',
-                            '-273px'
+                            "${dotOneCopy2}",
+                            '261px',
+                            '261px'
                         ],
                         [
-                            "eid1890",
-                            "left",
-                            139750,
-                            0,
-                            "easeOutElastic",
-                            "${RoundRectCopy2}",
-                            '-273px',
-                            '499px'
-                        ],
-                        [
-                            "eid1891",
-                            "left",
-                            141000,
-                            1000,
-                            "easeOutElastic",
-                            "${RoundRectCopy2}",
-                            '499px',
-                            '431px'
-                        ],
-                        [
-                            "eid2465",
-                            "left",
+                            "eid2455",
+                            "top",
                             200000,
                             0,
                             "linear",
-                            "${RoundRectCopy2}",
-                            '431px',
-                            '-1085px'
+                            "${dotOneCopy2}",
+                            '261px',
+                            '233px'
                         ],
                         [
-                            "eid1251",
-                            "top",
-                            104000,
+                            "eid2251",
+                            "left",
+                            240000,
                             0,
-                            "easeInOutBounce",
-                            "${pulse2}",
-                            '0px',
-                            '0px'
+                            "easeInOutElastic",
+                            "${HappyCircCopy}",
+                            '-556px',
+                            '-556px'
                         ],
                         [
-                            "eid1314",
-                            "top",
-                            32000,
+                            "eid2252",
+                            "left",
+                            429665,
+                            1000,
+                            "easeInOutElastic",
+                            "${HappyCircCopy}",
+                            '249px',
+                            '244px'
+                        ],
+                        [
+                            "eid2253",
+                            "left",
+                            430665,
+                            1000,
+                            "easeInOutElastic",
+                            "${HappyCircCopy}",
+                            '244px',
+                            '231px'
+                        ],
+                        [
+                            "eid2254",
+                            "left",
+                            435000,
                             0,
-                            "linear",
-                            "${anim4back}",
-                            '400px',
-                            '400px'
+                            "easeInOutElastic",
+                            "${HappyCircCopy}",
+                            '231px',
+                            '-476px'
                         ],
                         [
-                            "eid1375",
+                            "eid1861",
+                            "top",
+                            125000,
+                            0,
+                            "easeOutElastic",
+                            "${guy2}",
+                            '321px',
+                            '321px'
+                        ],
+                        [
+                            "eid1862",
+                            "top",
+                            128000,
+                            0,
+                            "easeOutElastic",
+                            "${guy2}",
+                            '321px',
+                            '321px'
+                        ],
+                        [
+                            "eid1863",
+                            "top",
+                            139000,
+                            3000,
+                            "easeOutElastic",
+                            "${guy2}",
+                            '321px',
+                            '413px'
+                        ],
+                        [
+                            "eid1569",
                             "scaleX",
-                            35250,
-                            750,
+                            72750,
+                            346,
+                            "easeInOutElastic",
+                            "${Ellipse3Copy}",
+                            '0',
+                            '1.2'
+                        ],
+                        [
+                            "eid1443",
+                            "scaleX",
+                            39750,
+                            2250,
                             "swing",
-                            "${Anim1Circle2}",
-                            '1',
-                            '0.74'
+                            "${SoundCopy}",
+                            '0',
+                            '1.76'
+                        ],
+                        [
+                            "eid1532",
+                            "left",
+                            69750,
+                            0,
+                            "easeInQuad",
+                            "${smallpath2Copy7}",
+                            '1621px',
+                            '1621px'
+                        ],
+                        [
+                            "eid1533",
+                            "left",
+                            75750,
+                            1000,
+                            "linear",
+                            "${smallpath2Copy7}",
+                            '548px',
+                            '544px'
+                        ],
+                        [
+                            "eid2297",
+                            "top",
+                            240000,
+                            0,
+                            "easeInOutElastic",
+                            "${Anim4TextCopy2}",
+                            '42px',
+                            '42px'
                         ],
                         [
                             "eid1625",
@@ -10742,114 +10782,84 @@
                             '-46px'
                         ],
                         [
-                            "eid1361",
+                            "eid1581",
                             "scaleX",
-                            33000,
-                            646,
-                            "easeOutBounce",
-                            "${Anim1Circle4}",
+                            75750,
+                            250,
+                            "easeInOutBounce",
+                            "${Ellipse3Copy3}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid1362",
-                            "scaleX",
-                            35250,
-                            750,
-                            "easeOutBounce",
-                            "${Anim1Circle4}",
+                            "eid2382",
+                            "scaleY",
+                            240000,
+                            2000,
+                            "linear",
+                            "${PsychAnim1Circle5}",
+                            '4',
+                            '1'
+                        ],
+                        [
+                            "eid2383",
+                            "scaleY",
+                            242432,
+                            1568,
+                            "linear",
+                            "${PsychAnim1Circle5}",
                             '1',
-                            '0.33'
+                            '0'
                         ],
                         [
-                            "eid1749",
-                            "left",
-                            125000,
-                            0,
-                            "linear",
-                            "${Anim5Text}",
-                            '1098px',
-                            '1098px'
-                        ],
-                        [
-                            "eid1750",
-                            "left",
-                            145750,
-                            1750,
-                            "easeOutCubic",
-                            "${Anim5Text}",
-                            '1098px',
-                            '442px'
-                        ],
-                        [
-                            "eid2471",
-                            "left",
-                            200000,
-                            0,
-                            "linear",
-                            "${Anim5Text}",
-                            '442px',
-                            '-1082px'
-                        ],
-                        [
-                            "eid1297",
-                            "left",
-                            32000,
-                            0,
-                            "linear",
-                            "${Anim4Text}",
-                            '1487px',
-                            '1487px'
-                        ],
-                        [
-                            "eid1298",
-                            "left",
-                            69000,
-                            1000,
-                            "easeInOutElastic",
-                            "${Anim4Text}",
-                            '1178px',
-                            '301px'
-                        ],
-                        [
-                            "eid1299",
-                            "left",
-                            80250,
-                            750,
-                            "easeInOutElastic",
-                            "${Anim4Text}",
-                            '301px',
-                            '-868px'
-                        ],
-                        [
-                            "eid2277",
-                            "left",
+                            "eid2162",
+                            "top",
                             240000,
                             0,
                             "easeInOutElastic",
-                            "${AngryBox}",
-                            '-385px',
-                            '-385px'
+                            "${MadCircleCopy}",
+                            '881px',
+                            '881px'
                         ],
                         [
-                            "eid2278",
-                            "left",
-                            327000,
-                            1000,
+                            "eid2163",
+                            "top",
+                            321000,
+                            0,
                             "easeInOutElastic",
-                            "${AngryBox}",
-                            '586px',
-                            '120px'
+                            "${MadCircleCopy}",
+                            '881px',
+                            '270px'
                         ],
                         [
-                            "eid2279",
-                            "left",
+                            "eid2164",
+                            "top",
                             332127,
                             0,
                             "easeInOutElastic",
-                            "${AngryBox}",
-                            '120px',
-                            '327px'
+                            "${MadCircleCopy}",
+                            '270px',
+                            '1080px'
+                        ],
+                        [
+                            "eid1333",
+                            "left",
+                            38000,
+                            0,
+                            "swing",
+                            "${anim2forward}",
+                            '966px',
+                            '966px'
+                        ],
+                        [
+                            "eid1334",
+                            "left",
+                            42698,
+                            0,
+                            "swing",
+                            "${anim2forward}",
+                            '966px',
+                            '1067px'
                         ],
                         [
                             "eid1367",
@@ -10882,14 +10892,24 @@
                             '413px'
                         ],
                         [
-                            "eid1347",
-                            "top",
-                            36000,
-                            500,
-                            "swing",
-                            "${Anim1}",
-                            '0px',
-                            '-12px'
+                            "eid1664",
+                            "scaleX",
+                            83398,
+                            1602,
+                            "easeOutQuint",
+                            "${_4outCircle}",
+                            '0',
+                            '1.5'
+                        ],
+                        [
+                            "eid1713",
+                            "scaleX",
+                            87945,
+                            648,
+                            "linear",
+                            "${_4outCircle}",
+                            '1.5',
+                            '0.98'
                         ],
                         [
                             "eid1232",
@@ -10932,24 +10952,14 @@
                             '-242px'
                         ],
                         [
-                            "eid1816",
-                            "top",
-                            125000,
-                            0,
-                            "easeOutElastic",
-                            "${dotOneCopy2}",
-                            '261px',
-                            '261px'
-                        ],
-                        [
-                            "eid2455",
-                            "top",
-                            200000,
-                            0,
-                            "linear",
-                            "${dotOneCopy2}",
-                            '261px',
-                            '233px'
+                            "eid1468",
+                            "scaleY",
+                            66000,
+                            3000,
+                            "easeInQuad",
+                            "${Anim3}",
+                            '1',
+                            '4'
                         ],
                         [
                             "eid1662",
@@ -11012,114 +11022,114 @@
                             '36px'
                         ],
                         [
-                            "eid1569",
-                            "scaleX",
-                            72750,
-                            346,
-                            "easeInOutElastic",
-                            "${Ellipse3Copy}",
-                            '0',
-                            '1.2'
-                        ],
-                        [
-                            "eid2327",
-                            "left",
-                            240000,
-                            0,
-                            "easeInOutElastic",
-                            "${guy32}",
-                            '1508px',
-                            '1508px'
-                        ],
-                        [
-                            "eid2328",
-                            "left",
-                            253750,
-                            0,
-                            "easeInOutElastic",
-                            "${guy32}",
-                            '1508px',
-                            '135px'
-                        ],
-                        [
-                            "eid2329",
-                            "left",
-                            266000,
-                            8500,
-                            "easeInOutElastic",
-                            "${guy32}",
-                            '135px',
-                            '2441px'
-                        ],
-                        [
-                            "eid1443",
-                            "scaleX",
-                            39750,
-                            2250,
-                            "swing",
-                            "${SoundCopy}",
-                            '0',
-                            '1.76'
-                        ],
-                        [
-                            "eid1267",
+                            "eid1672",
                             "left",
                             32000,
-                            0,
-                            "easeOutQuint",
-                            "${green}",
-                            '-2052px',
-                            '-2052px'
-                        ],
-                        [
-                            "eid1268",
-                            "left",
-                            88750,
-                            0,
-                            "easeOutQuint",
-                            "${green}",
-                            '-2052px',
-                            '22px'
-                        ],
-                        [
-                            "eid1269",
-                            "left",
-                            94250,
-                            0,
-                            "easeOutQuint",
-                            "${green}",
-                            '22px',
-                            '1642px'
-                        ],
-                        [
-                            "eid1534",
-                            "width",
-                            75750,
                             1000,
                             "linear",
-                            "${smallpath2Copy7}",
-                            '19px',
-                            '107px'
+                            "${IntroTransition}",
+                            '-414px',
+                            '-307px'
                         ],
                         [
-                            "eid2419",
+                            "eid1673",
+                            "left",
+                            33000,
+                            1000,
+                            "easeInBounce",
+                            "${IntroTransition}",
+                            '-307px',
+                            '-554px'
+                        ],
+                        [
+                            "eid1948",
+                            "left",
+                            125000,
+                            1000,
+                            "easeOutQuart",
+                            "${CultAnim1Circle2}",
+                            '2194px',
+                            '287px'
+                        ],
+                        [
+                            "eid1949",
+                            "left",
+                            126821,
+                            0,
+                            "linear",
+                            "${CultAnim1Circle2}",
+                            '287px',
+                            '820px'
+                        ],
+                        [
+                            "eid2092",
+                            "scaleY",
+                            432665,
+                            1000,
+                            "easeInOutElastic",
+                            "${HappyCircleGraphic}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid2176",
+                            "scaleY",
+                            394665,
+                            600,
+                            "easeInOutElastic",
+                            "${SadCirc}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid2177",
+                            "scaleY",
+                            395265,
+                            400,
+                            "easeInOutElastic",
+                            "${SadCirc}",
+                            '0',
+                            '2'
+                        ],
+                        [
+                            "eid2399",
+                            "scaleY",
+                            241500,
+                            500,
+                            "easeOutQuad",
+                            "${PsychAnim1Circle6}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid2173",
                             "top",
                             240000,
-                            2000,
-                            "linear",
-                            "${PsychAnim1Circle2}",
-                            '74px',
-                            '163px'
+                            0,
+                            "easeInOutElastic",
+                            "${SadCirc}",
+                            '24px',
+                            '24px'
                         ],
                         [
-                            "eid2420",
+                            "eid2174",
                             "top",
-                            242432,
-                            1568,
-                            "linear",
-                            "${PsychAnim1Circle2}",
-                            '163px',
-                            '-244px'
+                            394665,
+                            0,
+                            "easeInOutElastic",
+                            "${SadCirc}",
+                            '24px',
+                            '273px'
+                        ],
+                        [
+                            "eid2175",
+                            "top",
+                            412165,
+                            0,
+                            "easeInOutElastic",
+                            "${SadCirc}",
+                            '273px',
+                            '1060px'
                         ],
                         [
                             "eid2006",
@@ -11172,34 +11182,24 @@
                             '1137px'
                         ],
                         [
-                            "eid1311",
+                            "eid1557",
                             "left",
-                            32000,
+                            69750,
                             0,
-                            "linear",
-                            "${anim4back}",
-                            '-111px',
-                            '-111px'
+                            "easeInQuad",
+                            "${bigpath}",
+                            '1132px',
+                            '1132px'
                         ],
                         [
-                            "eid1312",
+                            "eid1558",
                             "left",
-                            89000,
+                            70000,
                             0,
-                            "linear",
-                            "${anim4back}",
-                            '-111px',
-                            '27px'
-                        ],
-                        [
-                            "eid1313",
-                            "left",
-                            94344,
-                            0,
-                            "linear",
-                            "${anim4back}",
-                            '27px',
-                            '-358px'
+                            "easeInQuad",
+                            "${bigpath}",
+                            '1132px',
+                            '0px'
                         ],
                         [
                             "eid2124",
@@ -11262,34 +11262,14 @@
                             '244px'
                         ],
                         [
-                            "eid1868",
-                            "top",
-                            125000,
+                            "eid1257",
+                            "opacity",
+                            88750,
                             0,
-                            "easeOutElastic",
-                            "${peace}",
-                            '-245px',
-                            '-245px'
-                        ],
-                        [
-                            "eid1869",
-                            "top",
-                            131000,
-                            0,
-                            "easeOutElastic",
-                            "${peace}",
-                            '-245px',
-                            '233px'
-                        ],
-                        [
-                            "eid1870",
-                            "top",
-                            139000,
-                            3000,
-                            "easeOutElastic",
-                            "${peace}",
-                            '233px',
-                            '549px'
+                            "easeOutQuint",
+                            "${Violet}",
+                            '1',
+                            '1'
                         ],
                         [
                             "eid1284",
@@ -11302,24 +11282,104 @@
                             '1'
                         ],
                         [
-                            "eid2335",
+                            "eid2419",
+                            "top",
+                            240000,
+                            2000,
+                            "linear",
+                            "${PsychAnim1Circle2}",
+                            '74px',
+                            '163px'
+                        ],
+                        [
+                            "eid2420",
+                            "top",
+                            242432,
+                            1568,
+                            "linear",
+                            "${PsychAnim1Circle2}",
+                            '163px',
+                            '-244px'
+                        ],
+                        [
+                            "eid1267",
+                            "left",
+                            32000,
+                            0,
+                            "easeOutQuint",
+                            "${green}",
+                            '-2052px',
+                            '-2052px'
+                        ],
+                        [
+                            "eid1268",
+                            "left",
+                            88750,
+                            0,
+                            "easeOutQuint",
+                            "${green}",
+                            '-2052px',
+                            '22px'
+                        ],
+                        [
+                            "eid1269",
+                            "left",
+                            94250,
+                            0,
+                            "easeOutQuint",
+                            "${green}",
+                            '22px',
+                            '1642px'
+                        ],
+                        [
+                            "eid2032",
+                            "scaleX",
+                            266000,
+                            0,
+                            "easeInOutElastic",
+                            "${PsychAnim4Back}",
+                            '1',
+                            '1'
+                        ],
+                        [
+                            "eid1881",
+                            "height",
+                            143000,
+                            1000,
+                            "easeOutElastic",
+                            "${RoundRectCopy}",
+                            '33px',
+                            '435px'
+                        ],
+                        [
+                            "eid1524",
+                            "left",
+                            32000,
+                            0,
+                            "linear",
+                            "${smallpath2Copy5}",
+                            '2366px',
+                            '2366px'
+                        ],
+                        [
+                            "eid1525",
+                            "left",
+                            77500,
+                            1000,
+                            "linear",
+                            "${smallpath2Copy5}",
+                            '687px',
+                            '794px'
+                        ],
+                        [
+                            "eid2028",
                             "top",
                             240000,
                             0,
                             "easeInOutElastic",
-                            "${yellow_bar}",
-                            '337px',
-                            '337px'
-                        ],
-                        [
-                            "eid2336",
-                            "top",
-                            245332,
-                            0,
-                            "easeInOutElastic",
-                            "${yellow_bar}",
-                            '337px',
-                            '31px'
+                            "${PsychAnim5Back}",
+                            '370px',
+                            '370px'
                         ],
                         [
                             "eid2346",
@@ -11362,84 +11422,34 @@
                             '-1047px'
                         ],
                         [
-                            "eid2028",
-                            "top",
-                            240000,
-                            0,
-                            "easeInOutElastic",
-                            "${PsychAnim5Back}",
-                            '370px',
-                            '370px'
-                        ],
-                        [
-                            "eid1881",
-                            "height",
-                            143000,
-                            1000,
-                            "easeOutElastic",
-                            "${RoundRectCopy}",
-                            '33px',
-                            '435px'
-                        ],
-                        [
-                            "eid1524",
+                            "eid1297",
                             "left",
                             32000,
                             0,
                             "linear",
-                            "${smallpath2Copy5}",
-                            '2366px',
-                            '2366px'
+                            "${Anim4Text}",
+                            '1487px',
+                            '1487px'
                         ],
                         [
-                            "eid1525",
+                            "eid1298",
                             "left",
-                            77500,
+                            69000,
                             1000,
-                            "linear",
-                            "${smallpath2Copy5}",
-                            '687px',
-                            '794px'
-                        ],
-                        [
-                            "eid2032",
-                            "scaleX",
-                            266000,
-                            0,
                             "easeInOutElastic",
-                            "${PsychAnim4Back}",
-                            '1',
-                            '1'
+                            "${Anim4Text}",
+                            '1178px',
+                            '301px'
                         ],
                         [
-                            "eid1257",
-                            "opacity",
-                            88750,
-                            0,
-                            "easeOutQuint",
-                            "${Violet}",
-                            '1',
-                            '1'
-                        ],
-                        [
-                            "eid1557",
+                            "eid1299",
                             "left",
-                            69750,
-                            0,
-                            "easeInQuad",
-                            "${bigpath}",
-                            '1132px',
-                            '1132px'
-                        ],
-                        [
-                            "eid1558",
-                            "left",
-                            70000,
-                            0,
-                            "easeInQuad",
-                            "${bigpath}",
-                            '1132px',
-                            '0px'
+                            80250,
+                            750,
+                            "easeInOutElastic",
+                            "${Anim4Text}",
+                            '301px',
+                            '-868px'
                         ],
                         [
                             "eid2026",
@@ -11462,24 +11472,24 @@
                             '22px'
                         ],
                         [
-                            "eid2176",
-                            "scaleY",
-                            394665,
-                            600,
+                            "eid2335",
+                            "top",
+                            240000,
+                            0,
                             "easeInOutElastic",
-                            "${SadCirc}",
-                            '1',
-                            '0'
+                            "${yellow_bar}",
+                            '337px',
+                            '337px'
                         ],
                         [
-                            "eid2177",
-                            "scaleY",
-                            395265,
-                            400,
+                            "eid2336",
+                            "top",
+                            245332,
+                            0,
                             "easeInOutElastic",
-                            "${SadCirc}",
-                            '0',
-                            '2'
+                            "${yellow_bar}",
+                            '337px',
+                            '31px'
                         ],
                         [
                             "eid2372",
@@ -11542,78 +11552,118 @@
                             '0'
                         ],
                         [
-                            "eid1664",
-                            "scaleX",
-                            83398,
-                            1602,
-                            "easeOutQuint",
-                            "${_4outCircle}",
-                            '0',
-                            '1.5'
+                            "eid1347",
+                            "top",
+                            36000,
+                            500,
+                            "swing",
+                            "${Anim1}",
+                            '0px',
+                            '-12px'
                         ],
                         [
-                            "eid1713",
-                            "scaleX",
-                            87945,
-                            648,
+                            "eid2277",
+                            "left",
+                            240000,
+                            0,
+                            "easeInOutElastic",
+                            "${AngryBox}",
+                            '-385px',
+                            '-385px'
+                        ],
+                        [
+                            "eid2278",
+                            "left",
+                            327000,
+                            1000,
+                            "easeInOutElastic",
+                            "${AngryBox}",
+                            '586px',
+                            '120px'
+                        ],
+                        [
+                            "eid2279",
+                            "left",
+                            332127,
+                            0,
+                            "easeInOutElastic",
+                            "${AngryBox}",
+                            '120px',
+                            '327px'
+                        ],
+                        [
+                            "eid1311",
+                            "left",
+                            32000,
+                            0,
                             "linear",
-                            "${_4outCircle}",
-                            '1.5',
-                            '0.98'
+                            "${anim4back}",
+                            '-111px',
+                            '-111px'
                         ],
                         [
-                            "eid1333",
+                            "eid1312",
                             "left",
-                            38000,
+                            89000,
                             0,
-                            "swing",
-                            "${anim2forward}",
-                            '966px',
-                            '966px'
+                            "linear",
+                            "${anim4back}",
+                            '-111px',
+                            '27px'
                         ],
                         [
-                            "eid1334",
+                            "eid1313",
                             "left",
-                            42698,
+                            94344,
                             0,
-                            "swing",
-                            "${anim2forward}",
-                            '966px',
-                            '1067px'
+                            "linear",
+                            "${anim4back}",
+                            '27px',
+                            '-358px'
                         ],
                         [
-                            "eid2162",
+                            "eid2184",
                             "top",
                             240000,
                             0,
                             "easeInOutElastic",
-                            "${MadCircleCopy}",
-                            '881px',
-                            '881px'
+                            "${SadCircCopy}",
+                            '24px',
+                            '24px'
                         ],
                         [
-                            "eid2163",
+                            "eid2185",
                             "top",
-                            321000,
+                            394665,
                             0,
                             "easeInOutElastic",
-                            "${MadCircleCopy}",
-                            '881px',
-                            '270px'
+                            "${SadCircCopy}",
+                            '24px',
+                            '273px'
                         ],
                         [
-                            "eid2164",
+                            "eid2186",
                             "top",
-                            332127,
+                            396332,
+                            667,
+                            "easeInOutElastic",
+                            "${SadCircCopy}",
+                            '273px',
+                            '257px'
+                        ],
+                        [
+                            "eid2187",
+                            "top",
+                            412165,
                             0,
                             "easeInOutElastic",
-                            "${MadCircleCopy}",
-                            '270px',
-                            '1080px'
+                            "${SadCircCopy}",
+                            '257px',
+                            '1044px'
                         ],
                         [
-                            "eid2382",
-                            "scaleY",
+                            "eid2385",
+                            "scaleX",
                             240000,
                             2000,
                             "linear",
@@ -11622,8 +11672,8 @@
                             '1'
                         ],
                         [
-                            "eid2383",
-                            "scaleY",
+                            "eid2386",
+                            "scaleX",
                             242432,
                             1568,
                             "linear",
@@ -11632,44 +11682,34 @@
                             '0'
                         ],
                         [
-                            "eid1581",
-                            "scaleX",
-                            75750,
-                            250,
-                            "easeInOutBounce",
-                            "${Ellipse3Copy3}",
-                            '0',
-                            '1'
+                            "eid1944",
+                            "rotateZ",
+                            125000,
+                            1000,
+                            "easeOutQuart",
+                            "${CultAnim1Circle2}",
+                            '0deg',
+                            '720deg'
                         ],
                         [
-                            "eid2297",
-                            "top",
-                            240000,
-                            0,
-                            "easeInOutElastic",
-                            "${Anim4TextCopy2}",
-                            '42px',
-                            '42px'
+                            "eid1945",
+                            "rotateZ",
+                            126250,
+                            500,
+                            "linear",
+                            "${CultAnim1Circle2}",
+                            '720deg',
+                            '360deg'
                         ],
                         [
-                            "eid1532",
-                            "left",
-                            69750,
-                            0,
-                            "easeInQuad",
-                            "${smallpath2Copy7}",
-                            '1621px',
-                            '1621px'
-                        ],
-                        [
-                            "eid1533",
-                            "left",
+                            "eid1534",
+                            "width",
                             75750,
                             1000,
                             "linear",
                             "${smallpath2Copy7}",
-                            '548px',
-                            '544px'
+                            '19px',
+                            '107px'
                         ],
                         [
                             "eid1893",
@@ -11702,34 +11742,14 @@
                             '1'
                         ],
                         [
-                            "eid1861",
-                            "top",
-                            125000,
+                            "eid2183",
+                            "background-color",
+                            394665,
                             0,
-                            "easeOutElastic",
-                            "${guy2}",
-                            '321px',
-                            '321px'
-                        ],
-                        [
-                            "eid1862",
-                            "top",
-                            128000,
-                            0,
-                            "easeOutElastic",
-                            "${guy2}",
-                            '321px',
-                            '321px'
-                        ],
-                        [
-                            "eid1863",
-                            "top",
-                            139000,
-                            3000,
-                            "easeOutElastic",
-                            "${guy2}",
-                            '321px',
-                            '413px'
+                            "easeInOutElastic",
+                            "${SadCirc}",
+                            'rgba(92,180,229,1.00)',
+                            'rgba(92,180,229,1.00)'
                         ],
                         [
                             "eid2004",
@@ -11762,24 +11782,24 @@
                             '507px'
                         ],
                         [
-                            "eid2083",
-                            "left",
-                            398915,
-                            750,
+                            "eid2201",
+                            "height",
+                            396332,
+                            666,
                             "easeInOutElastic",
-                            "${SadHeader}",
-                            '1179px',
-                            '703px'
+                            "${SadCircCopy2}",
+                            '156px',
+                            '185px'
                         ],
                         [
-                            "eid2084",
-                            "left",
-                            412165,
-                            0,
+                            "eid2202",
+                            "height",
+                            396998,
+                            667,
                             "easeInOutElastic",
-                            "${SadHeader}",
-                            '703px',
-                            '1137px'
+                            "${SadCircCopy2}",
+                            '185px',
+                            '225px'
                         ],
                         [
                             "eid1513",
@@ -11792,174 +11812,144 @@
                             '384px'
                         ],
                         [
-                            "eid1519",
-                            "left",
-                            32000,
+                            "eid442",
+                            "rotateZ",
                             0,
-                            "linear",
-                            "${smallpath2Copy4}",
-                            '2369px',
-                            '2369px'
+                            1500,
+                            "easeInQuad",
+                            "${outCirc1}",
+                            '0deg',
+                            '360deg'
                         ],
                         [
-                            "eid1520",
-                            "left",
-                            78500,
-                            1000,
+                            "eid485",
+                            "rotateZ",
+                            1704,
+                            28296,
                             "linear",
-                            "${smallpath2Copy4}",
-                            '902px',
-                            '884px'
+                            "${outCirc1}",
+                            '360deg',
+                            '-1080deg'
                         ],
                         [
-                            "eid1587",
+                            "eid1556",
+                            "top",
+                            72380,
+                            0,
+                            "easeInOutElastic",
+                            "${bigpath}",
+                            '338px',
+                            '338px'
+                        ],
+                        [
+                            "eid1575",
                             "scaleX",
-                            77000,
+                            78500,
                             500,
-                            "easeInOutBounce",
-                            "${Ellipse3Copy4}",
+                            "linear",
+                            "${Ellipse3Copy2}",
                             '0',
-                            '1.2'
+                            '2.93'
                         ],
                         [
-                            "eid1934",
-                            "scaleY",
-                            125000,
+                            "eid1907",
+                            "height",
+                            142000,
                             1000,
-                            "easeOutQuart",
-                            "${CultAnim1Circle3}",
-                            '3',
-                            '1'
-                        ],
-                        [
-                            "eid1935",
-                            "scaleY",
-                            126250,
-                            500,
-                            "linear",
-                            "${CultAnim1Circle3}",
-                            '1',
-                            '0'
-                        ],
-                        [
-                            "eid2213",
-                            "left",
-                            240000,
-                            0,
-                            "easeInOutElastic",
-                            "${SadCircCopy2}",
-                            '-556px',
-                            '-556px'
-                        ],
-                        [
-                            "eid2214",
-                            "left",
-                            394665,
-                            1667,
-                            "easeInOutElastic",
-                            "${SadCircCopy2}",
-                            '440px',
-                            '441px'
-                        ],
-                        [
-                            "eid2215",
-                            "left",
-                            396332,
-                            666,
-                            "easeInOutElastic",
-                            "${SadCircCopy2}",
-                            '441px',
-                            '426px'
-                        ],
-                        [
-                            "eid2216",
-                            "left",
-                            396998,
-                            667,
-                            "easeInOutElastic",
-                            "${SadCircCopy2}",
-                            '426px',
-                            '406px'
-                        ],
-                        [
-                            "eid2217",
-                            "left",
-                            412165,
-                            0,
-                            "easeInOutElastic",
-                            "${SadCircCopy2}",
-                            '406px',
-                            '687px'
-                        ],
-                        [
-                            "eid1341",
-                            "top",
-                            64500,
-                            0,
-                            "linear",
-                            "${anim3forward}",
-                            '400px',
-                            '400px'
-                        ],
-                        [
-                            "eid1864",
-                            "scaleY",
-                            139000,
-                            3000,
                             "easeOutElastic",
-                            "${guy2}",
-                            '1',
-                            '0.2'
+                            "${RoundRectCopy5}",
+                            '33px',
+                            '246px'
                         ],
                         [
-                            "eid2319",
-                            "top",
-                            240000,
+                            "eid2488",
+                            "left",
                             0,
-                            "easeInOutElastic",
-                            "${HappyMusic}",
-                            '799px',
-                            '799px'
+                            0,
+                            "easeOutBounce",
+                            "${PsychAnim1Circle3}",
+                            '1694px',
+                            '1694px'
                         ],
                         [
-                            "eid2320",
-                            "top",
-                            247500,
-                            750,
-                            "easeInOutElastic",
-                            "${HappyMusic}",
-                            '799px',
-                            '653px'
-                        ],
-                        [
-                            "eid2321",
-                            "top",
-                            251500,
-                            750,
-                            "linear",
-                            "${HappyMusic}",
-                            '653px',
-                            '854px'
-                        ],
-                        [
-                            "eid2408",
-                            "scaleY",
+                            "eid2413",
+                            "left",
                             240000,
                             2000,
                             "linear",
                             "${PsychAnim1Circle3}",
-                            '4',
-                            '1'
+                            '1199px',
+                            '406px'
                         ],
                         [
-                            "eid2409",
-                            "scaleY",
+                            "eid2414",
+                            "left",
                             242432,
                             1568,
                             "linear",
                             "${PsychAnim1Circle3}",
-                            '1',
-                            '0'
+                            '406px',
+                            '-275px'
+                        ],
+                        [
+                            "eid2059",
+                            "top",
+                            242432,
+                            0,
+                            "easeOutElastic",
+                            "${PsychAnim2Forward}",
+                            '384px',
+                            '384px'
+                        ],
+                        [
+                            "eid1488",
+                            "scaleX",
+                            55500,
+                            1500,
+                            "easeOutElastic",
+                            "${anim3circle2}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid1904",
+                            "left",
+                            125000,
+                            0,
+                            "easeOutElastic",
+                            "${RoundRectCopy5}",
+                            '-390px',
+                            '-390px'
+                        ],
+                        [
+                            "eid1905",
+                            "left",
+                            141000,
+                            0,
+                            "easeOutElastic",
+                            "${RoundRectCopy5}",
+                            '-390px',
+                            '499px'
+                        ],
+                        [
+                            "eid1906",
+                            "left",
+                            142000,
+                            1000,
+                            "easeOutElastic",
+                            "${RoundRectCopy5}",
+                            '499px',
+                            '711px'
+                        ],
+                        [
+                            "eid2459",
+                            "left",
+                            200000,
+                            0,
+                            "linear",
+                            "${RoundRectCopy5}",
+                            '711px',
+                            '-805px'
                         ],
                         [
                             "eid1818",
@@ -12012,34 +12002,14 @@
                             '1135px'
                         ],
                         [
-                            "eid2303",
-                            "top",
-                            240000,
-                            0,
-                            "linear",
-                            "${SadMusic}",
-                            '941px',
-                            '941px'
-                        ],
-                        [
-                            "eid2304",
-                            "top",
-                            252250,
-                            750,
-                            "linear",
-                            "${SadMusic}",
-                            '941px',
-                            '654px'
-                        ],
-                        [
-                            "eid2305",
-                            "top",
-                            258436,
-                            1000,
-                            "easeInOutElastic",
-                            "${SadMusic}",
-                            '654px',
-                            '979px'
+                            "eid1877",
+                            "width",
+                            139000,
+                            3000,
+                            "easeOutElastic",
+                            "${peace}",
+                            '435px',
+                            '123px'
                         ],
                         [
                             "eid2165",
@@ -12052,12 +12022,12 @@
                             '3'
                         ],
                         [
-                            "eid2075",
-                            "scaleY",
-                            323000,
-                            2000,
-                            "easeInOutElastic",
-                            "${MadCircleGraphic}",
+                            "eid472",
+                            "opacity",
+                            0,
+                            1500,
+                            "easeInQuad",
+                            "${inCirc1}",
                             '0',
                             '1'
                         ],
@@ -12122,14 +12092,34 @@
                             '316px'
                         ],
                         [
-                            "eid1671",
-                            "opacity",
-                            32000,
-                            1000,
-                            "linear",
-                            "${IntroTransition}",
-                            '1',
-                            '0'
+                            "eid1327",
+                            "left",
+                            33000,
+                            0,
+                            "swing",
+                            "${anim1forward}",
+                            '978px',
+                            '978px'
+                        ],
+                        [
+                            "eid1328",
+                            "left",
+                            36500,
+                            0,
+                            "swing",
+                            "${anim1forward}",
+                            '978px',
+                            '1055px'
+                        ],
+                        [
+                            "eid1329",
+                            "left",
+                            65500,
+                            0,
+                            "easeInOutSine",
+                            "${anim1forward}",
+                            '1055px',
+                            '804px'
                         ],
                         [
                             "eid1939",
@@ -12172,44 +12162,64 @@
                             '-329px'
                         ],
                         [
-                            "eid1521",
-                            "width",
-                            78500,
-                            1000,
-                            "linear",
-                            "${smallpath2Copy4}",
-                            '19px',
-                            '107px'
-                        ],
-                        [
-                            "eid1528",
-                            "left",
-                            32000,
+                            "eid1432",
+                            "top",
+                            37250,
                             0,
-                            "linear",
-                            "${smallpath2Copy6}",
-                            '2368px',
-                            '2368px'
+                            "swing",
+                            "${Sound}",
+                            '-258px',
+                            '-258px'
                         ],
                         [
-                            "eid1529",
-                            "left",
-                            76750,
-                            750,
-                            "linear",
-                            "${smallpath2Copy6}",
-                            '630px',
-                            '628px'
+                            "eid1433",
+                            "top",
+                            39750,
+                            0,
+                            "swing",
+                            "${Sound}",
+                            '-258px',
+                            '345px'
                         ],
                         [
-                            "eid2246",
-                            "background-color",
-                            429665,
+                            "eid1755",
+                            "top",
+                            125000,
+                            0,
+                            "easeOutCubic",
+                            "${CultAnim5Back}",
+                            '413px',
+                            '413px'
+                        ],
+                        [
+                            "eid2322",
+                            "top",
+                            240000,
                             0,
                             "easeInOutElastic",
-                            "${HappyCircCopy}",
-                            'rgba(245,228,169,1.00)',
-                            'rgba(245,228,169,1.00)'
+                            "${Anim2Circle}",
+                            '941px',
+                            '941px'
+                        ],
+                        [
+                            "eid2323",
+                            "top",
+                            246750,
+                            750,
+                            "easeInOutElastic",
+                            "${Anim2Circle}",
+                            '941px',
+                            '524px'
+                        ],
+                        [
+                            "eid2324",
+                            "top",
+                            266000,
+                            8500,
+                            "easeInOutElastic",
+                            "${Anim2Circle}",
+                            '524px',
+                            '924px'
                         ],
                         [
                             "eid1462",
@@ -12222,154 +12232,204 @@
                             '-1056px'
                         ],
                         [
-                            "eid1817",
-                            "scaleY",
-                            143000,
-                            1000,
-                            "easeOutElastic",
-                            "${dotOneCopy2}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid2410",
-                            "rotateZ",
-                            240000,
-                            2000,
-                            "linear",
-                            "${PsychAnim1Circle3}",
-                            '360deg',
-                            '0deg'
-                        ],
-                        [
-                            "eid465",
-                            "scaleY",
-                            0,
-                            1500,
-                            "easeInQuad",
-                            "${bioButton}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid1837",
-                            "left",
-                            125000,
-                            0,
-                            "easeOutQuart",
-                            "${CultAnim2Text}",
-                            '1080px',
-                            '1080px'
-                        ],
-                        [
-                            "eid1838",
-                            "left",
-                            129000,
-                            500,
-                            "easeOutQuart",
-                            "${CultAnim2Text}",
-                            '1080px',
-                            '540px'
-                        ],
-                        [
-                            "eid1839",
-                            "left",
-                            131000,
-                            2000,
-                            "easeOutElastic",
-                            "${CultAnim2Text}",
-                            '540px',
-                            '1803px'
-                        ],
-                        [
-                            "eid1315",
+                            "eid1354",
                             "top",
-                            53500,
-                            0,
+                            36000,
+                            500,
                             "swing",
-                            "${anim3back}",
-                            '400px',
-                            '400px'
+                            "${Anim1IntroText}",
+                            '297px',
+                            '298px'
                         ],
                         [
-                            "eid1910",
+                            "eid2081",
+                            "top",
+                            398915,
+                            0,
+                            "easeInOutElastic",
+                            "${SadHeader}",
+                            '63px',
+                            '63px'
+                        ],
+                        [
+                            "eid2082",
+                            "top",
+                            412165,
+                            0,
+                            "easeInOutElastic",
+                            "${SadHeader}",
+                            '63px',
+                            '-435px'
+                        ],
+                        [
+                            "eid1981",
                             "left",
                             125000,
-                            0,
-                            "easeOutElastic",
-                            "${RoundRectCopy6}",
-                            '-1074px',
-                            '-1074px'
+                            500,
+                            "easeOutBounce",
+                            "${CultexitButton}",
+                            '1133px',
+                            '37px'
                         ],
                         [
-                            "eid1911",
-                            "left",
-                            142000,
-                            1000,
-                            "easeOutElastic",
-                            "${RoundRectCopy6}",
-                            '499px',
-                            '440px'
-                        ],
-                        [
-                            "eid2466",
+                            "eid2477",
                             "left",
                             200000,
                             0,
                             "linear",
-                            "${RoundRectCopy6}",
-                            '440px',
-                            '-1076px'
+                            "${CultexitButton}",
+                            '1165px',
+                            '6843px'
                         ],
                         [
-                            "eid2276",
-                            "scaleY",
-                            327000,
-                            1000,
+                            "eid1559",
+                            "width",
+                            70000,
+                            2000,
+                            "linear",
+                            "${bigpath}",
+                            '69px',
+                            '337px'
+                        ],
+                        [
+                            "eid1621",
+                            "top",
+                            88000,
+                            593,
                             "easeInOutElastic",
-                            "${AngryBox}",
+                            "${Ellipse4}",
+                            '696px',
+                            '197px'
+                        ],
+                        [
+                            "eid1722",
+                            "top",
+                            88593,
+                            407,
+                            "easeOutQuint",
+                            "${Ellipse4}",
+                            '197px',
+                            '66px'
+                        ],
+                        [
+                            "eid1622",
+                            "top",
+                            94500,
+                            1094,
+                            "easeOutQuint",
+                            "${Ellipse4}",
+                            '66px',
+                            '-1403px'
+                        ],
+                        [
+                            "eid2391",
+                            "scaleY",
+                            240000,
+                            2000,
+                            "linear",
+                            "${PsychAnim1Circle4}",
+                            '4',
+                            '1'
+                        ],
+                        [
+                            "eid2392",
+                            "scaleY",
+                            242432,
+                            1568,
+                            "linear",
+                            "${PsychAnim1Circle4}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid1261",
+                            "top",
+                            32000,
+                            0,
+                            "easeOutQuint",
+                            "${green}",
+                            '191px',
+                            '191px'
+                        ],
+                        [
+                            "eid1744",
+                            "top",
+                            88750,
+                            0,
+                            "easeOutQuint",
+                            "${green}",
+                            '190px',
+                            '200px'
+                        ],
+                        [
+                            "eid1263",
+                            "top",
+                            94250,
+                            0,
+                            "easeOutQuint",
+                            "${green}",
+                            '200px',
+                            '190px'
+                        ],
+                        [
+                            "eid470",
+                            "opacity",
+                            0,
+                            1500,
+                            "easeInQuad",
+                            "${psychButton}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid1764",
+                            "eid2480",
                             "top",
-                            125000,
-                            0,
-                            "easeOutElastic",
-                            "${CultAnim4Back}",
-                            '413px',
-                            '413px'
-                        ],
-                        [
-                            "eid1765",
-                            "top",
-                            145500,
+                            185000,
                             0,
                             "linear",
-                            "${CultAnim4Back}",
-                            '413px',
-                            '413px'
+                            "${worldCopy}",
+                            '264px',
+                            '264px'
                         ],
                         [
-                            "eid1827",
-                            "scaleY",
-                            141000,
-                            1000,
-                            "easeOutElastic",
-                            "${dotOneCopy4}",
-                            '0',
-                            '1'
+                            "eid2422",
+                            "top",
+                            200000,
+                            0,
+                            "linear",
+                            "${worldCopy}",
+                            '264px',
+                            '124px'
                         ],
                         [
-                            "eid1854",
-                            "width",
-                            132500,
-                            3500,
-                            "easeOutElastic",
-                            "${guy1}",
-                            '332px',
-                            '197px'
+                            "eid2280",
+                            "top",
+                            240000,
+                            0,
+                            "easeInOutElastic",
+                            "${Anim6TextCopy}",
+                            '67px',
+                            '67px'
+                        ],
+                        [
+                            "eid2281",
+                            "top",
+                            274500,
+                            0,
+                            "easeInOutElastic",
+                            "${Anim6TextCopy}",
+                            '67px',
+                            '67px'
+                        ],
+                        [
+                            "eid2282",
+                            "top",
+                            315000,
+                            3000,
+                            "easeInOutElastic",
+                            "${Anim6TextCopy}",
+                            '67px',
+                            '63px'
                         ],
                         [
                             "eid1933",
@@ -12392,14 +12452,14 @@
                             '66deg'
                         ],
                         [
-                            "eid2418",
-                            "scaleY",
-                            242432,
-                            1568,
-                            "linear",
-                            "${PsychAnim1Circle2}",
-                            '1',
-                            '0'
+                            "eid469",
+                            "opacity",
+                            0,
+                            1500,
+                            "easeInQuad",
+                            "${outCirc2}",
+                            '0',
+                            '1'
                         ],
                         [
                             "eid1255",
@@ -12452,14 +12512,34 @@
                             '-1058px'
                         ],
                         [
-                            "eid1530",
-                            "width",
-                            76750,
-                            750,
-                            "linear",
-                            "${smallpath2Copy6}",
-                            '19px',
-                            '82px'
+                            "eid2294",
+                            "left",
+                            240000,
+                            0,
+                            "easeInOutElastic",
+                            "${Anim4TextCopy2}",
+                            '1190px',
+                            '1190px'
+                        ],
+                        [
+                            "eid2295",
+                            "left",
+                            257250,
+                            1186,
+                            "easeInOutElastic",
+                            "${Anim4TextCopy2}",
+                            '1190px',
+                            '426px'
+                        ],
+                        [
+                            "eid2296",
+                            "left",
+                            266000,
+                            3000,
+                            "easeInOutElastic",
+                            "${Anim4TextCopy2}",
+                            '426px',
+                            '1590px'
                         ],
                         [
                             "eid1282",
@@ -12482,104 +12562,94 @@
                             '233px'
                         ],
                         [
-                            "eid2169",
+                            "eid1264",
                             "scaleY",
-                            322000,
-                            1000,
-                            "easeInOutElastic",
-                            "${MadCircleCopy2}",
-                            '1',
-                            '3'
+                            91910,
+                            1042,
+                            "easeOutQuint",
+                            "${green}",
+                            '0',
+                            '1'
                         ],
                         [
-                            "eid1233",
+                            "eid1274",
+                            "scaleX",
+                            90638,
+                            1273,
+                            "easeOutQuint",
+                            "${yellow}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid1585",
                             "left",
-                            23000,
-                            0,
-                            "easeInBounce",
-                            "${inCirc2}",
-                            '380px',
-                            '380px'
-                        ],
-                        [
-                            "eid1681",
-                            "left",
-                            31000,
-                            0,
-                            "easeInBounce",
-                            "${inCirc2}",
-                            '380px',
-                            '-1358px'
-                        ],
-                        [
-                            "eid1444",
-                            "top",
-                            37250,
-                            0,
-                            "swing",
-                            "${SoundCopy2}",
-                            '-262px',
-                            '-262px'
-                        ],
-                        [
-                            "eid1445",
-                            "top",
-                            39750,
-                            0,
-                            "swing",
-                            "${SoundCopy2}",
-                            '-262px',
-                            '341px'
-                        ],
-                        [
-                            "eid1550",
-                            "rotateZ",
-                            72750,
+                            32000,
                             0,
                             "easeInQuad",
-                            "${smallpath2Copy10}",
-                            '33deg',
-                            '33deg'
+                            "${Ellipse3Copy4}",
+                            '1251px',
+                            '1251px'
                         ],
                         [
-                            "eid1902",
-                            "top",
-                            141000,
+                            "eid1586",
+                            "left",
+                            77000,
                             0,
-                            "easeOutElastic",
-                            "${RoundRectCopy5}",
-                            '601px',
-                            '601px'
+                            "easeInOutBounce",
+                            "${Ellipse3Copy4}",
+                            '1251px',
+                            '621px'
                         ],
                         [
-                            "eid1903",
-                            "top",
-                            142000,
+                            "eid2200",
+                            "background-color",
+                            394665,
+                            0,
+                            "easeInOutElastic",
+                            "${SadCircCopy2}",
+                            'rgba(92,180,229,1.00)',
+                            'rgba(92,180,229,1.00)'
+                        ],
+                        [
+                            "eid2376",
+                            "left",
+                            240000,
+                            2000,
+                            "linear",
+                            "${PsychAnim1Circle}",
+                            '1240px',
+                            '455px'
+                        ],
+                        [
+                            "eid2377",
+                            "left",
+                            242432,
+                            1568,
+                            "linear",
+                            "${PsychAnim1Circle}",
+                            '455px',
+                            '-226px'
+                        ],
+                        [
+                            "eid1937",
+                            "scaleX",
+                            125000,
                             1000,
-                            "easeOutElastic",
-                            "${RoundRectCopy5}",
-                            '601px',
-                            '281px'
+                            "easeOutQuart",
+                            "${CultAnim1Circle3}",
+                            '3',
+                            '1'
                         ],
                         [
-                            "eid1970",
-                            "left",
-                            0,
-                            0,
-                            "easeInOutElastic",
-                            "${Anim6Text}",
-                            '140px',
-                            '140px'
-                        ],
-                        [
-                            "eid1972",
-                            "left",
-                            120000,
-                            0,
-                            "easeInOutElastic",
-                            "${Anim6Text}",
-                            '140px',
-                            '1061px'
+                            "eid1938",
+                            "scaleX",
+                            126250,
+                            500,
+                            "linear",
+                            "${CultAnim1Circle3}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid1665",
@@ -12612,104 +12682,114 @@
                             '-91px'
                         ],
                         [
-                            "eid1428",
-                            "height",
-                            42457,
-                            0,
-                            "easeInOutElastic",
-                            "${Anim2path1Copy4}",
-                            '24px',
-                            '24px'
-                        ],
-                        [
-                            "eid2043",
+                            "eid2143",
                             "scaleX",
-                            253500,
-                            0,
+                            397665,
+                            1000,
                             "easeInOutElastic",
-                            "${PsychAnim3Back}",
-                            '1',
+                            "${SadGraphic}",
+                            '0.09',
                             '1'
                         ],
                         [
-                            "eid1342",
-                            "opacity",
-                            53500,
-                            0,
-                            "swing",
-                            "${anim3forward}",
-                            '0',
-                            '0'
+                            "eid1422",
+                            "top",
+                            44000,
+                            1000,
+                            "linear",
+                            "${Anim2path1Copy3}",
+                            '168px',
+                            '-90px'
                         ],
                         [
-                            "eid1343",
-                            "opacity",
-                            55500,
+                            "eid1963",
+                            "top",
                             0,
-                            "swing",
-                            "${anim3forward}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid1344",
-                            "opacity",
-                            65500,
-                            0,
-                            "swing",
-                            "${anim3forward}",
-                            '1',
-                            '0'
-                        ],
-                        [
-                            "eid1573",
-                            "left",
-                            32000,
-                            0,
-                            "easeInQuad",
-                            "${Ellipse3Copy2}",
-                            '1168px',
-                            '1168px'
-                        ],
-                        [
-                            "eid1574",
-                            "left",
-                            78500,
                             0,
                             "linear",
-                            "${Ellipse3Copy2}",
-                            '1168px',
-                            '900px'
+                            "${CultAnim1Forward}",
+                            '456px',
+                            '456px'
                         ],
                         [
-                            "eid2227",
-                            "scaleX",
+                            "eid1783",
+                            "top",
+                            125000,
+                            0,
+                            "linear",
+                            "${CultAnim1Forward}",
+                            '456px',
+                            '413px'
+                        ],
+                        [
+                            "eid1784",
+                            "top",
+                            126136,
+                            0,
+                            "linear",
+                            "${CultAnim1Forward}",
+                            '413px',
+                            '413px'
+                        ],
+                        [
+                            "eid466",
+                            "opacity",
+                            0,
+                            1500,
+                            "easeInQuad",
+                            "${outCirc1}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid2220",
+                            "top",
+                            240000,
+                            0,
+                            "easeInOutElastic",
+                            "${sadBox}",
+                            '707px',
+                            '707px'
+                        ],
+                        [
+                            "eid2221",
+                            "top",
                             400665,
                             1000,
                             "easeInOutElastic",
                             "${sadBox}",
+                            '264px',
+                            '528px'
+                        ],
+                        [
+                            "eid2222",
+                            "top",
+                            412165,
+                            0,
+                            "easeInOutElastic",
+                            "${sadBox}",
+                            '528px',
+                            '1315px'
+                        ],
+                        [
+                            "eid2077",
+                            "scaleX",
+                            323000,
+                            2000,
+                            "easeInOutElastic",
+                            "${MadCircleGraphic}",
                             '0',
                             '1'
                         ],
                         [
-                            "eid2034",
-                            "scaleY",
-                            266000,
-                            0,
+                            "eid2249",
+                            "height",
+                            430665,
+                            1000,
                             "easeInOutElastic",
-                            "${PsychAnim4Back}",
-                            '1',
-                            '1'
-                        ],
-                        [
-                            "eid2199",
-                            "width",
-                            396332,
-                            667,
-                            "easeInOutElastic",
-                            "${SadCircCopy}",
-                            '155px',
-                            '184px'
+                            "${HappyCircCopy}",
+                            '156px',
+                            '194px'
                         ],
                         [
                             "eid1350",
@@ -12732,14 +12812,24 @@
                             '1'
                         ],
                         [
-                            "eid1584",
+                            "eid1492",
                             "scaleY",
-                            77000,
-                            500,
-                            "easeInOutBounce",
-                            "${Ellipse3Copy4}",
-                            '0',
-                            '1.2'
+                            81339,
+                            870,
+                            "easeOutCubic",
+                            "${anim4}",
+                            '1',
+                            '1.45'
+                        ],
+                        [
+                            "eid1493",
+                            "scaleY",
+                            82209,
+                            130,
+                            "easeOutCubic",
+                            "${anim4}",
+                            '1.45',
+                            '1.12'
                         ],
                         [
                             "eid446",
@@ -12762,54 +12852,14 @@
                             '720deg'
                         ],
                         [
-                            "eid1977",
-                            "top",
-                            125000,
-                            0,
-                            "easeOutElastic",
-                            "${mountains}",
-                            '801px',
-                            '801px'
-                        ],
-                        [
-                            "eid1855",
-                            "top",
-                            126907,
-                            1093,
-                            "easeOutElastic",
-                            "${mountains}",
-                            '800px',
-                            '274px'
-                        ],
-                        [
-                            "eid1856",
-                            "top",
-                            128000,
+                            "eid1458",
+                            "left",
+                            41000,
                             1000,
-                            "easeOutElastic",
-                            "${mountains}",
-                            '274px',
-                            '273px'
-                        ],
-                        [
-                            "eid1857",
-                            "top",
-                            129000,
-                            2000,
-                            "easeOutElastic",
-                            "${mountains}",
-                            '273px',
-                            '274px'
-                        ],
-                        [
-                            "eid1858",
-                            "top",
-                            131000,
-                            4000,
-                            "easeOutElastic",
-                            "${mountains}",
-                            '274px',
-                            '110px'
+                            "easeInOutElastic",
+                            "${Anim2Text}",
+                            '388px',
+                            '-791px'
                         ],
                         [
                             "eid1384",
@@ -12842,54 +12892,64 @@
                             '1461px'
                         ],
                         [
-                            "eid2411",
+                            "eid1502",
+                            "width",
+                            81339,
+                            1000,
+                            "linear",
+                            "${smallpath2}",
+                            '19px',
+                            '553px'
+                        ],
+                        [
+                            "eid2496",
+                            "left",
+                            0,
+                            0,
+                            "easeInOutElastic",
+                            "${PsychexitButton}",
+                            '1050px',
+                            '1050px'
+                        ],
+                        [
+                            "eid2495",
+                            "left",
+                            240000,
+                            1000,
+                            "easeInOutElastic",
+                            "${PsychexitButton}",
+                            '1050px',
+                            '32px'
+                        ],
+                        [
+                            "eid2498",
+                            "left",
+                            436000,
+                            0,
+                            "easeInOutElastic",
+                            "${PsychexitButton}",
+                            '32px',
+                            '32px'
+                        ],
+                        [
+                            "eid2394",
                             "scaleX",
                             240000,
                             2000,
                             "linear",
-                            "${PsychAnim1Circle3}",
+                            "${PsychAnim1Circle4}",
                             '4',
                             '1'
                         ],
                         [
-                            "eid2412",
+                            "eid2395",
                             "scaleX",
                             242432,
                             1568,
                             "linear",
-                            "${PsychAnim1Circle3}",
+                            "${PsychAnim1Circle4}",
                             '1',
                             '0'
-                        ],
-                        [
-                            "eid1942",
-                            "scaleY",
-                            125000,
-                            1000,
-                            "easeOutQuart",
-                            "${CultAnim1Circle2}",
-                            '4',
-                            '1'
-                        ],
-                        [
-                            "eid1943",
-                            "scaleY",
-                            126250,
-                            500,
-                            "linear",
-                            "${CultAnim1Circle2}",
-                            '1',
-                            '0'
-                        ],
-                        [
-                            "eid1527",
-                            "top",
-                            76750,
-                            750,
-                            "linear",
-                            "${smallpath2Copy6}",
-                            '343px',
-                            '331px'
                         ],
                         [
                             "eid1553",
@@ -12912,54 +12972,34 @@
                             '332px'
                         ],
                         [
-                            "eid2350",
-                            "top",
-                            240000,
-                            0,
-                            "easeOutQuad",
-                            "${guy2Copy}",
-                            '102px',
-                            '102px'
-                        ],
-                        [
-                            "eid2351",
-                            "top",
-                            244750,
-                            582,
+                            "eid2259",
+                            "scaleX",
+                            429665,
+                            1000,
                             "easeInOutElastic",
-                            "${guy2Copy}",
-                            '102px',
-                            '137px'
+                            "${HappyCircCopy2}",
+                            '1',
+                            '2.02'
                         ],
                         [
-                            "eid2352",
-                            "top",
-                            249085,
-                            0,
-                            "easeInOutElastic",
-                            "${guy2Copy}",
-                            '137px',
-                            '137px'
-                        ],
-                        [
-                            "eid1418",
-                            "height",
-                            42457,
-                            0,
-                            "easeInOutElastic",
-                            "${EllipseCopy3}",
-                            '24px',
-                            '24px'
-                        ],
-                        [
-                            "eid1936",
+                            "eid2093",
                             "rotateZ",
-                            126250,
-                            500,
-                            "linear",
-                            "${CultAnim1Circle3}",
+                            433165,
+                            1000,
+                            "easeInOutElastic",
+                            "${HappyCircleGraphic}",
                             '0deg',
                             '360deg'
+                        ],
+                        [
+                            "eid1599",
+                            "scaleX",
+                            73750,
+                            750,
+                            "easeInOutBounce",
+                            "${Ellipse3Copy6}",
+                            '0',
+                            '1'
                         ],
                         [
                             "eid2403",
@@ -12972,104 +13012,44 @@
                             '-939px'
                         ],
                         [
-                            "eid1611",
-                            "height",
-                            86597,
-                            653,
-                            "easeInCubic",
-                            "${Brain2}",
-                            '461px',
-                            '338px'
+                            "eid1590",
+                            "scaleY",
+                            74500,
+                            250,
+                            "easeInOutBounce",
+                            "${Ellipse3Copy5}",
+                            '0',
+                            '1'
                         ],
                         [
-                            "eid1612",
-                            "height",
-                            87250,
-                            750,
-                            "easeInCubic",
-                            "${Brain2}",
-                            '338px',
-                            '516px'
-                        ],
-                        [
-                            "eid1990",
-                            "left",
+                            "eid2406",
+                            "top",
                             240000,
-                            0,
-                            "easeInOutElastic",
-                            "${RedButton}",
-                            '-783px',
-                            '-783px'
-                        ],
-                        [
-                            "eid1991",
-                            "left",
-                            277628,
-                            2372,
-                            "easeInOutElastic",
-                            "${RedButton}",
-                            '-167px',
-                            '166px'
-                        ],
-                        [
-                            "eid1992",
-                            "left",
-                            315000,
-                            3000,
-                            "easeInOutElastic",
-                            "${RedButton}",
-                            '166px',
-                            '-587px'
-                        ],
-                        [
-                            "eid1993",
-                            "left",
-                            390835,
-                            3830,
-                            "easeInOutElastic",
-                            "${RedButton}",
-                            '166px',
-                            '-237px'
-                        ],
-                        [
-                            "eid1994",
-                            "left",
-                            425915,
-                            0,
-                            "easeInOutElastic",
-                            "${RedButton}",
-                            '-237px',
-                            '166px'
-                        ],
-                        [
-                            "eid1995",
-                            "left",
-                            427665,
                             2000,
-                            "easeInOutElastic",
-                            "${RedButton}",
-                            '166px',
-                            '288px'
+                            "linear",
+                            "${PsychAnim1Circle3}",
+                            '180px',
+                            '272px'
                         ],
                         [
-                            "eid1545",
+                            "eid2407",
                             "top",
-                            64500,
+                            242432,
+                            1568,
+                            "linear",
+                            "${PsychAnim1Circle3}",
+                            '272px',
+                            '-135px'
+                        ],
+                        [
+                            "eid2260",
+                            "opacity",
+                            429665,
                             0,
-                            "linear",
-                            "${smallpath2Copy10}",
-                            '346px',
-                            '346px'
-                        ],
-                        [
-                            "eid1546",
-                            "top",
-                            72750,
-                            1000,
-                            "linear",
-                            "${smallpath2Copy10}",
-                            '346px',
-                            '292px'
+                            "easeInOutElastic",
+                            "${HappyCircCopy2}",
+                            '0.699999988079071',
+                            '0.699999988079071'
                         ],
                         [
                             "eid2029",
@@ -13102,64 +13082,54 @@
                             '-53px'
                         ],
                         [
-                            "eid2384",
-                            "rotateZ",
+                            "eid2402",
+                            "scaleX",
+                            241500,
+                            500,
+                            "easeOutQuad",
+                            "${PsychAnim1Circle6}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid1245",
+                            "scaleY",
+                            99899,
+                            5101,
+                            "swing",
+                            "${Heart}",
+                            '1',
+                            '0.68'
+                        ],
+                        [
+                            "eid2337",
+                            "left",
                             240000,
-                            2000,
-                            "linear",
-                            "${PsychAnim1Circle5}",
-                            '360deg',
-                            '0deg'
-                        ],
-                        [
-                            "eid1843",
-                            "top",
-                            125000,
                             0,
-                            "easeOutElastic",
-                            "${guy1}",
-                            '1417px',
-                            '1417px'
+                            "easeInOutElastic",
+                            "${yellow_bar}",
+                            '1096px',
+                            '1096px'
                         ],
                         [
-                            "eid1844",
-                            "top",
-                            128000,
-                            1000,
-                            "easeOutElastic",
-                            "${guy1}",
-                            '1417px',
-                            '445px'
+                            "eid2338",
+                            "left",
+                            245332,
+                            668,
+                            "easeInOutElastic",
+                            "${yellow_bar}",
+                            '1083px',
+                            '357px'
                         ],
                         [
-                            "eid1845",
-                            "top",
-                            132500,
-                            3500,
-                            "easeOutElastic",
-                            "${guy1}",
-                            '445px',
-                            '329px'
-                        ],
-                        [
-                            "eid1846",
-                            "top",
-                            139000,
-                            3000,
-                            "easeOutElastic",
-                            "${guy1}",
-                            '329px',
-                            '413px'
-                        ],
-                        [
-                            "eid1892",
-                            "height",
-                            141000,
-                            1000,
-                            "easeOutElastic",
-                            "${RoundRectCopy2}",
-                            '33px',
-                            '227px'
+                            "eid2339",
+                            "left",
+                            249500,
+                            1500,
+                            "easeInOutElastic",
+                            "${yellow_bar}",
+                            '357px',
+                            '1934px'
                         ],
                         [
                             "eid1815",
@@ -13172,64 +13142,74 @@
                             '1'
                         ],
                         [
-                            "eid1288",
-                            "top",
-                            32000,
-                            0,
-                            "easeOutQuint",
-                            "${Purple}",
-                            '346px',
-                            '346px'
-                        ],
-                        [
-                            "eid1742",
-                            "top",
-                            88750,
-                            0,
-                            "easeOutQuint",
-                            "${Purple}",
-                            '345px',
-                            '351px'
-                        ],
-                        [
-                            "eid1290",
-                            "top",
-                            94250,
-                            0,
-                            "easeOutQuint",
-                            "${Purple}",
-                            '351px',
-                            '345px'
-                        ],
-                        [
-                            "eid2040",
+                            "eid1916",
                             "left",
-                            240000,
+                            125000,
                             0,
-                            "easeInOutElastic",
-                            "${PsychAnim4Forward}",
-                            '1171px',
-                            '1171px'
+                            "easeOutElastic",
+                            "${RoundRectCopy7}",
+                            '-390px',
+                            '-390px'
                         ],
                         [
-                            "eid2041",
+                            "eid1917",
                             "left",
-                            253750,
+                            140750,
                             0,
-                            "easeInOutElastic",
-                            "${PsychAnim4Forward}",
-                            '1171px',
-                            '970px'
+                            "easeOutElastic",
+                            "${RoundRectCopy7}",
+                            '-390px',
+                            '499px'
                         ],
                         [
-                            "eid2042",
+                            "eid1918",
                             "left",
-                            265000,
+                            141000,
+                            1000,
+                            "easeOutElastic",
+                            "${RoundRectCopy7}",
+                            '499px',
+                            '567px'
+                        ],
+                        [
+                            "eid2461",
+                            "left",
+                            200000,
                             0,
-                            "easeInOutElastic",
-                            "${PsychAnim4Forward}",
-                            '970px',
-                            '1058px'
+                            "linear",
+                            "${RoundRectCopy7}",
+                            '567px',
+                            '-949px'
+                        ],
+                        [
+                            "eid1961",
+                            "top",
+                            0,
+                            0,
+                            "linear",
+                            "${CultureIntro}",
+                            '277px',
+                            '277px'
+                        ],
+                        [
+                            "eid1925",
+                            "top",
+                            125000,
+                            0,
+                            "linear",
+                            "${CultureIntro}",
+                            '277px',
+                            '347px'
+                        ],
+                        [
+                            "eid1959",
+                            "top",
+                            126000,
+                            0,
+                            "linear",
+                            "${CultureIntro}",
+                            '347px',
+                            '347px'
                         ],
                         [
                             "eid1597",
@@ -13262,34 +13242,34 @@
                             '0.4'
                         ],
                         [
-                            "eid2243",
+                            "eid2069",
                             "top",
                             240000,
                             0,
                             "easeInOutElastic",
-                            "${HappyCircCopy}",
-                            '24px',
-                            '24px'
+                            "${MadText}",
+                            '-362px',
+                            '-362px'
                         ],
                         [
-                            "eid2244",
+                            "eid2070",
                             "top",
-                            429665,
+                            325000,
                             0,
                             "easeInOutElastic",
-                            "${HappyCircCopy}",
-                            '24px',
-                            '274px'
+                            "${MadText}",
+                            '-362px',
+                            '165px'
                         ],
                         [
-                            "eid2245",
+                            "eid2071",
                             "top",
-                            430665,
-                            1000,
+                            332127,
+                            0,
                             "easeInOutElastic",
-                            "${HappyCircCopy}",
-                            '274px',
-                            '255px'
+                            "${MadText}",
+                            '165px',
+                            '1148px'
                         ],
                         [
                             "eid1548",
@@ -13332,54 +13312,94 @@
                             '0'
                         ],
                         [
-                            "eid1572",
-                            "scaleY",
-                            78500,
-                            500,
+                            "eid1962",
+                            "left",
+                            0,
+                            0,
                             "linear",
-                            "${Ellipse3Copy2}",
-                            '0',
-                            '2.93'
+                            "${CultAnim1Forward}",
+                            '1051px',
+                            '1051px'
                         ],
                         [
-                            "eid1832",
+                            "eid1781",
                             "left",
-                            131000,
-                            2000,
-                            "easeOutElastic",
-                            "${CultAnim3Text}",
-                            '1443px',
-                            '537px'
+                            125000,
+                            0,
+                            "linear",
+                            "${CultAnim1Forward}",
+                            '1051px',
+                            '964px'
                         ],
                         [
-                            "eid1833",
+                            "eid1782",
                             "left",
-                            139000,
-                            1000,
-                            "easeOutElastic",
-                            "${CultAnim3Text}",
-                            '537px',
-                            '1254px'
+                            126136,
+                            0,
+                            "linear",
+                            "${CultAnim1Forward}",
+                            '964px',
+                            '1189px'
                         ],
                         [
-                            "eid1437",
-                            "scaleX",
-                            39750,
-                            2250,
+                            "eid1402",
+                            "left",
+                            32000,
+                            0,
                             "easeInOutElastic",
-                            "${Sound}",
-                            '0',
-                            '1'
+                            "${EllipseCopy}",
+                            '1109px',
+                            '1109px'
                         ],
                         [
-                            "eid2065",
+                            "eid1403",
+                            "left",
+                            45250,
+                            0,
+                            "easeInOutElastic",
+                            "${EllipseCopy}",
+                            '1109px',
+                            '479px'
+                        ],
+                        [
+                            "eid1404",
+                            "left",
+                            45432,
+                            1727,
+                            "linear",
+                            "${EllipseCopy}",
+                            '479px',
+                            '480px'
+                        ],
+                        [
+                            "eid2258",
+                            "scaleY",
+                            429665,
+                            1000,
+                            "easeInOutElastic",
+                            "${HappyCircCopy2}",
+                            '1',
+                            '2.02'
+                        ],
+                        [
+                            "eid1806",
                             "top",
-                            240000,
+                            125000,
                             0,
                             "easeOutElastic",
-                            "${PsychAnim1Forward}",
-                            '384px',
-                            '384px'
+                            "${dotOne}",
+                            '261px',
+                            '261px'
+                        ],
+                        [
+                            "eid2451",
+                            "top",
+                            200000,
+                            0,
+                            "linear",
+                            "${dotOne}",
+                            '261px',
+                            '233px'
                         ],
                         [
                             "eid1908",
@@ -13422,52 +13442,42 @@
                             '255px'
                         ],
                         [
-                            "eid2090",
-                            "top",
-                            240000,
-                            0,
-                            "easeInOutElastic",
-                            "${HappyCircleGraphic}",
-                            '-630px',
-                            '-630px'
-                        ],
-                        [
-                            "eid2091",
-                            "top",
-                            432665,
-                            0,
-                            "easeInOutElastic",
-                            "${HappyCircleGraphic}",
-                            '-630px',
-                            '84px'
-                        ],
-                        [
-                            "eid1954",
-                            "scaleY",
-                            125000,
-                            1000,
-                            "easeOutQuart",
-                            "${CultAnim1Circle1}",
-                            '3',
-                            '0.94'
-                        ],
-                        [
-                            "eid1955",
-                            "scaleY",
-                            126250,
-                            500,
-                            "linear",
-                            "${CultAnim1Circle1}",
-                            '0.94',
-                            '4'
-                        ],
-                        [
-                            "eid1455",
+                            "eid1830",
                             "scaleX",
-                            39750,
+                            141000,
+                            1000,
+                            "easeOutElastic",
+                            "${dotOneCopy4}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid2308",
+                            "left",
+                            250750,
+                            750,
+                            "easeInOutElastic",
+                            "${Anim3Text}",
+                            '1098px',
+                            '501px'
+                        ],
+                        [
+                            "eid2309",
+                            "left",
+                            253750,
                             2250,
                             "easeInOutElastic",
-                            "${SoundCopy3}",
+                            "${Anim3Text}",
+                            '501px',
+                            '1244px'
+                        ],
+                        [
+                            "eid462",
+                            "scaleX",
+                            0,
+                            1500,
+                            "easeInQuad",
+                            "${inCirc1}",
                             '0',
                             '1'
                         ],
@@ -13502,154 +13512,144 @@
                             '-63px'
                         ],
                         [
-                            "eid1882",
+                            "eid1579",
                             "left",
-                            125000,
+                            32000,
                             0,
-                            "easeOutElastic",
-                            "${RoundRectCopy}",
-                            '-343px',
-                            '-343px'
+                            "easeInQuad",
+                            "${Ellipse3Copy3}",
+                            '1168px',
+                            '1168px'
                         ],
                         [
-                            "eid1883",
+                            "eid1580",
                             "left",
-                            139750,
+                            75750,
                             0,
-                            "easeOutElastic",
-                            "${RoundRectCopy}",
-                            '-343px',
-                            '499px'
+                            "easeInOutBounce",
+                            "${Ellipse3Copy3}",
+                            '1168px',
+                            '539px'
                         ],
                         [
-                            "eid1884",
+                            "eid1578",
+                            "scaleY",
+                            75750,
+                            250,
+                            "easeInOutBounce",
+                            "${Ellipse3Copy3}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid1984",
+                            "top",
+                            240000,
+                            0,
+                            "easeInOutElastic",
+                            "${RedButton}",
+                            '92px',
+                            '92px'
+                        ],
+                        [
+                            "eid1985",
+                            "top",
+                            277628,
+                            2372,
+                            "easeInOutElastic",
+                            "${RedButton}",
+                            '398px',
+                            '466px'
+                        ],
+                        [
+                            "eid1986",
+                            "top",
+                            315000,
+                            3000,
+                            "easeInOutElastic",
+                            "${RedButton}",
+                            '466px',
+                            '463px'
+                        ],
+                        [
+                            "eid1987",
+                            "top",
+                            390835,
+                            0,
+                            "easeInOutElastic",
+                            "${RedButton}",
+                            '463px',
+                            '466px'
+                        ],
+                        [
+                            "eid1988",
+                            "top",
+                            425915,
+                            0,
+                            "easeInOutElastic",
+                            "${RedButton}",
+                            '466px',
+                            '466px'
+                        ],
+                        [
+                            "eid1989",
+                            "top",
+                            427665,
+                            2000,
+                            "easeInOutElastic",
+                            "${RedButton}",
+                            '466px',
+                            '458px'
+                        ],
+                        [
+                            "eid1798",
                             "left",
-                            143000,
-                            1000,
-                            "easeOutElastic",
-                            "${RoundRectCopy}",
-                            '499px',
-                            '359px'
+                            160731,
+                            24269,
+                            "linear",
+                            "${worldCopy}",
+                            '1098px',
+                            '-930px'
                         ],
                         [
-                            "eid2468",
+                            "eid2421",
                             "left",
                             200000,
                             0,
                             "linear",
-                            "${RoundRectCopy}",
-                            '359px',
-                            '-1157px'
+                            "${worldCopy}",
+                            '-930px',
+                            '-1488px'
                         ],
                         [
-                            "eid2166",
-                            "left",
-                            240000,
-                            0,
-                            "easeInOutElastic",
-                            "${MadCircleCopy2}",
-                            '624px',
-                            '624px'
-                        ],
-                        [
-                            "eid2167",
-                            "left",
-                            322000,
-                            0,
-                            "easeInOutElastic",
-                            "${MadCircleCopy2}",
-                            '624px',
-                            '639px'
-                        ],
-                        [
-                            "eid2168",
-                            "left",
-                            332127,
-                            0,
-                            "easeInOutElastic",
-                            "${MadCircleCopy2}",
-                            '639px',
-                            '743px'
-                        ],
-                        [
-                            "eid1438",
-                            "top",
-                            37250,
-                            0,
-                            "swing",
-                            "${SoundCopy}",
-                            '-259px',
-                            '-259px'
-                        ],
-                        [
-                            "eid1439",
-                            "top",
-                            39750,
-                            0,
-                            "swing",
-                            "${SoundCopy}",
-                            '-259px',
-                            '344px'
-                        ],
-                        [
-                            "eid1537",
-                            "left",
-                            69750,
-                            0,
-                            "easeInQuad",
-                            "${smallpath2Copy8}",
-                            '1544px',
-                            '1544px'
-                        ],
-                        [
-                            "eid1538",
-                            "left",
-                            73750,
-                            1000,
-                            "linear",
-                            "${smallpath2Copy8}",
-                            '471px',
-                            '471px'
-                        ],
-                        [
-                            "eid1582",
+                            "eid1602",
                             "top",
                             32000,
                             0,
-                            "easeInQuad",
-                            "${Ellipse3Copy4}",
-                            '152px',
-                            '152px'
+                            "linear",
+                            "${earinfo}",
+                            '-2px',
+                            '-2px'
                         ],
                         [
-                            "eid1583",
+                            "eid2483",
                             "top",
-                            77000,
+                            125000,
                             0,
-                            "easeInOutBounce",
-                            "${Ellipse3Copy4}",
-                            '152px',
-                            '331px'
+                            "easeOutBounce",
+                            "${CultexitButton}",
+                            '49px',
+                            '49px'
                         ],
                         [
-                            "eid2315",
+                            "eid2476",
                             "top",
-                            240000,
+                            200000,
                             0,
-                            "easeInOutElastic",
-                            "${BlueBar}",
-                            '389px',
-                            '389px'
-                        ],
-                        [
-                            "eid2316",
-                            "top",
-                            249500,
-                            0,
-                            "easeInOutElastic",
-                            "${BlueBar}",
-                            '389px',
-                            '31px'
+                            "linear",
+                            "${CultexitButton}",
+                            '49px',
+                            '3405px'
                         ],
                             [ "eid2500", "trigger", 0, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${__Troopers}', [] ] ],
                             [ "eid2501", "trigger", 0, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${_07_Traveling_Music}', [] ] ],
@@ -13660,27 +13660,27 @@
                             [ "eid2503", "trigger", 109065.83084475, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${_07_Traveling_Music}', [] ] ],
                             [ "eid2504", "trigger", 125000, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${_07_Traveling_Music}', [] ] ],
                             [ "eid2509", "trigger", 239996, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${_9th_Symphony}', [] ] ],
-                            [ "eid2429", "trigger", 240000, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${__Troopers}', [] ] ],
                             [ "eid2430", "trigger", 240000, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${Poker_Face}', [] ] ],
                             [ "eid2505", "trigger", 240000, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${_07_Traveling_Music}', [] ] ],
+                            [ "eid2429", "trigger", 240000, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${__Troopers}', [] ] ],
                             [ "eid2510", "trigger", 241000, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${_9th_Symphony}', [] ] ],
                             [ "eid2431", "trigger", 241000, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${__Troopers}', [] ] ],
                             [ "eid2491", "trigger", 242000, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${Poker_Face}', [] ] ],
-                            [ "eid2432", "trigger", 242750, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${Poker_Face}', [0] ] ],
                             [ "eid2433", "trigger", 242750, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${Folsom_Prison_Blues}', [] ] ],
+                            [ "eid2432", "trigger", 242750, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${Poker_Face}', [0] ] ],
                             [ "eid2434", "trigger", 248882.09367783, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${Poker_Face}', [] ] ],
-                            [ "eid2437", "trigger", 249500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${Poker_Face}', [] ] ],
+                            [ "eid2435", "trigger", 249500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${Folsom_Prison_Blues}', [0] ] ],
                             [ "eid2438", "trigger", 249500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${__Troopers}', [] ] ],
                             [ "eid2436", "trigger", 249500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${Puritania}', [] ] ],
-                            [ "eid2435", "trigger", 249500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${Folsom_Prison_Blues}', [0] ] ],
+                            [ "eid2437", "trigger", 249500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${Poker_Face}', [] ] ],
                             [ "eid2439", "trigger", 253169, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${Folsom_Prison_Blues}', [] ] ],
-                            [ "eid2442", "trigger", 253750, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${Folsom_Prison_Blues}', [] ] ],
-                            [ "eid2440", "trigger", 253750, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${Puritania}', [0] ] ],
                             [ "eid2441", "trigger", 253750, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${__Troopers}', [] ] ],
+                            [ "eid2440", "trigger", 253750, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${Puritania}', [0] ] ],
+                            [ "eid2442", "trigger", 253750, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${Folsom_Prison_Blues}', [] ] ],
                             [ "eid2443", "trigger", 260500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${__Troopers}', [] ] ],
                             [ "eid2444", "trigger", 275878.46215034, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${Puritania}', [] ] ],
-                            [ "eid2446", "trigger", 276250, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${Puritania}', [] ] ],
                             [ "eid2445", "trigger", 276250, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${__Troopers}', [0] ] ],
+                            [ "eid2446", "trigger", 276250, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${Puritania}', [] ] ],
                             [ "eid2447", "trigger", 291644.2315909, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['pause', '${__Troopers}', [] ] ]
                     ]
                 }
@@ -13695,9 +13695,9 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '162px', '162px', 'auto', 'auto'],
-                            id: 'title_nav',
                             type: 'image',
+                            id: 'title_nav',
+                            rect: ['0px', '0px', '162px', '162px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/title_nav.svg', '0px', '0px']
                         }
                     ],
@@ -13725,9 +13725,9 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '406px', '406px', 'auto', 'auto'],
-                            id: 'Biology_Button2',
                             type: 'image',
+                            id: 'Biology_Button2',
+                            rect: ['0px', '0px', '406px', '406px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/Biology_Button.svg', '0px', '0px']
                         }
                     ],
@@ -13755,9 +13755,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'Culture_Button',
                             rect: ['0px', '0px', '532px', '532px', 'auto', 'auto'],
+                            id: 'Culture_Button',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/Culture_Button.svg', '0px', '0px']
                         }
                     ],
@@ -13785,9 +13785,9 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '718px', '718px', 'auto', 'auto'],
-                            id: 'Psychology_Button',
                             type: 'image',
+                            id: 'Psychology_Button',
+                            rect: ['0px', '0px', '718px', '718px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/Psychology_Button.svg', '0px', '0px']
                         }
                     ],
@@ -13815,9 +13815,9 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '568px', '568px', 'auto', 'auto'],
-                            id: 'outCirc2',
                             type: 'image',
+                            id: 'outCirc2',
+                            rect: ['0px', '0px', '568px', '568px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/outercircle2.svg', '0px', '0px']
                         }
                     ],
@@ -13845,9 +13845,9 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '423px', '423px', 'auto', 'auto'],
-                            id: 'outercircle',
                             type: 'image',
+                            id: 'outercircle',
+                            rect: ['0px', '0px', '423px', '423px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/outercircle.svg', '0px', '0px']
                         }
                     ],
@@ -13875,9 +13875,9 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '308px', '303px', 'auto', 'auto'],
-                            id: 'navinnercircle3',
                             type: 'image',
+                            id: 'navinnercircle3',
+                            rect: ['0px', '0px', '308px', '303px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/navinnercircle3.svg', '0px', '0px']
                         }
                     ],
@@ -13905,9 +13905,9 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '285px', '282px', 'auto', 'auto'],
-                            id: 'navinnercircle2',
                             type: 'image',
+                            id: 'navinnercircle2',
+                            rect: ['0px', '0px', '285px', '282px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/navinnercircle2.svg', '0px', '0px']
                         }
                     ],
@@ -13935,9 +13935,9 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '251px', '252px', 'auto', 'auto'],
-                            id: 'navcircleinner1',
                             type: 'image',
+                            id: 'navcircleinner1',
+                            rect: ['0px', '0px', '251px', '252px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/navcircleinner1.svg', '0px', '0px']
                         }
                     ],
@@ -13965,10 +13965,10 @@
                 content: {
                     dom: [
                         {
-                            transform: [[], ['221'], [0, 0, 0], [1, 1, 1]],
-                            id: 'simpWhiteButton3',
                             type: 'image',
+                            id: 'simpWhiteButton3',
                             rect: ['21px', '3px', '40px', '80px', 'auto', 'auto'],
+                            transform: [[], ['221'], [0, 0, 0], [1, 1, 1]],
                             fill: ['rgba(0,0,0,0)', 'images/simpWhiteButton.svg', '0px', '0px']
                         }
                     ],
@@ -14018,16 +14018,6 @@
                     },
                     data: [
                         [
-                            "eid1187",
-                            "top",
-                            67500,
-                            9500,
-                            "easeInOutBounce",
-                            "${Ellipse}",
-                            '122px',
-                            '160px'
-                        ],
-                        [
                             "eid1186",
                             "left",
                             67500,
@@ -14036,6 +14026,16 @@
                             "${Ellipse}",
                             '265px',
                             '269px'
+                        ],
+                        [
+                            "eid1187",
+                            "top",
+                            67500,
+                            9500,
+                            "easeInOutBounce",
+                            "${Ellipse}",
+                            '122px',
+                            '160px'
                         ],
                         [
                             "eid1185",
@@ -14070,15 +14070,15 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '805px', '358px', 'auto', 'auto'],
-                            id: 'world',
                             type: 'image',
+                            id: 'world',
+                            rect: ['0px', '0px', '805px', '358px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/world2.svg', '0px', '0px']
                         },
                         {
-                            rect: ['871px', '0px', '805px', '358px', 'auto', 'auto'],
-                            id: 'worldCopy',
                             type: 'image',
+                            id: 'worldCopy',
+                            rect: ['871px', '0px', '805px', '358px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/world2.svg', '0px', '0px']
                         }
                     ],
