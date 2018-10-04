@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "tenso",Helvetica, Arial, sans-serif;
+    font-family: "Work Sans",Helvetica, Arial, Work Sans, sans-serif;
     font-weight: 400;
     letter-spacing: .5px;
     }
@@ -25,7 +25,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #efefef;
+    color: #000;
 }
 
 
@@ -36,15 +36,15 @@ h2,
 h3,
 h5,
 h6 {
-    font-family: "tenso",Helvetica, Arial, sans-serif;
+    font-family: "Work Sans",Helvetica, Arial, sans-serif;
     font-weight: 400;
     letter-spacing: .5px;
     color: #000;
 }
 
 h4 {
-    font-family: "tenso",Helvetica, Arial, sans-serif;
-    font-weight: 700;
+    font-family: "Work Sans",Helvetica, Arial, sans-serif;
+    font-weight: 600;
     letter-spacing: .5px;
 }
 
@@ -120,7 +120,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: "tenso",Helvetica, Arial, sans-serif;
+    font-family: "Work Sans",Helvetica, Arial, sans-serif;
     font-size: 1.5em;
     font-weight: 700;
 }
@@ -156,7 +156,7 @@ header .intro-text .skills {
 
     .navbar-fixed-top .navbar-brand {
         font-size: 1.3em;
-        font-weight: 700;
+        font-weight: 600;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -175,7 +175,7 @@ header .intro-text .skills {
 }
 
 .navbar {
-    font-family: "tenso",Helvetica, Arial, sans-serif;
+    font-family: "Work Sans",Helvetica, Arial, sans-serif;
     font-weight: 400;
 }
 
@@ -301,7 +301,7 @@ section.success a.active {
     background: #fff;
     transition: all .3s ease-in-out;
     border-radius: 5px;
-    font-family: "tenso",Helvetica, Arial, sans-serif
+    font-family: "Work Sans",Helvetica, Arial, sans-serif
 }
 
 .btn-outline:hover,
@@ -310,7 +310,7 @@ section.success a.active {
 .btn-outline.active {
     border: solid 2px #000;
     color: #000;
-    background: #efefef;
+    background: #FCD791;
 }
 
 .floating-label-form-group {
